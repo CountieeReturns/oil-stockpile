@@ -141,7 +141,9 @@
   flex: 0 0 auto;
 }
 
-.op-pol-course {
+/* 各カードの「視点」タグ。対立ではなく、複数ある切り口の1つとして提示する。
+   色はカード固有の --accent（人物ごとに異なる）を使い、並列であることを示す。 */
+.op-pol-topic {
   display: inline-block;
   font-size: var(--text-xs);
   font-weight: 700;
