@@ -1,75 +1,83 @@
 {
-  "fetchedAt": "2026-08-01T15:28:54+00:00",
+  "fetchedAt": "2026-08-01T16:26:10+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 7,
-  "japanBoundTankers": 7,
-  "japanBoundUnknownPort": 5,
+  "totalTankersInRegion": 8,
+  "japanBoundTankers": 8,
+  "japanBoundUnknownPort": 6,
   "topDestinationPorts": [
     {
       "port": "MIZUSHIMA",
       "count": 1
     },
     {
-      "port": "YOKOHAMA",
+      "port": "KAWASAKI",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431004247,
-      "name": "SHINPU MARU",
-      "destination": ">JP MYJ",
+      "mmsi": 538012669,
+      "name": "GRACE SULPHUR",
+      "destination": "JP MIZ FT",
       "isJapanBound": true,
-      "lat": 34.108,
-      "lon": 133.0782
+      "lat": 34.1603,
+      "lon": 132.8996
     },
     {
-      "mmsi": 431014821,
-      "name": "HAKUSEIMARU NO.3",
-      "destination": "JP MIZ B OFF",
+      "mmsi": 431003614,
+      "name": "EIWA MARU",
+      "destination": "JP OTK",
       "isJapanBound": true,
-      "lat": 34.1031,
-      "lon": 133.0067
+      "lat": 34.0987,
+      "lon": 133.0612
     },
     {
-      "mmsi": 431000826,
-      "name": "TENSHO MARU NO.2",
-      "destination": ">JP HKT OFF/WS",
+      "mmsi": 431000393,
+      "name": "NADESHIKO MARU",
+      "destination": ">JP UBJ",
       "isJapanBound": true,
-      "lat": 34.1259,
-      "lon": 132.9884
+      "lat": 34.0852,
+      "lon": 133.0229
     },
     {
-      "mmsi": 352002184,
-      "name": "SHOKAI",
-      "destination": ">JP YOK AZ",
+      "mmsi": 441039000,
+      "name": "MS THANKS",
+      "destination": "JP SKD OF",
       "isJapanBound": true,
-      "lat": 35.4889,
-      "lon": 139.7083
+      "lat": 34.1105,
+      "lon": 132.9998
     },
     {
       "mmsi": 431003904,
       "name": "KOKEN MARU",
       "destination": "JP  IMB  K-4  OFF",
       "isJapanBound": true,
-      "lat": 34.0474,
+      "lat": 34.0475,
       "lon": 133.0553
     },
     {
-      "mmsi": 431001715,
-      "name": "CHOUKAI MARU",
-      "destination": ">JP AFG E",
+      "mmsi": 431017908,
+      "name": "KIRISHIMA MARU",
+      "destination": ">JP KWS DU/NNX",
       "isJapanBound": true,
-      "lat": null,
-      "lon": null
+      "lat": 35.3907,
+      "lon": 139.741
     },
     {
-      "mmsi": 368224000,
-      "name": "REDWOOD TRADER",
-      "destination": "JP YOS OFF",
+      "mmsi": 431004247,
+      "name": "SHINPU MARU",
+      "destination": ">JP MYJ",
       "isJapanBound": true,
-      "lat": null,
-      "lon": null
+      "lat": 34.1571,
+      "lon": 132.9414
+    },
+    {
+      "mmsi": 431006012,
+      "name": "HOUSEIMARU N0.18",
+      "destination": "JP WAK OFF",
+      "isJapanBound": true,
+      "lat": 34.1537,
+      "lon": 135.1625
     }
   ],
   "boundingBox": "24-46N / 122-146E",
