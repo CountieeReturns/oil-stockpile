@@ -1,72 +1,68 @@
 {
-  "fetchedAt": "2026-08-01T06:51:36+00:00",
+  "fetchedAt": "2026-08-01T09:31:03+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 6,
-  "japanBoundTankers": 6,
-  "japanBoundUnknownPort": 2,
+  "totalTankersInRegion": 7,
+  "japanBoundTankers": 4,
+  "japanBoundUnknownPort": 3,
   "topDestinationPorts": [
     {
-      "port": "MIZUSHIMA",
-      "count": 1
-    },
-    {
       "port": "YOKOHAMA",
-      "count": 1
-    },
-    {
-      "port": "CHIBA",
-      "count": 1
-    },
-    {
-      "port": "KAWASAKI",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431501712,
-      "name": "HASSHO MARU NO.1",
-      "destination": ">JP MIZ/E",
-      "isJapanBound": true,
-      "lat": 39.7339,
-      "lon": 139.9508
+      "mmsi": 563343900,
+      "name": "JN SIRIUS",
+      "destination": "",
+      "isJapanBound": false,
+      "lat": 34.1198,
+      "lon": 132.9641
     },
     {
-      "mmsi": 431006012,
-      "name": "HOUSEIMARU N0.18",
-      "destination": "JP WAK OFF",
-      "isJapanBound": true,
-      "lat": 34.1529,
-      "lon": 135.1626
-    },
-    {
-      "mmsi": 431003374,
-      "name": "NO5 MATSUMARU",
-      "destination": "JP WAK NAKAFUTO 4",
-      "isJapanBound": true,
-      "lat": 34.212,
-      "lon": 135.1414
+      "mmsi": 440232000,
+      "name": "DOOLA STAR",
+      "destination": "DSN/KR",
+      "isJapanBound": false,
+      "lat": 37.4992,
+      "lon": 126.6303
     },
     {
       "mmsi": 352002184,
       "name": "SHOKAI",
       "destination": ">JP YOK AZ",
       "isJapanBound": true,
-      "lat": 35.489,
+      "lat": 35.4889,
       "lon": 139.7083
+    },
+    {
+      "mmsi": 431006012,
+      "name": "HOUSEIMARU N0.18",
+      "destination": "JP WAK OFF",
+      "isJapanBound": true,
+      "lat": 34.1538,
+      "lon": 135.1627
     },
     {
       "mmsi": 636024433,
       "name": "VEGA SAGE",
-      "destination": "JPCHB",
-      "isJapanBound": true,
+      "destination": "PABLB",
+      "isJapanBound": false,
       "lat": null,
       "lon": null
     },
     {
-      "mmsi": 355493000,
-      "name": "CRANE URANUS",
-      "destination": ">JP KWS OFF",
+      "mmsi": 431001715,
+      "name": "CHOUKAI MARU",
+      "destination": ">JP AFG E",
+      "isJapanBound": true,
+      "lat": 39.7564,
+      "lon": 140.0568
+    },
+    {
+      "mmsi": 431004957,
+      "name": "TSUKASA",
+      "destination": ">JP TYO HANEDA OFF",
       "isJapanBound": true,
       "lat": null,
       "lon": null
