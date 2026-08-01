@@ -1,103 +1,91 @@
 {
-  "fetchedAt": "2026-08-01T22:21:35+00:00",
+  "fetchedAt": "2026-08-01T23:21:30+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 10,
-  "japanBoundTankers": 10,
-  "japanBoundUnknownPort": 7,
+  "totalTankersInRegion": 9,
+  "japanBoundTankers": 8,
+  "japanBoundUnknownPort": 4,
   "topDestinationPorts": [
     {
-      "port": "YOKOHAMA",
-      "count": 1
+      "port": "KAWASAKI",
+      "count": 3
     },
     {
       "port": "CHIBA",
-      "count": 1
-    },
-    {
-      "port": "KAWASAKI",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431101028,
-      "name": "NISSHO MARU NO.18",
-      "destination": ">JP YOK NGI/ENEOS-H3",
+      "mmsi": 431000275,
+      "name": "KEIYO MARU",
+      "destination": ">JP KWS/NNX",
       "isJapanBound": true,
-      "lat": 35.4276,
-      "lon": 139.7542
+      "lat": 35.3993,
+      "lon": 139.7428
     },
     {
-      "mmsi": 431101165,
-      "name": "HOWA MARU NO.18",
-      "destination": ">JP CHB COSMO 0-A",
+      "mmsi": 352004675,
+      "name": "MIR HANA",
+      "destination": "JP SAK/OFF",
       "isJapanBound": true,
-      "lat": 35.4761,
-      "lon": 139.6484
+      "lat": 34.1174,
+      "lon": 133.0942
     },
     {
-      "mmsi": 431003374,
-      "name": "NO5 MATSUMARU",
-      "destination": "JP WAK NAKAFUTO 4",
-      "isJapanBound": true,
-      "lat": null,
-      "lon": null
+      "mmsi": 563343900,
+      "name": "JN SIRIUS",
+      "destination": "",
+      "isJapanBound": false,
+      "lat": 34.1198,
+      "lon": 132.9641
     },
     {
-      "mmsi": 431001715,
-      "name": "CHOUKAI MARU",
-      "destination": ">JP AFG E",
+      "mmsi": 431018712,
+      "name": "ASAHI",
+      "destination": ">JP KWS SG",
       "isJapanBound": true,
-      "lat": null,
-      "lon": null
+      "lat": 35.5172,
+      "lon": 139.7434
     },
     {
-      "mmsi": 431005092,
-      "name": "HOUEIMARU NO.11",
-      "destination": ">JP HKS OFF",
+      "mmsi": 431000224,
+      "name": "RYOEI MARU NO.2",
+      "destination": "JP WAK ENEOS 7",
       "isJapanBound": true,
-      "lat": 34.2041,
-      "lon": 133.1345
+      "lat": 34.21,
+      "lon": 135.1436
     },
     {
       "mmsi": 431006294,
       "name": "RYOEIMARU",
       "destination": ">JP WAK OIWA",
       "isJapanBound": true,
-      "lat": 34.2019,
-      "lon": 135.1278
+      "lat": 34.2018,
+      "lon": 135.1279
     },
     {
-      "mmsi": 431003651,
-      "name": "NAIKAI MARU NO.3",
-      "destination": ">JP HKS OFF",
+      "mmsi": 368224000,
+      "name": "REDWOOD TRADER",
+      "destination": "JP YOS OFF",
       "isJapanBound": true,
-      "lat": 34.1999,
-      "lon": 133.1348
-    },
-    {
-      "mmsi": 431800699,
-      "name": "SHOKENMARU",
-      "destination": "JP TYO HANEDA OFF",
-      "isJapanBound": true,
-      "lat": 35.5161,
-      "lon": 139.847
+      "lat": null,
+      "lon": null
     },
     {
       "mmsi": 431017908,
       "name": "KIRISHIMA MARU",
       "destination": ">JP KWS DU/NNX",
       "isJapanBound": true,
-      "lat": 35.3903,
-      "lon": 139.7409
+      "lat": 35.3906,
+      "lon": 139.7407
     },
     {
-      "mmsi": 431003904,
-      "name": "KOKEN MARU",
-      "destination": "JP  IMB  K-4",
+      "mmsi": 431101165,
+      "name": "HOWA MARU NO.18",
+      "destination": ">JP CHB COSMO 0-A",
       "isJapanBound": true,
-      "lat": 34.0633,
-      "lon": 133.0208
+      "lat": 35.4507,
+      "lon": 139.7715
     }
   ],
   "boundingBox": "24-46N / 122-146E",
