@@ -1,83 +1,43 @@
 {
-  "fetchedAt": "2026-08-01T03:59:31+00:00",
+  "fetchedAt": "2026-08-01T06:51:36+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 10,
-  "japanBoundTankers": 9,
-  "japanBoundUnknownPort": 7,
+  "totalTankersInRegion": 6,
+  "japanBoundTankers": 6,
+  "japanBoundUnknownPort": 2,
   "topDestinationPorts": [
     {
-      "port": "KAWASAKI",
+      "port": "MIZUSHIMA",
       "count": 1
     },
     {
-      "port": "YOKKAICHI",
+      "port": "YOKOHAMA",
+      "count": 1
+    },
+    {
+      "port": "CHIBA",
+      "count": 1
+    },
+    {
+      "port": "KAWASAKI",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431014167,
-      "name": "KOUREI MARU",
-      "destination": ">JP OSA OFF",
+      "mmsi": 431501712,
+      "name": "HASSHO MARU NO.1",
+      "destination": ">JP MIZ/E",
       "isJapanBound": true,
-      "lat": 35.4145,
-      "lon": 139.7272
+      "lat": 39.7339,
+      "lon": 139.9508
     },
     {
-      "mmsi": 563343900,
-      "name": "JN SIRIUS",
-      "destination": "",
-      "isJapanBound": false,
-      "lat": 34.1198,
-      "lon": 132.9641
-    },
-    {
-      "mmsi": 431013662,
-      "name": "KOHOMARU",
-      "destination": "JP KRE",
-      "isJapanBound": true,
-      "lat": 34.0871,
-      "lon": 133.0971
-    },
-    {
-      "mmsi": 403017000,
-      "name": "BAYRAQ",
-      "destination": "JP KWS",
-      "isJapanBound": true,
-      "lat": 35.4854,
-      "lon": 139.7848
-    },
-    {
-      "mmsi": 431000224,
-      "name": "RYOEI MARU NO.2",
+      "mmsi": 431006012,
+      "name": "HOUSEIMARU N0.18",
       "destination": "JP WAK OFF",
       "isJapanBound": true,
-      "lat": 34.21,
-      "lon": 135.1436
-    },
-    {
-      "mmsi": 431004619,
-      "name": "ISUZU MARU",
-      "destination": ">JP YKK/OFF",
-      "isJapanBound": true,
-      "lat": 34.1376,
-      "lon": 132.9805
-    },
-    {
-      "mmsi": 431012773,
-      "name": "SANKO MARU",
-      "destination": "JP HAN OFF",
-      "isJapanBound": true,
-      "lat": 34.4265,
-      "lon": 135.1618
-    },
-    {
-      "mmsi": 431000781,
-      "name": "SENTAIMARU",
-      "destination": ">JP MASAKI",
-      "isJapanBound": true,
-      "lat": 35.3931,
-      "lon": 139.7081
+      "lat": 34.1529,
+      "lon": 135.1626
     },
     {
       "mmsi": 431003374,
@@ -88,12 +48,28 @@
       "lon": 135.1414
     },
     {
-      "mmsi": 431016107,
-      "name": "TORYO MARU",
-      "destination": "JP ANE NICIRIN",
+      "mmsi": 352002184,
+      "name": "SHOKAI",
+      "destination": ">JP YOK AZ",
       "isJapanBound": true,
-      "lat": 35.3922,
-      "lon": 139.6907
+      "lat": 35.489,
+      "lon": 139.7083
+    },
+    {
+      "mmsi": 636024433,
+      "name": "VEGA SAGE",
+      "destination": "JPCHB",
+      "isJapanBound": true,
+      "lat": null,
+      "lon": null
+    },
+    {
+      "mmsi": 355493000,
+      "name": "CRANE URANUS",
+      "destination": ">JP KWS OFF",
+      "isJapanBound": true,
+      "lat": null,
+      "lon": null
     }
   ],
   "boundingBox": "24-46N / 122-146E",
