@@ -1,55 +1,31 @@
 {
-  "fetchedAt": "2026-08-01T21:19:46+00:00",
+  "fetchedAt": "2026-08-01T22:21:35+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 8,
-  "japanBoundTankers": 8,
-  "japanBoundUnknownPort": 3,
+  "totalTankersInRegion": 10,
+  "japanBoundTankers": 10,
+  "japanBoundUnknownPort": 7,
   "topDestinationPorts": [
     {
-      "port": "KAWASAKI",
-      "count": 2
-    },
-    {
       "port": "YOKOHAMA",
-      "count": 2
+      "count": 1
     },
     {
       "port": "CHIBA",
+      "count": 1
+    },
+    {
+      "port": "KAWASAKI",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431017908,
-      "name": "KIRISHIMA MARU",
-      "destination": ">JP KWS DU/NNX",
+      "mmsi": 431101028,
+      "name": "NISSHO MARU NO.18",
+      "destination": ">JP YOK NGI/ENEOS-H3",
       "isJapanBound": true,
-      "lat": 35.3913,
-      "lon": 139.7425
-    },
-    {
-      "mmsi": 431000224,
-      "name": "RYOEI MARU NO.2",
-      "destination": "JP WAK OFF",
-      "isJapanBound": true,
-      "lat": 34.21,
-      "lon": 135.1436
-    },
-    {
-      "mmsi": 431005092,
-      "name": "HOUEIMARU NO.11",
-      "destination": ">JP HKS OFF",
-      "isJapanBound": true,
-      "lat": 34.2042,
-      "lon": 133.1347
-    },
-    {
-      "mmsi": 431003374,
-      "name": "NO5 MATSUMARU",
-      "destination": "JP WAK NAKAFUTO 4",
-      "isJapanBound": true,
-      "lat": 34.212,
-      "lon": 135.1414
+      "lat": 35.4276,
+      "lon": 139.7542
     },
     {
       "mmsi": 431101165,
@@ -60,28 +36,68 @@
       "lon": 139.6484
     },
     {
-      "mmsi": 431001082,
-      "name": "WAKAYOSHI MARU NO.10",
-      "destination": "JP YOK NGI N3 OFF",
+      "mmsi": 431003374,
+      "name": "NO5 MATSUMARU",
+      "destination": "JP WAK NAKAFUTO 4",
       "isJapanBound": true,
       "lat": null,
       "lon": null
     },
     {
-      "mmsi": 431014522,
-      "name": "HOKENMARU NO.3",
-      "destination": ">JP YOK Y1 OFF",
+      "mmsi": 431001715,
+      "name": "CHOUKAI MARU",
+      "destination": ">JP AFG E",
       "isJapanBound": true,
       "lat": null,
       "lon": null
     },
     {
-      "mmsi": 431016107,
-      "name": "TORYO MARU",
-      "destination": "JP KWS OFF (K-1)",
+      "mmsi": 431005092,
+      "name": "HOUEIMARU NO.11",
+      "destination": ">JP HKS OFF",
       "isJapanBound": true,
-      "lat": null,
-      "lon": null
+      "lat": 34.2041,
+      "lon": 133.1345
+    },
+    {
+      "mmsi": 431006294,
+      "name": "RYOEIMARU",
+      "destination": ">JP WAK OIWA",
+      "isJapanBound": true,
+      "lat": 34.2019,
+      "lon": 135.1278
+    },
+    {
+      "mmsi": 431003651,
+      "name": "NAIKAI MARU NO.3",
+      "destination": ">JP HKS OFF",
+      "isJapanBound": true,
+      "lat": 34.1999,
+      "lon": 133.1348
+    },
+    {
+      "mmsi": 431800699,
+      "name": "SHOKENMARU",
+      "destination": "JP TYO HANEDA OFF",
+      "isJapanBound": true,
+      "lat": 35.5161,
+      "lon": 139.847
+    },
+    {
+      "mmsi": 431017908,
+      "name": "KIRISHIMA MARU",
+      "destination": ">JP KWS DU/NNX",
+      "isJapanBound": true,
+      "lat": 35.3903,
+      "lon": 139.7409
+    },
+    {
+      "mmsi": 431003904,
+      "name": "KOKEN MARU",
+      "destination": "JP  IMB  K-4",
+      "isJapanBound": true,
+      "lat": 34.0633,
+      "lon": 133.0208
     }
   ],
   "boundingBox": "24-46N / 122-146E",
