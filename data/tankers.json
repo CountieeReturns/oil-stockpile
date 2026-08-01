@@ -1,35 +1,35 @@
 {
-  "fetchedAt": "2026-07-31T23:27:30+00:00",
+  "fetchedAt": "2026-08-01T00:23:52+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 14,
-  "japanBoundTankers": 12,
-  "japanBoundUnknownPort": 7,
+  "totalTankersInRegion": 6,
+  "japanBoundTankers": 5,
+  "japanBoundUnknownPort": 2,
   "topDestinationPorts": [
     {
       "port": "KAWASAKI",
-      "count": 3
+      "count": 2
     },
     {
-      "port": "YOKOHAMA",
-      "count": 2
+      "port": "CHIBA",
+      "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431014116,
-      "name": "TAISEI MARU NO,5",
-      "destination": "JP IYO C-1-1",
+      "mmsi": 431006736,
+      "name": "KOUSUI MARU",
+      "destination": "JP IHA",
       "isJapanBound": true,
-      "lat": 34.0873,
-      "lon": 133.0293
+      "lat": 33.9677,
+      "lon": 133.2692
     },
     {
-      "mmsi": 431018707,
-      "name": "MEIKOU MARU",
-      "destination": ">JP WAK KAINAN OFF",
+      "mmsi": 431002935,
+      "name": "TAMARIKI MARU NO.8",
+      "destination": ">JP KIJ WM",
       "isJapanBound": true,
-      "lat": 34.1508,
-      "lon": 135.1625
+      "lat": 34.1011,
+      "lon": 132.9971
     },
     {
       "mmsi": 563343900,
@@ -40,92 +40,28 @@
       "lon": 132.9641
     },
     {
-      "mmsi": 431015351,
-      "name": "NO.8 KAKUWAMARU",
-      "destination": "JP KWS DU /CHIDORI",
-      "isJapanBound": true,
-      "lat": 35.5173,
-      "lon": 139.7665
-    },
-    {
-      "mmsi": 431003155,
-      "name": "HOUEI NO.1",
-      "destination": ">JP WAK KAINAN 8B",
-      "isJapanBound": true,
-      "lat": 34.1462,
-      "lon": 135.1603
-    },
-    {
-      "mmsi": 431018712,
-      "name": "ASAHI",
-      "destination": ">JP YOK DS",
-      "isJapanBound": true,
-      "lat": 35.454,
-      "lon": 139.6832
-    },
-    {
-      "mmsi": 431003374,
-      "name": "NO5 MATSUMARU",
-      "destination": "JP WAK NAKAFUTO 4",
-      "isJapanBound": true,
-      "lat": 34.1964,
-      "lon": 135.1078
-    },
-    {
-      "mmsi": 431029455,
-      "name": "EISHIN MARU NO.2",
-      "destination": ">JP KWS OFF Y-2",
+      "mmsi": 431001082,
+      "name": "WAKAYOSHI MARU NO.10",
+      "destination": "JP KWS/XX/NNX OFF",
       "isJapanBound": true,
       "lat": null,
       "lon": null
     },
     {
-      "mmsi": 431402007,
-      "name": "KYOWAMARU",
-      "destination": ">JP NGO BG",
+      "mmsi": 355493000,
+      "name": "CRANE URANUS",
+      "destination": ">JP KWS OFF",
       "isJapanBound": true,
-      "lat": 35.4055,
-      "lon": 139.7165
+      "lat": 35.4761,
+      "lon": 139.7678
     },
     {
-      "mmsi": 431001082,
-      "name": "WAKAYOSHI MARU NO.10",
-      "destination": "JP KWS/XX/NNX OFF",
+      "mmsi": 431018825,
+      "name": "TECHNO ACE",
+      "destination": ">JP CHB/COSMO",
       "isJapanBound": true,
-      "lat": 35.4016,
-      "lon": 139.7417
-    },
-    {
-      "mmsi": 431501664,
-      "name": "KYOKUZAN",
-      "destination": "JP AFG ES IDEMITSU",
-      "isJapanBound": true,
-      "lat": 39.7411,
-      "lon": 140.0675
-    },
-    {
-      "mmsi": 310786000,
-      "name": "GASLOG WALES",
-      "destination": ">JP KZU XX",
-      "isJapanBound": true,
-      "lat": 35.3464,
-      "lon": 139.8208
-    },
-    {
-      "mmsi": 431776000,
-      "name": "ENERGY GLORY",
-      "destination": "JP YOK",
-      "isJapanBound": true,
-      "lat": 35.461,
-      "lon": 139.7185
-    },
-    {
-      "mmsi": 636021670,
-      "name": "NAVE CELESTE",
-      "destination": "CHB XX",
-      "isJapanBound": false,
-      "lat": 35.2819,
-      "lon": 139.7605
+      "lat": 35.3971,
+      "lon": 139.6923
     }
   ],
   "boundingBox": "24-46N / 122-146E",
