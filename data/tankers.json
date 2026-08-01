@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-01T16:26:10+00:00",
+  "fetchedAt": "2026-08-01T17:26:07+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 8,
-  "japanBoundTankers": 8,
-  "japanBoundUnknownPort": 6,
+  "totalTankersInRegion": 6,
+  "japanBoundTankers": 5,
+  "japanBoundUnknownPort": 3,
   "topDestinationPorts": [
     {
-      "port": "MIZUSHIMA",
+      "port": "CHIBA",
       "count": 1
     },
     {
@@ -16,68 +16,52 @@
   ],
   "vessels": [
     {
-      "mmsi": 538012669,
-      "name": "GRACE SULPHUR",
-      "destination": "JP MIZ FT",
-      "isJapanBound": true,
-      "lat": 34.1603,
-      "lon": 132.8996
+      "mmsi": 563343900,
+      "name": "JN SIRIUS",
+      "destination": "",
+      "isJapanBound": false,
+      "lat": 34.1198,
+      "lon": 132.9641
     },
     {
-      "mmsi": 431003614,
-      "name": "EIWA MARU",
-      "destination": "JP OTK",
+      "mmsi": 431004666,
+      "name": "OOZU MARU NO.10",
+      "destination": ">JP CHB (I-2)OFF",
       "isJapanBound": true,
-      "lat": 34.0987,
-      "lon": 133.0612
+      "lat": 35.3332,
+      "lon": 139.7404
     },
     {
-      "mmsi": 431000393,
-      "name": "NADESHIKO MARU",
-      "destination": ">JP UBJ",
+      "mmsi": 355493000,
+      "name": "CRANE URANUS",
+      "destination": ">JP KWS OFF",
       "isJapanBound": true,
-      "lat": 34.0852,
-      "lon": 133.0229
+      "lat": 35.4776,
+      "lon": 139.7702
     },
     {
-      "mmsi": 441039000,
-      "name": "MS THANKS",
-      "destination": "JP SKD OF",
+      "mmsi": 431005092,
+      "name": "HOUEIMARU NO.11",
+      "destination": ">JP HKS OFF",
       "isJapanBound": true,
-      "lat": 34.1105,
-      "lon": 132.9998
+      "lat": null,
+      "lon": null
     },
     {
       "mmsi": 431003904,
       "name": "KOKEN MARU",
       "destination": "JP  IMB  K-4  OFF",
       "isJapanBound": true,
-      "lat": 34.0475,
-      "lon": 133.0553
+      "lat": 34.0478,
+      "lon": 133.0541
     },
     {
-      "mmsi": 431017908,
-      "name": "KIRISHIMA MARU",
-      "destination": ">JP KWS DU/NNX",
+      "mmsi": 368224000,
+      "name": "REDWOOD TRADER",
+      "destination": "JP YOS OFF",
       "isJapanBound": true,
-      "lat": 35.3907,
-      "lon": 139.741
-    },
-    {
-      "mmsi": 431004247,
-      "name": "SHINPU MARU",
-      "destination": ">JP MYJ",
-      "isJapanBound": true,
-      "lat": 34.1571,
-      "lon": 132.9414
-    },
-    {
-      "mmsi": 431006012,
-      "name": "HOUSEIMARU N0.18",
-      "destination": "JP WAK OFF",
-      "isJapanBound": true,
-      "lat": 34.1537,
-      "lon": 135.1625
+      "lat": 35.3114,
+      "lon": 139.6991
     }
   ],
   "boundingBox": "24-46N / 122-146E",
