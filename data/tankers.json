@@ -1,71 +1,75 @@
 {
-  "fetchedAt": "2026-08-01T14:03:55+00:00",
+  "fetchedAt": "2026-08-01T15:28:54+00:00",
   "samplingDurationSec": 720,
   "totalTankersInRegion": 7,
-  "japanBoundTankers": 5,
-  "japanBoundUnknownPort": 4,
+  "japanBoundTankers": 7,
+  "japanBoundUnknownPort": 5,
   "topDestinationPorts": [
     {
-      "port": "KAWASAKI",
+      "port": "MIZUSHIMA",
+      "count": 1
+    },
+    {
+      "port": "YOKOHAMA",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 563343900,
-      "name": "JN SIRIUS",
-      "destination": "",
-      "isJapanBound": false,
-      "lat": 34.1198,
-      "lon": 132.9641
-    },
-    {
-      "mmsi": 431006012,
-      "name": "HOUSEIMARU N0.18",
-      "destination": "JP WAK OFF",
+      "mmsi": 431004247,
+      "name": "SHINPU MARU",
+      "destination": ">JP MYJ",
       "isJapanBound": true,
-      "lat": null,
-      "lon": null
+      "lat": 34.108,
+      "lon": 133.0782
     },
     {
-      "mmsi": 431005216,
-      "name": "KIRISHIMA MARU NO.3",
-      "destination": ">JP KWS/NNX",
+      "mmsi": 431014821,
+      "name": "HAKUSEIMARU NO.3",
+      "destination": "JP MIZ B OFF",
       "isJapanBound": true,
-      "lat": 35.397,
-      "lon": 139.7334
+      "lat": 34.1031,
+      "lon": 133.0067
     },
     {
-      "mmsi": 441918000,
-      "name": "KEOJE ESION",
-      "destination": "INCHEON",
-      "isJapanBound": false,
-      "lat": 37.4785,
-      "lon": 126.5946
-    },
-    {
-      "mmsi": 431000224,
-      "name": "RYOEI MARU NO.2",
-      "destination": "JP WAK OFF",
+      "mmsi": 431000826,
+      "name": "TENSHO MARU NO.2",
+      "destination": ">JP HKT OFF/WS",
       "isJapanBound": true,
-      "lat": 34.21,
-      "lon": 135.1436
+      "lat": 34.1259,
+      "lon": 132.9884
     },
     {
-      "mmsi": 431014557,
-      "name": "MIRAI",
-      "destination": ">JP TXD",
+      "mmsi": 352002184,
+      "name": "SHOKAI",
+      "destination": ">JP YOK AZ",
       "isJapanBound": true,
-      "lat": 34.1929,
-      "lon": 133.002
+      "lat": 35.4889,
+      "lon": 139.7083
     },
     {
       "mmsi": 431003904,
       "name": "KOKEN MARU",
       "destination": "JP  IMB  K-4  OFF",
       "isJapanBound": true,
-      "lat": 34.0472,
-      "lon": 133.0552
+      "lat": 34.0474,
+      "lon": 133.0553
+    },
+    {
+      "mmsi": 431001715,
+      "name": "CHOUKAI MARU",
+      "destination": ">JP AFG E",
+      "isJapanBound": true,
+      "lat": null,
+      "lon": null
+    },
+    {
+      "mmsi": 368224000,
+      "name": "REDWOOD TRADER",
+      "destination": "JP YOS OFF",
+      "isJapanBound": true,
+      "lat": null,
+      "lon": null
     }
   ],
   "boundingBox": "24-46N / 122-146E",
