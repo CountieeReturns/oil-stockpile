@@ -1,16 +1,56 @@
 {
-  "fetchedAt": "2026-08-02T17:25:12+00:00",
+  "fetchedAt": "2026-08-02T18:21:53+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 5,
-  "japanBoundTankers": 3,
-  "japanBoundUnknownPort": 2,
+  "totalTankersInRegion": 8,
+  "japanBoundTankers": 7,
+  "japanBoundUnknownPort": 5,
   "topDestinationPorts": [
     {
       "port": "KAWASAKI",
-      "count": 1
+      "count": 2
     }
   ],
   "vessels": [
+    {
+      "mmsi": 563343900,
+      "name": "JN SIRIUS",
+      "destination": "",
+      "isJapanBound": false,
+      "lat": 34.1198,
+      "lon": 132.9641
+    },
+    {
+      "mmsi": 431012455,
+      "name": "NIKKO MARU NO.28",
+      "destination": ">JP OTK OFF",
+      "isJapanBound": true,
+      "lat": 34.1033,
+      "lon": 133.0057
+    },
+    {
+      "mmsi": 431015093,
+      "name": "SHINKO MARU NO2",
+      "destination": ">JP KWS HO",
+      "isJapanBound": true,
+      "lat": 35.506,
+      "lon": 139.7657
+    },
+    {
+      "mmsi": 431001082,
+      "name": "WAKAYOSHI MARU NO.10",
+      "destination": "JP NNX OFF",
+      "isJapanBound": true,
+      "lat": 35.3985,
+      "lon": 139.7538
+    },
+    {
+      "mmsi": 431001715,
+      "name": "CHOUKAI MARU",
+      "destination": ">JP AFG E",
+      "isJapanBound": true,
+      "lat": 39.7564,
+      "lon": 140.0568
+    },
     {
       "mmsi": 431009442,
       "name": "SHINTOUKOU",
@@ -20,36 +60,20 @@
       "lon": 135.1503
     },
     {
-      "mmsi": 431003904,
-      "name": "KOKEN MARU",
-      "destination": "JP  IMB  K-4",
+      "mmsi": 431006905,
+      "name": "YUHO MARU NO.8",
+      "destination": "JP WAK OFF",
       "isJapanBound": true,
-      "lat": 34.0633,
-      "lon": 133.0208
+      "lat": 34.1579,
+      "lon": 135.1546
     },
     {
-      "mmsi": 440014870,
-      "name": "MS CLEAN",
-      "destination": "ULSAN",
-      "isJapanBound": false,
-      "lat": 37.4373,
-      "lon": 126.5775
-    },
-    {
-      "mmsi": 563079900,
-      "name": "GOLDEN CYGNUS",
-      "destination": "KR DAESAN",
-      "isJapanBound": false,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 431012174,
-      "name": "WAKOU MARU NO.5",
-      "destination": ">JP KWS HO /NNX OFF",
+      "mmsi": 431007429,
+      "name": "SATSUKI",
+      "destination": ">JP KWS OFF",
       "isJapanBound": true,
-      "lat": 35.4016,
-      "lon": 139.7464
+      "lat": 35.4715,
+      "lon": 139.8101
     }
   ],
   "boundingBox": "24-46N / 122-146E",
