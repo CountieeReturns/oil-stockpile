@@ -1,47 +1,18 @@
 {
-  "fetchedAt": "2026-08-02T09:31:09+00:00",
+  "fetchedAt": "2026-08-02T11:45:11+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 5,
-  "japanBoundTankers": 4,
-  "japanBoundUnknownPort": 3,
-  "topDestinationPorts": [
-    {
-      "port": "YOKOHAMA",
-      "count": 1
-    }
-  ],
+  "totalTankersInRegion": 6,
+  "japanBoundTankers": 2,
+  "japanBoundUnknownPort": 2,
+  "topDestinationPorts": [],
   "vessels": [
     {
-      "mmsi": 431001082,
-      "name": "WAKAYOSHI MARU NO.10",
-      "destination": "JP NNX OFF",
-      "isJapanBound": true,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 431006294,
-      "name": "RYOEIMARU",
-      "destination": ">JP WAK OIWA",
-      "isJapanBound": true,
-      "lat": 34.2011,
-      "lon": 135.1283
-    },
-    {
-      "mmsi": 441276000,
-      "name": "KEOYOUNG BLUE 5",
-      "destination": "JP UKB",
-      "isJapanBound": true,
-      "lat": 34.1098,
-      "lon": 132.9886
-    },
-    {
-      "mmsi": 431501838,
-      "name": "GREEN MARU NO.8",
-      "destination": "JP YOK NNX OFF",
-      "isJapanBound": true,
-      "lat": null,
-      "lon": null
+      "mmsi": 440304320,
+      "name": "DOO LA NO.7",
+      "destination": "KR ICN",
+      "isJapanBound": false,
+      "lat": 37.4992,
+      "lon": 126.6303
     },
     {
       "mmsi": 563343900,
@@ -50,6 +21,38 @@
       "isJapanBound": false,
       "lat": 34.1198,
       "lon": 132.9641
+    },
+    {
+      "mmsi": 311000228,
+      "name": "ASIA VENTURE",
+      "destination": "AUASB",
+      "isJapanBound": false,
+      "lat": 35.3298,
+      "lon": 139.7093
+    },
+    {
+      "mmsi": 431006294,
+      "name": "RYOEIMARU",
+      "destination": ">JP WAK OIWA",
+      "isJapanBound": true,
+      "lat": 34.2006,
+      "lon": 135.1272
+    },
+    {
+      "mmsi": 431002865,
+      "name": "KOYO MARU NO.3",
+      "destination": ">JP MAR OFF",
+      "isJapanBound": true,
+      "lat": 34.1095,
+      "lon": 133.0004
+    },
+    {
+      "mmsi": 440021230,
+      "name": "GWANG SEONG",
+      "destination": "",
+      "isJapanBound": false,
+      "lat": 37.4967,
+      "lon": 126.6248
     }
   ],
   "boundingBox": "24-46N / 122-146E",
