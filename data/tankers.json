@@ -1,39 +1,23 @@
 {
-  "fetchedAt": "2026-08-02T15:29:54+00:00",
+  "fetchedAt": "2026-08-02T17:25:12+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 9,
-  "japanBoundTankers": 7,
-  "japanBoundUnknownPort": 3,
+  "totalTankersInRegion": 5,
+  "japanBoundTankers": 3,
+  "japanBoundUnknownPort": 2,
   "topDestinationPorts": [
     {
       "port": "KAWASAKI",
-      "count": 2
-    },
-    {
-      "port": "CHIBA",
-      "count": 1
-    },
-    {
-      "port": "YOKOHAMA",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431006294,
-      "name": "RYOEIMARU",
-      "destination": ">JP WAK OIWA",
+      "mmsi": 431009442,
+      "name": "SHINTOUKOU",
+      "destination": ">JP WAK",
       "isJapanBound": true,
-      "lat": 34.2005,
-      "lon": 135.1276
-    },
-    {
-      "mmsi": 431001659,
-      "name": "KOSHO MARU",
-      "destination": ">JP KWS OFF",
-      "isJapanBound": true,
-      "lat": 35.4046,
-      "lon": 139.772
+      "lat": 34.2217,
+      "lon": 135.1503
     },
     {
       "mmsi": 431003904,
@@ -44,52 +28,28 @@
       "lon": 133.0208
     },
     {
+      "mmsi": 440014870,
+      "name": "MS CLEAN",
+      "destination": "ULSAN",
+      "isJapanBound": false,
+      "lat": 37.4373,
+      "lon": 126.5775
+    },
+    {
+      "mmsi": 563079900,
+      "name": "GOLDEN CYGNUS",
+      "destination": "KR DAESAN",
+      "isJapanBound": false,
+      "lat": null,
+      "lon": null
+    },
+    {
       "mmsi": 431012174,
       "name": "WAKOU MARU NO.5",
       "destination": ">JP KWS HO /NNX OFF",
       "isJapanBound": true,
       "lat": 35.4016,
-      "lon": 139.7461
-    },
-    {
-      "mmsi": 563343900,
-      "name": "JN SIRIUS",
-      "destination": "",
-      "isJapanBound": false,
-      "lat": 34.1198,
-      "lon": 132.9641
-    },
-    {
-      "mmsi": 440215710,
-      "name": "SEUNG JIN",
-      "destination": "GUNSAN KR",
-      "isJapanBound": false,
-      "lat": 37.4308,
-      "lon": 126.5661
-    },
-    {
-      "mmsi": 431004611,
-      "name": "NO88 TO YO MARU",
-      "destination": "JP CHB OFF",
-      "isJapanBound": true,
-      "lat": 35.3699,
-      "lon": 139.7565
-    },
-    {
-      "mmsi": 431501838,
-      "name": "GREEN MARU NO.8",
-      "destination": "JP YOK NNX OFF",
-      "isJapanBound": true,
-      "lat": 35.3961,
-      "lon": 139.7343
-    },
-    {
-      "mmsi": 431501768,
-      "name": "HAKUSEI MARU NO.15",
-      "destination": "JP IHA OFF",
-      "isJapanBound": true,
-      "lat": 34.0011,
-      "lon": 133.2634
+      "lon": 139.7464
     }
   ],
   "boundingBox": "24-46N / 122-146E",
