@@ -1,47 +1,47 @@
 {
-  "fetchedAt": "2026-08-02T06:55:44+00:00",
+  "fetchedAt": "2026-08-02T09:31:09+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 6,
-  "japanBoundTankers": 5,
-  "japanBoundUnknownPort": 4,
+  "totalTankersInRegion": 5,
+  "japanBoundTankers": 4,
+  "japanBoundUnknownPort": 3,
   "topDestinationPorts": [
     {
-      "port": "KAWASAKI",
+      "port": "YOKOHAMA",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431003635,
-      "name": "SHUHO",
-      "destination": ">JP TXD SENSHIMA 1",
+      "mmsi": 431001082,
+      "name": "WAKAYOSHI MARU NO.10",
+      "destination": "JP NNX OFF",
       "isJapanBound": true,
-      "lat": 34.1512,
-      "lon": 132.885
-    },
-    {
-      "mmsi": 431008537,
-      "name": "OOTAKA MARU",
-      "destination": ">JP SSB / E",
-      "isJapanBound": true,
-      "lat": 34.1463,
-      "lon": 133.1295
-    },
-    {
-      "mmsi": 431012174,
-      "name": "WAKOU MARU NO.5",
-      "destination": ">JP KWS HO /NNX OFF",
-      "isJapanBound": true,
-      "lat": 35.4033,
-      "lon": 139.7476
+      "lat": null,
+      "lon": null
     },
     {
       "mmsi": 431006294,
       "name": "RYOEIMARU",
       "destination": ">JP WAK OIWA",
       "isJapanBound": true,
-      "lat": 34.2006,
-      "lon": 135.127
+      "lat": 34.2011,
+      "lon": 135.1283
+    },
+    {
+      "mmsi": 441276000,
+      "name": "KEOYOUNG BLUE 5",
+      "destination": "JP UKB",
+      "isJapanBound": true,
+      "lat": 34.1098,
+      "lon": 132.9886
+    },
+    {
+      "mmsi": 431501838,
+      "name": "GREEN MARU NO.8",
+      "destination": "JP YOK NNX OFF",
+      "isJapanBound": true,
+      "lat": null,
+      "lon": null
     },
     {
       "mmsi": 563343900,
@@ -50,14 +50,6 @@
       "isJapanBound": false,
       "lat": 34.1198,
       "lon": 132.9641
-    },
-    {
-      "mmsi": 431000224,
-      "name": "RYOEI MARU NO.2",
-      "destination": "JP SBK OFF",
-      "isJapanBound": true,
-      "lat": 34.1463,
-      "lon": 135.1909
     }
   ],
   "boundingBox": "24-46N / 122-146E",
