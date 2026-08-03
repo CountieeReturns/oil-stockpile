@@ -1,50 +1,95 @@
 {
-  "fetchedAt": "2026-08-03T17:30:40+00:00",
+  "fetchedAt": "2026-08-03T20:07:33+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 5,
-  "japanBoundTankers": 4,
-  "japanBoundUnknownPort": 4,
-  "topDestinationPorts": [],
+  "totalTankersInRegion": 10,
+  "japanBoundTankers": 7,
+  "japanBoundUnknownPort": 5,
+  "topDestinationPorts": [
+    {
+      "port": "KAWASAKI",
+      "count": 2
+    }
+  ],
   "vessels": [
     {
-      "mmsi": 431027779,
-      "name": "KAKUEIMARU",
-      "destination": ">JP WAK OFF",
-      "isJapanBound": true,
-      "lat": 34.161,
-      "lon": 135.1592
+      "mmsi": 440144280,
+      "name": "GAS BROADWAY",
+      "destination": "KR.TSN.WM",
+      "isJapanBound": false,
+      "lat": 34.1628,
+      "lon": 132.9306
     },
     {
-      "mmsi": 431402001,
-      "name": "HOSEI MARU NO.3",
-      "destination": ">JP WAK KAINAN",
-      "isJapanBound": true,
-      "lat": 34.1592,
-      "lon": 135.1501
+      "mmsi": 563343900,
+      "name": "JN SIRIUS",
+      "destination": "",
+      "isJapanBound": false,
+      "lat": 34.1199,
+      "lon": 132.9641
     },
     {
-      "mmsi": 431006905,
-      "name": "YUHO MARU NO.8",
-      "destination": "JP OBE WAN",
+      "mmsi": 431003865,
+      "name": "EISHIN MARU NO.25",
+      "destination": ">JP KWS Y2",
       "isJapanBound": true,
-      "lat": 34.1409,
-      "lon": 132.9042
+      "lat": 35.452,
+      "lon": 139.7242
     },
     {
-      "mmsi": 431003651,
-      "name": "NAIKAI MARU NO.3",
-      "destination": ">JP WAK OFF",
+      "mmsi": 431001082,
+      "name": "WAKAYOSHI MARU NO.10",
+      "destination": "JP NNX OFF",
       "isJapanBound": true,
-      "lat": 34.1965,
-      "lon": 135.1244
+      "lat": 35.3983,
+      "lon": 139.7541
+    },
+    {
+      "mmsi": 431013291,
+      "name": "TOGENMARU",
+      "destination": ">JP AFG OFF",
+      "isJapanBound": true,
+      "lat": 39.7808,
+      "lon": 140.025
+    },
+    {
+      "mmsi": 431003904,
+      "name": "KOKEN MARU",
+      "destination": "JP  IMB  K-4",
+      "isJapanBound": true,
+      "lat": 34.0634,
+      "lon": 133.0208
     },
     {
       "mmsi": 440232000,
       "name": "DOOLA STAR",
       "destination": "DSN/KR",
       "isJapanBound": false,
-      "lat": null,
-      "lon": null
+      "lat": 37.4992,
+      "lon": 126.6303
+    },
+    {
+      "mmsi": 431003614,
+      "name": "EIWA MARU",
+      "destination": "JP WAK OFF",
+      "isJapanBound": true,
+      "lat": 34.2053,
+      "lon": 135.1136
+    },
+    {
+      "mmsi": 441509000,
+      "name": "NEW CHALLENGE",
+      "destination": "JP KWS OFF",
+      "isJapanBound": true,
+      "lat": 35.4687,
+      "lon": 139.8031
+    },
+    {
+      "mmsi": 431003155,
+      "name": "HOUEI NO.1",
+      "destination": ">JP WAK OFF",
+      "isJapanBound": true,
+      "lat": 34.1537,
+      "lon": 135.1682
     }
   ],
   "boundingBox": "24-46N / 122-146E",
