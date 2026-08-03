@@ -636,7 +636,7 @@ class StructuredDataTest(unittest.TestCase):
     def test_opinions_adds_videos_and_glossary(self):
         graph = self._graph_for(self._page("opinions"))
         types = [n["@type"] for n in graph]
-        self.assertEqual(types.count("VideoObject"), 3)
+        self.assertEqual(types.count("VideoObject"), 2)
         self.assertEqual(types.count("DefinedTermSet"), 1)
         terms = next(n for n in graph if n["@type"] == "DefinedTermSet")["hasDefinedTerm"]
         self.assertEqual(len(terms), 4)

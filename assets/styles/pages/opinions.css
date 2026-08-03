@@ -176,6 +176,20 @@
   margin-top: 2px;
 }
 
+/* 議員の公式サイトへの外部リンク。控えめな小リンク。 */
+.op-pol-site {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.op-pol-site:hover {
+  text-decoration: underline;
+}
+
 .op-pol-catch {
   font-weight: 700;
   color: var(--fg-strong);
