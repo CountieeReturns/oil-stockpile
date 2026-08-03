@@ -1,27 +1,71 @@
 {
-  "fetchedAt": "2026-08-03T11:54:06+00:00",
+  "fetchedAt": "2026-08-03T15:25:36+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 14,
-  "japanBoundTankers": 10,
-  "japanBoundUnknownPort": 8,
+  "totalTankersInRegion": 9,
+  "japanBoundTankers": 8,
+  "japanBoundUnknownPort": 6,
   "topDestinationPorts": [
     {
       "port": "KAWASAKI",
-      "count": 1
-    },
-    {
-      "port": "YOKOHAMA",
-      "count": 1
+      "count": 2
     }
   ],
   "vessels": [
     {
-      "mmsi": 431029362,
-      "name": "SHINYU MARU NO.3",
-      "destination": ">JP IHA",
+      "mmsi": 431013291,
+      "name": "TOGENMARU",
+      "destination": ">JP AFG OFF",
       "isJapanBound": true,
-      "lat": null,
-      "lon": null
+      "lat": 39.781,
+      "lon": 140.0253
+    },
+    {
+      "mmsi": 431018712,
+      "name": "ASAHI",
+      "destination": ">JP KWS SG",
+      "isJapanBound": true,
+      "lat": 35.5173,
+      "lon": 139.7434
+    },
+    {
+      "mmsi": 431003865,
+      "name": "EISHIN MARU NO.25",
+      "destination": ">JP KWS Y2",
+      "isJapanBound": true,
+      "lat": 35.452,
+      "lon": 139.7241
+    },
+    {
+      "mmsi": 431003651,
+      "name": "NAIKAI MARU NO.3",
+      "destination": ">JP WAK OFF",
+      "isJapanBound": true,
+      "lat": 34.1971,
+      "lon": 135.1237
+    },
+    {
+      "mmsi": 431000622,
+      "name": "TOEI MARU",
+      "destination": ">JP SKD OFF",
+      "isJapanBound": true,
+      "lat": 34.1056,
+      "lon": 133.0076
+    },
+    {
+      "mmsi": 563343900,
+      "name": "JN SIRIUS",
+      "destination": "",
+      "isJapanBound": false,
+      "lat": 34.1198,
+      "lon": 132.9641
+    },
+    {
+      "mmsi": 431026644,
+      "name": "RYOUKEN MARU NO.3",
+      "destination": ">JP WAK OFF",
+      "isJapanBound": true,
+      "lat": 34.2442,
+      "lon": 135.1037
     },
     {
       "mmsi": 431003904,
@@ -32,97 +76,9 @@
       "lon": 133.0208
     },
     {
-      "mmsi": 431002973,
-      "name": "CHOUHOUMARU",
-      "destination": ">JP WAK OFF",
-      "isJapanBound": true,
-      "lat": 34.243,
-      "lon": 135.1087
-    },
-    {
-      "mmsi": 563343900,
-      "name": "JN SIRIUS",
-      "destination": "",
-      "isJapanBound": false,
-      "lat": 34.1199,
-      "lon": 132.9641
-    },
-    {
-      "mmsi": 431007429,
-      "name": "SATSUKI",
-      "destination": ">JP KWS OFF",
-      "isJapanBound": true,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 440184000,
-      "name": "FORTUNE KAREN",
-      "destination": "KR TSN",
-      "isJapanBound": false,
-      "lat": 37.4473,
-      "lon": 126.5785
-    },
-    {
-      "mmsi": 431006388,
-      "name": "SEITOKU MARU",
-      "destination": "JP YOK NNX OFF",
-      "isJapanBound": true,
-      "lat": 35.4046,
-      "lon": 139.7537
-    },
-    {
-      "mmsi": 431001082,
-      "name": "WAKAYOSHI MARU NO.10",
-      "destination": "JP NNX OFF",
-      "isJapanBound": true,
-      "lat": 35.3987,
-      "lon": 139.7534
-    },
-    {
-      "mmsi": 431000224,
-      "name": "RYOEI MARU NO.2",
-      "destination": "JP WAK OFF",
-      "isJapanBound": true,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 432536000,
-      "name": "KASHIMA MARU NO.10",
-      "destination": ">JP OTK OFF",
-      "isJapanBound": true,
-      "lat": 34.0934,
-      "lon": 133.0119
-    },
-    {
-      "mmsi": 463094101,
-      "name": "QUETTA",
-      "destination": "AU SYD--->>JP KWS",
-      "isJapanBound": false,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 431013291,
-      "name": "TOGENMARU",
-      "destination": ">JP AFG OFF",
-      "isJapanBound": true,
-      "lat": 39.7806,
-      "lon": 140.025
-    },
-    {
-      "mmsi": 441943000,
-      "name": "SJ HOPE",
-      "destination": "KR INC",
-      "isJapanBound": false,
-      "lat": 37.4502,
-      "lon": 126.5907
-    },
-    {
-      "mmsi": 431026644,
-      "name": "RYOUKEN MARU NO.3",
-      "destination": ">JP WAK OFF",
+      "mmsi": 431003767,
+      "name": "TAMARIKI MARU NO.1",
+      "destination": ">JP NNX OFF",
       "isJapanBound": true,
       "lat": null,
       "lon": null
