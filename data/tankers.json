@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-08-04T20:53:28+00:00",
+  "fetchedAt": "2026-08-04T22:33:00+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 8,
-  "japanBoundTankers": 7,
-  "japanBoundUnknownPort": 3,
+  "totalTankersInRegion": 9,
+  "japanBoundTankers": 5,
+  "japanBoundUnknownPort": 2,
   "topDestinationPorts": [
     {
       "port": "KAWASAKI",
@@ -11,71 +11,79 @@
     },
     {
       "port": "YOKOHAMA",
-      "count": 2
+      "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431007966,
-      "name": "AIMARU",
-      "destination": ">JP KWS OFF",
+      "mmsi": 431006926,
+      "name": "SYOANMARU NO15",
+      "destination": "> JP YOK N3",
       "isJapanBound": true,
-      "lat": 35.5189,
-      "lon": 139.824
+      "lat": 35.4975,
+      "lon": 139.7165
     },
     {
-      "mmsi": 431001082,
-      "name": "WAKAYOSHI MARU NO.10",
-      "destination": "JP NNX OFF",
+      "mmsi": 431013096,
+      "name": "MIKITOYO",
+      "destination": ">JP TYO HANEDA A",
       "isJapanBound": true,
-      "lat": 35.3986,
-      "lon": 139.7536
+      "lat": 35.5116,
+      "lon": 139.8486
     },
     {
-      "mmsi": 431015093,
-      "name": "SHINKO MARU NO2",
-      "destination": ">JP YOK D",
-      "isJapanBound": true,
-      "lat": 35.4748,
-      "lon": 139.646
-    },
-    {
-      "mmsi": 431004568,
-      "name": "KINYO MARU NO.5",
-      "destination": ">JP WAK/KAINAN OFF",
-      "isJapanBound": true,
-      "lat": 34.1538,
-      "lon": 135.152
-    },
-    {
-      "mmsi": 354280000,
-      "name": "PHENIX EXPRESS",
-      "destination": "JP KWS",
-      "isJapanBound": true,
-      "lat": 35.4623,
-      "lon": 139.7298
-    },
-    {
-      "mmsi": 431006388,
-      "name": "SEITOKU MARU",
-      "destination": "JP YOK D",
-      "isJapanBound": true,
-      "lat": 35.4761,
-      "lon": 139.6485
-    },
-    {
-      "mmsi": 563343900,
-      "name": "JN SIRIUS",
-      "destination": "SEA TRIAL(AKI NADA)",
+      "mmsi": 636018519,
+      "name": "SOUTHERN TURKEY",
+      "destination": "PH SUG>KURISHIMA",
       "isJapanBound": false,
+      "lat": 34.1502,
+      "lon": 132.9714
+    },
+    {
+      "mmsi": 440215710,
+      "name": "SEUNG JIN",
+      "destination": "GUNSAN KR",
+      "isJapanBound": false,
+      "lat": 37.4327,
+      "lon": 126.5667
+    },
+    {
+      "mmsi": 441967000,
+      "name": "GOLDEN JOY HANA",
+      "destination": "KR YOS",
+      "isJapanBound": false,
+      "lat": 35.4189,
+      "lon": 139.7343
+    },
+    {
+      "mmsi": 431001071,
+      "name": "FUKUJIN MARU NO.21",
+      "destination": "JP KWS HO",
+      "isJapanBound": true,
+      "lat": 35.5061,
+      "lon": 139.7673
+    },
+    {
+      "mmsi": 441509000,
+      "name": "NEW CHALLENGE",
+      "destination": "JP KWS OFF",
+      "isJapanBound": true,
       "lat": null,
       "lon": null
     },
     {
-      "mmsi": 431013065,
-      "name": "KIRISHIMA MARU NO.15",
-      "destination": ">JP SBK/3 COSUMO",
+      "mmsi": 440391000,
+      "name": "ROYAL SAMBU",
+      "destination": ">JP_ANE_OFF",
       "isJapanBound": true,
+      "lat": 35.376,
+      "lon": 139.761
+    },
+    {
+      "mmsi": 463094101,
+      "name": "QUETTA",
+      "destination": "AU SYD--->>JP KWS",
+      "isJapanBound": false,
       "lat": null,
       "lon": null
     }
