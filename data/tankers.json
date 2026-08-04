@@ -1,71 +1,63 @@
 {
-  "fetchedAt": "2026-08-04T06:50:59+00:00",
+  "fetchedAt": "2026-08-04T10:01:24+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 7,
-  "japanBoundTankers": 5,
+  "totalTankersInRegion": 6,
+  "japanBoundTankers": 6,
   "japanBoundUnknownPort": 4,
   "topDestinationPorts": [
     {
       "port": "KAWASAKI",
-      "count": 1
+      "count": 2
     }
   ],
   "vessels": [
     {
-      "mmsi": 563343900,
-      "name": "JN SIRIUS",
-      "destination": "SEA TRIAL(AKI NADA)",
-      "isJapanBound": false,
-      "lat": 34.1723,
-      "lon": 132.9904
-    },
-    {
-      "mmsi": 431014021,
-      "name": "TAIWA MARU",
-      "destination": ">JP UKB OFF",
+      "mmsi": 431014188,
+      "name": "TOURAI MARU",
+      "destination": ">JP MKX OFF",
       "isJapanBound": true,
-      "lat": 34.1035,
-      "lon": 132.9942
+      "lat": 34.0862,
+      "lon": 133.099
     },
     {
-      "mmsi": 431029362,
-      "name": "SHINYU MARU NO.3",
-      "destination": ">JP KNE OFF",
+      "mmsi": 441509000,
+      "name": "NEW CHALLENGE",
+      "destination": "JP KWS OFF",
       "isJapanBound": true,
-      "lat": 34.1556,
-      "lon": 132.961
+      "lat": 35.4688,
+      "lon": 139.803
     },
     {
-      "mmsi": 431010785,
-      "name": "RYUSEI MARU",
-      "destination": ">JP OIP OFF",
+      "mmsi": 431013065,
+      "name": "KIRISHIMA MARU NO.15",
+      "destination": ">JP SBK/3 COSUMO",
       "isJapanBound": true,
-      "lat": 34.1614,
-      "lon": 132.9497
+      "lat": 34.2145,
+      "lon": 135.1417
     },
     {
-      "mmsi": 431003767,
-      "name": "TAMARIKI MARU NO.1",
-      "destination": ">JP NNX OFF",
+      "mmsi": 431004957,
+      "name": "TSUKASA",
+      "destination": ">JP TYO HANEDA OFF",
       "isJapanBound": true,
-      "lat": 35.3872,
-      "lon": 139.7398
+      "lat": 35.4758,
+      "lon": 139.8129
     },
     {
-      "mmsi": 431007966,
-      "name": "AIMARU",
-      "destination": ">JP KWS OFF",
+      "mmsi": 431140000,
+      "name": "KASHIMA MARU NO,8",
+      "destination": ">JP IHA OFF",
       "isJapanBound": true,
       "lat": null,
       "lon": null
     },
     {
-      "mmsi": 440011120,
-      "name": "MINSUNG11",
-      "destination": "INCHEON",
-      "isJapanBound": false,
-      "lat": 37.4634,
-      "lon": 126.5787
+      "mmsi": 431021934,
+      "name": "ICHIE MARU",
+      "destination": ">JP KWS DU ENEOS200",
+      "isJapanBound": true,
+      "lat": null,
+      "lon": null
     }
   ],
   "boundingBox": "24-46N / 122-146E",
