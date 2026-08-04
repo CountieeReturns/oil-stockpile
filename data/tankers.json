@@ -1,10 +1,18 @@
 {
-  "fetchedAt": "2026-08-03T23:29:59+00:00",
+  "fetchedAt": "2026-08-04T03:46:20+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 6,
-  "japanBoundTankers": 5,
-  "japanBoundUnknownPort": 4,
+  "totalTankersInRegion": 8,
+  "japanBoundTankers": 8,
+  "japanBoundUnknownPort": 5,
   "topDestinationPorts": [
+    {
+      "port": "SAKAI",
+      "count": 1
+    },
+    {
+      "port": "YOKOHAMA",
+      "count": 1
+    },
     {
       "port": "KAWASAKI",
       "count": 1
@@ -12,52 +20,68 @@
   ],
   "vessels": [
     {
+      "mmsi": 431013291,
+      "name": "TOGENMARU",
+      "destination": ">JP SKT",
+      "isJapanBound": true,
+      "lat": 39.7027,
+      "lon": 139.9579
+    },
+    {
+      "mmsi": 431402001,
+      "name": "HOSEI MARU NO.3",
+      "destination": ">JP  OSK OFF",
+      "isJapanBound": true,
+      "lat": 34.2282,
+      "lon": 135.0727
+    },
+    {
+      "mmsi": 431000173,
+      "name": "KOKI MARU NO.30",
+      "destination": ">JP IWK OFF",
+      "isJapanBound": true,
+      "lat": 33.996,
+      "lon": 133.2335
+    },
+    {
+      "mmsi": 308579000,
+      "name": "LNG BARKA",
+      "destination": ">JP YOK XX",
+      "isJapanBound": true,
+      "lat": 35.4607,
+      "lon": 139.7188
+    },
+    {
       "mmsi": 431003904,
       "name": "KOKEN MARU",
       "destination": "JP  IMB  K-4",
       "isJapanBound": true,
-      "lat": 34.0633,
+      "lat": 34.0634,
       "lon": 133.0208
     },
     {
-      "mmsi": 431013291,
-      "name": "TOGENMARU",
-      "destination": ">JP AFG OFF",
+      "mmsi": 431015647,
+      "name": "SHOWAMARU",
+      "destination": "JPKWS DU ENEOS 200-3",
       "isJapanBound": true,
-      "lat": 39.7809,
-      "lon": 140.0251
+      "lat": 35.4427,
+      "lon": 139.7469
     },
     {
-      "mmsi": 431004753,
-      "name": "HOUZAN MARU NO.15",
-      "destination": ">JP HKS OFF",
+      "mmsi": 431013065,
+      "name": "KIRISHIMA MARU NO.15",
+      "destination": ">JP SBK/3 COSUMO",
       "isJapanBound": true,
-      "lat": 34.2065,
-      "lon": 133.1354
-    },
-    {
-      "mmsi": 431003865,
-      "name": "EISHIN MARU NO.25",
-      "destination": ">JP KWS US ENEOS 44",
-      "isJapanBound": true,
-      "lat": 35.4523,
-      "lon": 139.7238
-    },
-    {
-      "mmsi": 463094101,
-      "name": "QUETTA",
-      "destination": "AU SYD--->>JP KWS",
-      "isJapanBound": false,
-      "lat": 35.4547,
-      "lon": 139.7708
+      "lat": 34.2145,
+      "lon": 135.1417
     },
     {
       "mmsi": 431001082,
       "name": "WAKAYOSHI MARU NO.10",
       "destination": "JP NNX OFF",
       "isJapanBound": true,
-      "lat": 35.3986,
-      "lon": 139.7535
+      "lat": null,
+      "lon": null
     }
   ],
   "boundingBox": "24-46N / 122-146E",
