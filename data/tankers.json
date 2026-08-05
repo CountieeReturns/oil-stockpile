@@ -1,127 +1,83 @@
 {
-  "fetchedAt": "2026-08-05T06:52:02+00:00",
+  "fetchedAt": "2026-08-05T09:59:26+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 13,
-  "japanBoundTankers": 10,
-  "japanBoundUnknownPort": 7,
+  "totalTankersInRegion": 8,
+  "japanBoundTankers": 8,
+  "japanBoundUnknownPort": 4,
   "topDestinationPorts": [
     {
-      "port": "KAWASAKI",
-      "count": 1
-    },
-    {
-      "port": "CHIBA",
-      "count": 1
-    },
-    {
       "port": "YOKOHAMA",
-      "count": 1
+      "count": 2
+    },
+    {
+      "port": "KAWASAKI",
+      "count": 2
     }
   ],
   "vessels": [
     {
-      "mmsi": 431013065,
-      "name": "KIRISHIMA MARU NO.15",
-      "destination": ">JP SBK/3 COSUMO",
+      "mmsi": 431014012,
+      "name": "REIWA",
+      "destination": ">JP YOK YK-1 OFF",
       "isJapanBound": true,
-      "lat": 34.2145,
-      "lon": 135.1417
-    },
-    {
-      "mmsi": 431006736,
-      "name": "KOUSUI MARU",
-      "destination": "JP IHA",
-      "isJapanBound": true,
-      "lat": 33.9677,
-      "lon": 133.269
+      "lat": 35.4644,
+      "lon": 139.7236
     },
     {
       "mmsi": 354280000,
       "name": "PHENIX EXPRESS",
       "destination": "JP KWS",
       "isJapanBound": true,
-      "lat": null,
-      "lon": null
+      "lat": 35.4625,
+      "lon": 139.7292
     },
     {
-      "mmsi": 440168000,
-      "name": "HANA PIONEER",
-      "destination": "KR YOS",
-      "isJapanBound": false,
-      "lat": 39.7269,
-      "lon": 139.8819
-    },
-    {
-      "mmsi": 440194890,
-      "name": "KS HONOR",
-      "destination": "KR INC",
-      "isJapanBound": false,
-      "lat": 37.5056,
-      "lon": 126.6025
-    },
-    {
-      "mmsi": 431013096,
-      "name": "MIKITOYO",
-      "destination": ">JP ANE OFF",
-      "isJapanBound": true,
-      "lat": 35.5314,
-      "lon": 139.7979
-    },
-    {
-      "mmsi": 431001082,
-      "name": "WAKAYOSHI MARU NO.10",
-      "destination": "JP NNX OFF",
-      "isJapanBound": true,
-      "lat": 35.3987,
-      "lon": 139.7535
-    },
-    {
-      "mmsi": 431015699,
-      "name": "REBUN MARU NO.5",
-      "destination": ">JP IWK OFF",
-      "isJapanBound": true,
-      "lat": 34.1067,
-      "lon": 133.0047
-    },
-    {
-      "mmsi": 431300411,
-      "name": "TAIKEIMARU NO.5",
-      "destination": ">JP OSA OFF",
-      "isJapanBound": true,
-      "lat": 34.1133,
-      "lon": 132.9856
-    },
-    {
-      "mmsi": 440875000,
-      "name": "KEOYOUNG_STAR3",
-      "destination": ">JP CHB F-10 OFF",
-      "isJapanBound": true,
-      "lat": 35.3734,
-      "lon": 139.7564
-    },
-    {
-      "mmsi": 431002774,
-      "name": "KOUWAMARU",
-      "destination": ">JP HKT P",
+      "mmsi": 431016719,
+      "name": "HOSEI MARU NO.3",
+      "destination": "JP YOK Y",
       "isJapanBound": true,
       "lat": null,
       "lon": null
     },
     {
-      "mmsi": 440215710,
-      "name": "SEUNG JIN",
-      "destination": "GUNSAN KR",
-      "isJapanBound": false,
-      "lat": 37.4321,
-      "lon": 126.5673
+      "mmsi": 431029352,
+      "name": "HAKURYO MARU",
+      "destination": ">JP AFG OFF/WM",
+      "isJapanBound": true,
+      "lat": 39.7799,
+      "lon": 139.9736
     },
     {
-      "mmsi": 440027000,
-      "name": "KEOYOUNG BLUE 1",
-      "destination": "JP YOK OFF",
+      "mmsi": 431140000,
+      "name": "KASHIMA MARU NO,8",
+      "destination": ">JP WAK OFF",
+      "isJapanBound": true,
+      "lat": 34.2031,
+      "lon": 135.1169
+    },
+    {
+      "mmsi": 431011509,
+      "name": "SAKURAMARU",
+      "destination": "JP OIP KITUKI OFF",
+      "isJapanBound": true,
+      "lat": 34.1224,
+      "lon": 133.0869
+    },
+    {
+      "mmsi": 431300401,
+      "name": "TOYOMASA MARU",
+      "destination": ">JP KWS NNX OFF",
       "isJapanBound": true,
       "lat": null,
       "lon": null
+    },
+    {
+      "mmsi": 431018478,
+      "name": "EISHO MARU NO.3",
+      "destination": "JP TYO HANEDA OFF",
+      "isJapanBound": true,
+      "lat": 35.5158,
+      "lon": 139.8384
     }
   ],
   "boundingBox": "24-46N / 122-146E",
