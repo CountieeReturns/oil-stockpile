@@ -1,91 +1,107 @@
 {
-  "fetchedAt": "2026-08-04T22:33:00+00:00",
+  "fetchedAt": "2026-08-05T00:25:50+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 9,
-  "japanBoundTankers": 5,
-  "japanBoundUnknownPort": 2,
+  "totalTankersInRegion": 11,
+  "japanBoundTankers": 10,
+  "japanBoundUnknownPort": 4,
   "topDestinationPorts": [
     {
       "port": "KAWASAKI",
-      "count": 2
+      "count": 3
     },
     {
       "port": "YOKOHAMA",
-      "count": 1
+      "count": 3
     }
   ],
   "vessels": [
     {
-      "mmsi": 431006926,
-      "name": "SYOANMARU NO15",
-      "destination": "> JP YOK N3",
+      "mmsi": 431003024,
+      "name": "SHINKOUMARU NO.28",
+      "destination": "> JP NNX KWS HO",
       "isJapanBound": true,
-      "lat": 35.4975,
-      "lon": 139.7165
+      "lat": 35.506,
+      "lon": 139.7657
+    },
+    {
+      "mmsi": 538007916,
+      "name": "POLAR BRIGHT",
+      "destination": "JP KWS XX",
+      "isJapanBound": true,
+      "lat": 35.4691,
+      "lon": 139.8175
+    },
+    {
+      "mmsi": 431003767,
+      "name": "TAMARIKI MARU NO.1",
+      "destination": ">JP YOK Y 10",
+      "isJapanBound": true,
+      "lat": 35.3881,
+      "lon": 139.7413
+    },
+    {
+      "mmsi": 431007252,
+      "name": "KINRYU MARU",
+      "destination": ">JP AFG EN ENEOS",
+      "isJapanBound": true,
+      "lat": 39.7745,
+      "lon": 140.0178
+    },
+    {
+      "mmsi": 563343900,
+      "name": "JN SIRIUS",
+      "destination": "SEA TRIAL(AKI NADA)",
+      "isJapanBound": false,
+      "lat": 34.1683,
+      "lon": 132.9096
+    },
+    {
+      "mmsi": 431015093,
+      "name": "SHINKO MARU NO2",
+      "destination": ">JP YOK D",
+      "isJapanBound": true,
+      "lat": 35.4748,
+      "lon": 139.646
+    },
+    {
+      "mmsi": 354280000,
+      "name": "PHENIX EXPRESS",
+      "destination": "JP KWS",
+      "isJapanBound": true,
+      "lat": 35.4625,
+      "lon": 139.7293
+    },
+    {
+      "mmsi": 308579000,
+      "name": "LNG BARKA",
+      "destination": ">JP YOK XX",
+      "isJapanBound": true,
+      "lat": 35.4609,
+      "lon": 139.7185
+    },
+    {
+      "mmsi": 431021934,
+      "name": "ICHIE MARU",
+      "destination": ">JP KWS DU ENEOS200",
+      "isJapanBound": true,
+      "lat": 35.4979,
+      "lon": 139.8309
     },
     {
       "mmsi": 431013096,
       "name": "MIKITOYO",
       "destination": ">JP TYO HANEDA A",
       "isJapanBound": true,
-      "lat": 35.5116,
-      "lon": 139.8486
+      "lat": 35.5298,
+      "lon": 139.7968
     },
     {
-      "mmsi": 636018519,
-      "name": "SOUTHERN TURKEY",
-      "destination": "PH SUG>KURISHIMA",
-      "isJapanBound": false,
-      "lat": 34.1502,
-      "lon": 132.9714
-    },
-    {
-      "mmsi": 440215710,
-      "name": "SEUNG JIN",
-      "destination": "GUNSAN KR",
-      "isJapanBound": false,
-      "lat": 37.4327,
-      "lon": 126.5667
-    },
-    {
-      "mmsi": 441967000,
-      "name": "GOLDEN JOY HANA",
-      "destination": "KR YOS",
-      "isJapanBound": false,
-      "lat": 35.4189,
-      "lon": 139.7343
-    },
-    {
-      "mmsi": 431001071,
-      "name": "FUKUJIN MARU NO.21",
-      "destination": "JP KWS HO",
+      "mmsi": 431013065,
+      "name": "KIRISHIMA MARU NO.15",
+      "destination": ">JP SBK/3 COSUMO",
       "isJapanBound": true,
-      "lat": 35.5061,
-      "lon": 139.7673
-    },
-    {
-      "mmsi": 441509000,
-      "name": "NEW CHALLENGE",
-      "destination": "JP KWS OFF",
-      "isJapanBound": true,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 440391000,
-      "name": "ROYAL SAMBU",
-      "destination": ">JP_ANE_OFF",
-      "isJapanBound": true,
-      "lat": 35.376,
-      "lon": 139.761
-    },
-    {
-      "mmsi": 463094101,
-      "name": "QUETTA",
-      "destination": "AU SYD--->>JP KWS",
-      "isJapanBound": false,
-      "lat": null,
-      "lon": null
+      "lat": 34.2145,
+      "lon": 135.1417
     }
   ],
   "boundingBox": "24-46N / 122-146E",
