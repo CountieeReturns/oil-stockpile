@@ -1110,5 +1110,21 @@
     "national": 103,
     "private": 97,
     "joint": 4
+  },
+  {
+    "published": "2026-08-04",
+    "asOf": "2026-08-01",
+    "total": 202,
+    "national": 103,
+    "private": 95,
+    "joint": 4
+  },
+  {
+    "published": "2026-08-05",
+    "asOf": "2026-08-02",
+    "total": 202,
+    "national": 103,
+    "private": 96,
+    "joint": 4
   }
 ]
