@@ -358,6 +358,19 @@
   flex-shrink: 0;
 }
 
+.page-home .donut-legend-dot[data-seg="national"] {
+  background: var(--donut-national);
+}
+.page-home .donut-legend-dot[data-seg="private"] {
+  background: var(--donut-private);
+}
+.page-home .donut-legend-dot[data-seg="joint"] {
+  background: var(--donut-joint);
+}
+.page-home .donut-legend-dot[data-seg="other"] {
+  background: var(--donut-other);
+}
+
 .page-home .donut-legend-label {
   font-size: 12px;
   color: var(--fg-sub);

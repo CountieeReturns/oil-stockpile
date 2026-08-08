@@ -85,7 +85,7 @@ function renderLegend(segs) {
   return SEGMENTS.map(
     (seg) => `
       <div class="donut-legend-row">
-        <span class="donut-legend-dot" style="background: ${seg.color}" aria-hidden="true"></span>
+        <span class="donut-legend-dot" data-seg="${seg.key}" aria-hidden="true"></span>
         <dt class="donut-legend-label">${escapeHtml(seg.label)}</dt>
         <dd class="donut-legend-value">${segs[seg.key]}<span class="donut-legend-unit">日分</span></dd>
       </div>
