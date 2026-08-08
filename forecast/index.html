@@ -143,6 +143,17 @@
   </div>
 </header>
 
+<div class="status-ticker-bar">
+  <aside class="status-ticker" aria-labelledby="status-ticker-label" data-snapshots="../data/snapshots.json">
+    <span id="status-ticker-label" class="status-ticker-label">現況</span>
+    <div class="status-ticker-viewport">
+      <p class="status-ticker-track" id="status-ticker-track">
+        <span class="status-ticker-item" id="status-ticker-text">現在の備蓄水準を判定しています。</span>
+      </p>
+    </div>
+  </aside>
+</div>
+
 <main id="main" class="site-main forecast-layout">
   <div class="fc-wrap">
 
@@ -265,6 +276,7 @@
   <div id="share-toast" class="share-toast" role="status" aria-live="polite"></div>
 </section>
 
+<script type="module" src="../js/components/status-ticker.js"></script>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
     <script type="module" src="../js/pages/forecast.js"></script>
 </body>

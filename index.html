@@ -198,9 +198,8 @@
   </div>
 </header>
 
-<main id="main" class="site-main dashboard">
-
-  <aside class="status-ticker" aria-labelledby="status-ticker-label">
+<div class="status-ticker-bar">
+  <aside class="status-ticker" aria-labelledby="status-ticker-label" data-snapshots="./data/snapshots.json">
     <span id="status-ticker-label" class="status-ticker-label">現況</span>
     <div class="status-ticker-viewport">
       <p class="status-ticker-track" id="status-ticker-track">
@@ -208,6 +207,9 @@
       </p>
     </div>
   </aside>
+</div>
+
+<main id="main" class="site-main dashboard">
 
   <section class="update-banner" aria-label="更新情報">
     <span class="update-banner-label">最新の更新情報</span>
@@ -396,6 +398,7 @@
   <div id="share-toast" class="share-toast" role="status" aria-live="polite"></div>
 </section>
 
+<script type="module" src="./js/components/status-ticker.js"></script>
 <script type="module" src="js/pages/home.js"></script>
 </body>
 </html>

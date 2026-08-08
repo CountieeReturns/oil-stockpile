@@ -1,16 +1,22 @@
 /**
  * 現況ヘッドライン（右から左へ流れるティッカー）
  *
- * 備蓄日数そのものはヒーローの大きな数字で見せているため、ここでは
- * 数字を出さず「いまの水準をどう受け止めればよいか」だけを言葉で伝える。
+ * 全タブ共通。ヘッダー直下に置き、備蓄水準の「空気感」だけを言葉で伝える。
+ * 備蓄日数そのものはカウンターの大きな数字で見せているため、ここでは
+ * 数字を出さない。
  *
  * 判定は 充填率 = 公表値の日数 / PEAK_REFERENCE.days の 1 つの軸のみ。
  * 秒按分の値を購読すると文言が頻繁に入れ替わって読めなくなるため、
  * 公表値（snapshots.json の最新 total）で 1 回だけ評価して固定する。
  * しきい値は粗いので、秒按分後の値との差で判定が変わることはまずない。
+ *
+ * base.html がマークアップと本スクリプトを全ページに焼き込むため、ここでは
+ * ページ側の呼び出しに頼らず、DOM の data-snapshots を読んで自走する。
+ * サブディレクトリ差を吸収するためデータ URL は data-snapshots で受け取る。
  */
 
-import { PEAK_REFERENCE } from '../core/data.js';
+import { loadHistory, PEAK_REFERENCE } from '../core/data.js';
+import { onReady } from '../core/dom.js';
 
 /** 充填率のしきい値と、それに対応する現況コメント（高い順に評価する）。 */
 const LEVELS = [
@@ -42,7 +48,8 @@ export function pickStatusMessage(days, peakDays = PEAK_REFERENCE.days) {
   return LEVELS.find((entry) => ratio >= entry.minRatio) ?? LEVELS[LEVELS.length - 1];
 }
 
-export function initStatusTicker(history) {
+/** history から現況を確定させて描画する（テスト可能な純粋寄りの本体）。 */
+export function renderStatusTicker(history) {
   const track = document.getElementById('status-ticker-track');
   const textEl = document.getElementById('status-ticker-text');
   if (!track || !textEl) return;
@@ -62,3 +69,18 @@ export function initStatusTicker(history) {
   track.appendChild(clone);
   track.classList.add('is-scrolling');
 }
+
+/** 全ページ共通の自走初期化。data-snapshots からデータ URL を得て取得する。 */
+async function initStatusTicker() {
+  const ticker = document.querySelector('.status-ticker');
+  if (!ticker) return;
+  // data-snapshots が無ければ loadHistory の既定に委ねる（ホーム相当）。
+  const url = ticker.dataset.snapshots || undefined;
+  try {
+    renderStatusTicker(await loadHistory(url));
+  } catch {
+    // 取得できなければ初期文言「判定しています」のまま静かに留める（推測しない）。
+  }
+}
+
+onReady(initStatusTicker);
