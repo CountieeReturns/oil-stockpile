@@ -186,3 +186,115 @@
 .share-toast.is-visible {
   opacity: 1;
 }
+
+/* =============================================================
+   現況ティッカー（全タブ共通・ヘッダー直下の流れるヘッドライン）
+   マークアップと status-ticker.js は base.html が全ページに焼き込む。
+   ============================================================= */
+.status-ticker-bar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-3) var(--space-5) 0;
+}
+
+.status-ticker {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 9px 14px;
+  background: var(--bg-card);
+  border: 1px solid var(--rule-soft);
+  border-radius: 999px;
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+
+.status-ticker-label {
+  flex: 0 0 auto;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--brand-ink);
+  background: var(--brand-soft);
+}
+
+.status-ticker-viewport {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  /* 両端でフェードさせ、文字が切れる境目を目立たせない */
+  mask-image: linear-gradient(
+    90deg,
+    transparent 0,
+    #000 24px,
+    #000 calc(100% - 24px),
+    transparent 100%
+  );
+}
+
+.status-ticker-track {
+  display: flex;
+  gap: 64px;
+  width: max-content;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--fg-strong);
+  white-space: nowrap;
+}
+
+.status-ticker-track.is-scrolling {
+  animation: status-ticker-scroll 34s linear infinite;
+}
+
+/* 複製した 1 本ぶん（テキスト幅 + gap）だけ流して原点に戻す */
+@keyframes status-ticker-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-50% - 32px));
+  }
+}
+
+.status-ticker:hover .status-ticker-track.is-scrolling {
+  animation-play-state: paused;
+}
+
+/* 水準に応じたアクセント。safe 以外は色で気付けるようにする */
+.status-ticker-track[data-level="watch"] {
+  color: #b45309;
+}
+
+.status-ticker-track[data-level="low"] {
+  color: var(--tank-fill-warn);
+}
+
+@media (max-width: 640px) {
+  .status-ticker-bar {
+    padding: var(--space-3) var(--space-3) 0;
+  }
+  .status-ticker {
+    gap: 8px;
+    padding: 8px 10px;
+  }
+  .status-ticker-track {
+    font-size: 12.5px;
+  }
+}
+
+/* 動きを減らす設定では流さず、その場で読める静的な 1 文にする。 */
+@media (prefers-reduced-motion: reduce) {
+  .status-ticker-track.is-scrolling {
+    animation: none;
+  }
+  .status-ticker-track [aria-hidden="true"] {
+    display: none;
+  }
+  .status-ticker-viewport {
+    overflow-x: auto;
+  }
+}
