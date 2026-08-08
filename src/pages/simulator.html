@@ -1,0 +1,72 @@
+<main id="main" class="site-main sim-layout">
+
+  <!-- Hero -->
+  <section class="sim-hero-card" aria-labelledby="sim-heading">
+    <span class="sim-eyebrow">もし供給が止まったら</span>
+    <h1 id="sim-heading" class="sim-hero-title">有事シミュレーション</h1>
+    <p class="sim-hero-lead">
+      日本の石油備蓄が「<strong>あと何日</strong>」もつのか。想定シナリオと節約率を選んで試算できます。数値はすべて推計です。
+    </p>
+  </section>
+
+  <!-- 条件を選ぶ -->
+  <section class="sim-card" aria-labelledby="sim-controls-heading">
+    <h2 id="sim-controls-heading" class="visually-hidden">条件を選ぶ</h2>
+
+    <div class="sim-field">
+      <span class="sim-field-label" id="sim-scenario-label">想定シナリオ</span>
+      <div class="sim-scenarios" role="radiogroup" aria-labelledby="sim-scenario-label" id="sim-scenarios">
+        <button type="button" class="sim-scenario is-active" role="radio" aria-checked="true" tabindex="0" data-maintain="0" data-key="blackout">
+          <span class="sim-scenario-name">完全遮断</span>
+          <span class="sim-scenario-desc">輸入が全て止まる最悪ケース</span>
+        </button>
+        <button type="button" class="sim-scenario" role="radio" aria-checked="false" tabindex="-1" data-maintain="0.07" data-key="hormuz">
+          <span class="sim-scenario-name">ホルムズ海峡封鎖</span>
+          <span class="sim-scenario-desc">維持率7%（ホルムズ依存度93%）</span>
+        </button>
+        <button type="button" class="sim-scenario" role="radio" aria-checked="false" tabindex="-1" data-maintain="0.06" data-key="mideast">
+          <span class="sim-scenario-name">中東全面途絶</span>
+          <span class="sim-scenario-desc">維持率6%（中東依存度94%）</span>
+        </button>
+        <button type="button" class="sim-scenario" role="radio" aria-checked="false" tabindex="-1" data-maintain="1" data-key="normal">
+          <span class="sim-scenario-name">平時</span>
+          <span class="sim-scenario-desc">供給が正常な参照値</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="sim-field">
+      <label class="sim-field-label" for="sim-saving">
+        消費の節約 <span id="sim-saving-value" class="sim-field-value">0%</span>
+      </label>
+      <input type="range" id="sim-saving" class="sim-slider" min="0" max="30" step="5" value="0"
+             aria-describedby="sim-saving-hint">
+      <span id="sim-saving-hint" class="sim-field-hint">国民全体で消費を抑えた場合（0〜30%）</span>
+    </div>
+  </section>
+
+  <!-- 結果 -->
+  <section class="sim-result-card" aria-labelledby="sim-result-eyebrow" aria-live="polite">
+    <span class="sim-result-eyebrow" id="sim-result-eyebrow">この条件なら</span>
+    <div class="sim-days-row">
+      <span id="sim-days" class="counter-num">—</span>
+      <span class="sim-days-unit">日分</span>
+    </div>
+    <p class="sim-delta" id="sim-delta">条件を選ぶと試算します。</p>
+    <p id="sim-stale-warning" class="stale-warning" hidden>
+      ⚠ 経済産業省データの取得から2週間以上経過しています。自動取得が止まっている可能性があります。
+    </p>
+  </section>
+
+  <!-- 注記 -->
+  <section class="sim-note-card" aria-labelledby="sim-note-title">
+    <h2 id="sim-note-title" class="sim-note-title">この試算について</h2>
+    <ul class="sim-note-list">
+      <li>ベースの「残り日数」は、経産省公表の備蓄量から現在までの消費を差し引いた<strong>リアルタイム推計</strong>です（トップの<a href="../">カウンター</a>と同じ値。完全遮断を選ぶと一致します）。</li>
+      <li>「維持率」は有事下でも維持できる輸入の割合。<strong>ホルムズ海峡封鎖＝維持率7%</strong>（原油ホルムズ依存度 93.0% の裏返し）、<strong>中東全面途絶＝維持率6%</strong>（中東依存度 94.0%）を用いています。</li>
+      <li>出典：内閣官房・経済産業省「中東情勢を踏まえた燃料油・石油製品の安定供給確保」（2026年3月・原データ：財務省貿易統計）。</li>
+      <li>実際には国家備蓄の放出・ホルムズ非経由の代替ルート調達・国際協調などで結果は変わります。本試算は単純化した目安です。</li>
+    </ul>
+  </section>
+
+</main>

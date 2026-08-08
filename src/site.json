@@ -5,20 +5,22 @@
     "og_image_alt": "日本の石油備蓄カウンター（推計日数）",
     "font_href": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap"
   },
-  "nav_order": ["home", "tankers", "scale", "opinions", "about"],
+  "nav_order": ["home", "simulator", "tankers", "scale", "opinions", "about"],
   "nav_labels": {
     "home": "カウンター",
     "tankers": "タンカー",
     "scale": "石油のものさし",
     "opinions": "提言",
-    "about": "about"
+    "about": "about",
+    "simulator": "有事シミュレーション"
   },
   "nav_labels_short": {
     "home": "カウンター",
     "tankers": "タンカー",
     "scale": "ものさし",
     "opinions": "提言",
-    "about": "about"
+    "about": "about",
+    "simulator": "有事試算"
   },
   "pages": [
     {
@@ -54,7 +56,45 @@
         "tankers": "./tankers/",
         "scale": "./scale/",
         "opinions": "./opinions/",
-        "about": "./about/"
+        "about": "./about/",
+        "simulator": "./simulator/"
+      }
+    },
+    {
+      "key": "simulator",
+      "source": "simulator.html",
+      "output": "simulator/index.html",
+      "body_class": "page-simulator",
+      "site_brand": [
+        "      <span class=\"site-logo\" aria-hidden=\"true\"></span>",
+        "      <span class=\"site-brand-text\">",
+        "        <span class=\"site-title\">JAPAN OIL STOCKPILE</span>",
+        "        <span class=\"site-tagline\">あと何日、日本は持つのか。</span>",
+        "      </span>"
+      ],
+      "header_meta": [
+        "    <div class=\"site-header-meta\">",
+        "      <span class=\"site-header-meta-label\">最終更新</span>",
+        "      <span class=\"site-header-meta-value\" id=\"header-last-updated\">—</span>",
+        "    </div>"
+      ],
+      "title": "有事シミュレーション｜日本の石油備蓄はあと何日",
+      "description": "もし供給が止まったら、日本の石油備蓄はあと何日もつのか。ホルムズ海峡封鎖・中東途絶・完全遮断などの想定と節約率を選んで、残り日数を試算できる非公式シミュレーター。",
+      "canonical_path": "/simulator/",
+      "og_title": "有事シミュレーション｜日本の石油備蓄はあと何日",
+      "og_description": "ホルムズ海峡封鎖などの想定で、日本の石油備蓄が「あと何日」もつかを試算。数値は推計・出典は財務省貿易統計。",
+      "twitter_title": "有事シミュレーション｜日本の石油備蓄はあと何日",
+      "twitter_description": "ホルムズ海峡封鎖などの想定で、日本の石油備蓄が「あと何日」もつかを試算。数値は推計。",
+      "active_nav": "simulator",
+      "script_tags": "<script type=\"module\" src=\"../js/pages/simulator.js\"></script>",
+      "root_path": "../",
+      "nav": {
+        "home": "../",
+        "simulator": "./",
+        "tankers": "../tankers/",
+        "scale": "../scale/",
+        "opinions": "../opinions/",
+        "about": "../about/"
       }
     },
     {
@@ -100,7 +140,8 @@
         "tankers": "./",
         "scale": "../scale/",
         "opinions": "../opinions/",
-        "about": "../about/"
+        "about": "../about/",
+        "simulator": "../simulator/"
       }
     },
     {
@@ -136,7 +177,8 @@
         "tankers": "../tankers/",
         "scale": "./",
         "opinions": "../opinions/",
-        "about": "../about/"
+        "about": "../about/",
+        "simulator": "../simulator/"
       }
     },
     {
@@ -172,7 +214,8 @@
         "tankers": "../tankers/",
         "scale": "../scale/",
         "opinions": "../opinions/",
-        "about": "./"
+        "about": "./",
+        "simulator": "../simulator/"
       }
     },
     {
@@ -210,7 +253,8 @@
         "tankers": "../tankers/",
         "scale": "../scale/",
         "opinions": "./",
-        "about": "../about/"
+        "about": "../about/",
+        "simulator": "../simulator/"
       }
     }
   ]

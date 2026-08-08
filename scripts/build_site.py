@@ -503,6 +503,13 @@ NAV_ICONS = {
         '<path d="M5.6 20.4A9 9 0 1 1 18.4 20.4"/>'
         '<line x1="12" y1="14" x2="16.2" y2="9.8"/></svg>'
     ),
+    # 有事シミュレーション = 分岐する条件。ダイヤル/スライダーを想起させる線画。
+    "simulator": (
+        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" '
+        'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+        '<line x1="4" y1="8.5" x2="20" y2="8.5"/><circle cx="9" cy="8.5" r="2.2"/>'
+        '<line x1="4" y1="15.5" x2="20" y2="15.5"/><circle cx="15" cy="15.5" r="2.2"/></svg>'
+    ),
     "tankers": (
         '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" '
         'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'

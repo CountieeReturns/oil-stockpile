@@ -1,0 +1,222 @@
+/* /simulator/ 有事シナリオ・シミュレーター
+   色はすべてデザイントークン参照（ライト/ダーク自動追従）。
+   大きな結果数字は既存 .counter-num（home.css）を流用する。 */
+
+.sim-layout {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+/* Hero */
+.sim-hero-card {
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-6) var(--space-5);
+}
+
+.sim-eyebrow {
+  display: inline-block;
+  font-size: var(--text-sm);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--brand-strong);
+  margin-bottom: var(--space-2);
+}
+
+.sim-hero-title {
+  font-family: var(--font-sans);
+  font-size: clamp(28px, 7vw, 40px);
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--fg-strong);
+  margin: 0 0 var(--space-3);
+}
+
+.sim-hero-lead {
+  font-size: var(--text-md);
+  line-height: 1.9;
+  color: var(--fg-sub);
+  margin: 0;
+}
+
+.sim-hero-lead strong {
+  color: var(--fg-strong);
+}
+
+/* 条件カード */
+.sim-card {
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.sim-field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.sim-field-label {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--fg-strong);
+}
+
+.sim-field-value {
+  display: inline-block;
+  margin-left: var(--space-2);
+  color: var(--brand-strong);
+  font-variant-numeric: tabular-nums;
+}
+
+.sim-field-hint {
+  font-size: var(--text-xs);
+  color: var(--fg-muted);
+}
+
+/* シナリオ選択（ラジオグループ） */
+.sim-scenarios {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3);
+}
+
+.sim-scenario {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+  padding: var(--space-3) var(--space-4);
+  background: var(--bg-soft);
+  border: 1.5px solid transparent;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  color: var(--fg-sub);
+  font-family: var(--font-sans);
+}
+
+.sim-scenario:hover {
+  background: var(--brand-soft);
+}
+
+.sim-scenario.is-active {
+  border-color: var(--brand);
+  background: var(--brand-soft);
+}
+
+.sim-scenario:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.sim-scenario-name {
+  font-size: var(--text-md);
+  font-weight: 700;
+  color: var(--fg-strong);
+}
+
+.sim-scenario-desc {
+  font-size: var(--text-xs);
+  color: var(--fg-muted);
+}
+
+/* スライダー */
+.sim-slider {
+  width: 100%;
+  accent-color: var(--brand);
+}
+
+.sim-slider:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 4px;
+}
+
+/* 結果カード */
+.sim-result-card {
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-6) var(--space-5);
+  text-align: center;
+}
+
+.sim-result-eyebrow {
+  display: block;
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--fg-sub);
+  margin-bottom: var(--space-2);
+}
+
+.sim-days-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: var(--space-2);
+}
+
+.sim-days-row .counter-num {
+  font-size: clamp(64px, 30vw, 120px);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.sim-days-unit {
+  font-size: var(--text-lg, 18px);
+  font-weight: 700;
+  color: var(--fg-sub);
+}
+
+.sim-delta {
+  margin: var(--space-3) 0 0;
+  font-size: var(--text-md);
+  color: var(--fg-sub);
+}
+
+/* 注記カード */
+.sim-note-card {
+  background: var(--bg-soft);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+}
+
+.sim-note-title {
+  font-size: var(--text-md);
+  font-weight: 700;
+  color: var(--fg-strong);
+  margin: 0 0 var(--space-3);
+}
+
+.sim-note-list {
+  margin: 0;
+  padding-left: 1.2em;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.sim-note-list li {
+  font-size: var(--text-sm);
+  line-height: 1.8;
+  color: var(--fg-sub);
+}
+
+.sim-note-list strong {
+  color: var(--fg-strong);
+}
+
+.sim-note-list a {
+  color: var(--link);
+}
+
+@media (min-width: 640px) {
+  .sim-scenarios {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
