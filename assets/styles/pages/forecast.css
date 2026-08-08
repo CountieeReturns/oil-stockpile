@@ -200,10 +200,13 @@
 }
 
 .fc-total {
-  margin: var(--space-1) 0 0;
-  font-size: var(--text-sm);
-  font-weight: 600;
-  color: var(--fg-sub);
+  /* 抑制設計は保ちつつ、総投票数だけ他タブの主役数字に少しだけ寄せる。
+     ヒーロー級には大きくしない（100票下限ルールと参考値・非公式の姿勢を尊重）。 */
+  margin: var(--space-2) 0 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--fg-strong);
+  font-variant-numeric: tabular-nums;
 }
 
 .fc-threshold-note {
