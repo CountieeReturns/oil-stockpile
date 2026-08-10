@@ -1,7 +1,7 @@
 /**
  * KPI カード（稼働中タンカー / 今日の消費ベース）
  *
- * - 稼働中タンカー（AIS）: data/tankers.json の totalTankersInRegion を表示
+ * - 日本に向かうタンカー（AIS）: data/tankers.json の japanBoundTankers を表示
  * - 今日の消費ベース: 1 / current_days × 100 で「1日経過すると備蓄が何 % 減るか」
  * - 前日比: 直近 2 snapshot の total 差分（日）
  *
@@ -27,7 +27,8 @@ function formatPercent2(n) {
 }
 
 function renderTankerCount(tankers) {
-  const count = Number(tankers?.totalTankersInRegion);
+  // タンカータブと同じ「日本に向かうタンカー」（japanBoundTankers）を表示する。
+  const count = Number(tankers?.japanBoundTankers);
   setText('kpi-tankers', Number.isFinite(count) ? String(count) : '—');
 }
 
