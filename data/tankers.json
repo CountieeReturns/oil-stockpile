@@ -1,58 +1,127 @@
 {
-  "fetchedAt": "2026-08-17T20:54:04+00:00",
+  "fetchedAt": "2026-08-17T21:50:09+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 6,
-  "japanBoundTankers": 5,
-  "japanBoundUnknownPort": 5,
-  "topDestinationPorts": [],
+  "totalTankersInRegion": 14,
+  "japanBoundTankers": 12,
+  "japanBoundUnknownPort": 10,
+  "topDestinationPorts": [
+    {
+      "port": "YOKOHAMA",
+      "count": 2
+    }
+  ],
   "vessels": [
-    {
-      "mmsi": 431300401,
-      "name": "TOYOMASA MARU",
-      "destination": ">JP NGO OFF",
-      "isJapanBound": true,
-      "lat": 33.5453,
-      "lon": 136.0551
-    },
-    {
-      "mmsi": 431009835,
-      "name": "RYOEI MARU NO.11",
-      "destination": ">JP HKS OFF",
-      "isJapanBound": true,
-      "lat": 34.1268,
-      "lon": 133.0919
-    },
     {
       "mmsi": 431003171,
       "name": "TAIOU MARU",
       "destination": ">JP WAK/KAINAN",
       "isJapanBound": true,
-      "lat": 34.1506,
-      "lon": 135.1581
+      "lat": 34.1505,
+      "lon": 135.158
     },
     {
-      "mmsi": 440232000,
-      "name": "DOOLA STAR",
-      "destination": "DSN/KR",
+      "mmsi": 431136000,
+      "name": "SULPHUR FRONTIER 3",
+      "destination": ">JP WAK",
+      "isJapanBound": true,
+      "lat": 34.1994,
+      "lon": 135.1199
+    },
+    {
+      "mmsi": 440022810,
+      "name": "SANGA HO",
+      "destination": "INCHEON",
       "isJapanBound": false,
+      "lat": 37.4925,
+      "lon": 126.61
+    },
+    {
+      "mmsi": 431300401,
+      "name": "TOYOMASA MARU",
+      "destination": ">JP NGO OFF",
+      "isJapanBound": true,
+      "lat": 33.6725,
+      "lon": 136.2131
+    },
+    {
+      "mmsi": 431000175,
+      "name": "KINSUI MARU",
+      "destination": "JP SKD OFF",
+      "isJapanBound": true,
+      "lat": 33.6511,
+      "lon": 136.152
+    },
+    {
+      "mmsi": 431000778,
+      "name": "EISUI",
+      "destination": "JP SMZ OKITSU 14",
+      "isJapanBound": true,
+      "lat": 35.0284,
+      "lon": 138.5062
+    },
+    {
+      "mmsi": 441983000,
+      "name": "SUN FREESIA",
+      "destination": "JP YOK",
+      "isJapanBound": true,
+      "lat": 33.701,
+      "lon": 136.371
+    },
+    {
+      "mmsi": 477477900,
+      "name": "NEW PEARL",
+      "destination": "NAGOYA,JAPAN",
+      "isJapanBound": true,
+      "lat": 33.5656,
+      "lon": 136.5538
+    },
+    {
+      "mmsi": 431999637,
+      "name": "YOT02",
+      "destination": "",
+      "isJapanBound": false,
+      "lat": 34.1113,
+      "lon": 132.969
+    },
+    {
+      "mmsi": 431009442,
+      "name": "SHINTOUKOU",
+      "destination": ">JP WAK",
+      "isJapanBound": true,
+      "lat": 34.2208,
+      "lon": 135.1465
+    },
+    {
+      "mmsi": 431001824,
+      "name": "KYOKUTOKU MARU",
+      "destination": ">JP UDONO OFF",
+      "isJapanBound": true,
+      "lat": 33.7424,
+      "lon": 136.0354
+    },
+    {
+      "mmsi": 431004876,
+      "name": "RYOKEN MARU",
+      "destination": ">JP OTK OFF",
+      "isJapanBound": true,
+      "lat": 33.7097,
+      "lon": 136.2889
+    },
+    {
+      "mmsi": 354475000,
+      "name": "CRANE STELLA",
+      "destination": ">JP YOK XX NGI",
+      "isJapanBound": true,
       "lat": null,
       "lon": null
-    },
-    {
-      "mmsi": 431015126,
-      "name": "KOTOKU MARU",
-      "destination": "JP HIM OFF",
-      "isJapanBound": true,
-      "lat": 33.763,
-      "lon": 136.4679
     },
     {
       "mmsi": 431015686,
       "name": "MASAWA MARU",
       "destination": ">JP WAK OFF",
       "isJapanBound": true,
-      "lat": 34.2057,
-      "lon": 135.1251
+      "lat": 34.2058,
+      "lon": 135.1246
     }
   ],
   "boundingBox": "24-46N / 122-146E",
