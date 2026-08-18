@@ -1,10 +1,14 @@
 {
-  "fetchedAt": "2026-08-18T14:06:50+00:00",
+  "fetchedAt": "2026-08-18T15:02:50+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 9,
-  "japanBoundTankers": 8,
-  "japanBoundUnknownPort": 7,
+  "totalTankersInRegion": 6,
+  "japanBoundTankers": 5,
+  "japanBoundUnknownPort": 2,
   "topDestinationPorts": [
+    {
+      "port": "YOKKAICHI",
+      "count": 2
+    },
     {
       "port": "KAWASAKI",
       "count": 1
@@ -12,76 +16,52 @@
   ],
   "vessels": [
     {
-      "mmsi": 431501701,
-      "name": "ASAHI MARU",
-      "destination": ">JP=NAMIKATA OFF",
-      "isJapanBound": true,
-      "lat": 34.1123,
-      "lon": 132.968
-    },
-    {
-      "mmsi": 440011120,
-      "name": "MINSUNG11",
-      "destination": "INCHEON",
-      "isJapanBound": false,
-      "lat": 37.4965,
-      "lon": 126.6234
-    },
-    {
-      "mmsi": 563016200,
-      "name": "HAFNIA SHANNON",
-      "destination": "JP KWS OFF KL",
-      "isJapanBound": true,
-      "lat": 35.4592,
-      "lon": 139.7848
-    },
-    {
-      "mmsi": 431000664,
-      "name": "SYOGETU",
-      "destination": ">JP NGO OFF",
-      "isJapanBound": true,
-      "lat": 33.8217,
-      "lon": 136.377
-    },
-    {
-      "mmsi": 431000449,
-      "name": "AKI MARU",
-      "destination": ">JP AFG OFF",
-      "isJapanBound": true,
-      "lat": 39.7787,
-      "lon": 139.9779
-    },
-    {
-      "mmsi": 431010785,
-      "name": "RYUSEI MARU",
-      "destination": ">JP HIM",
-      "isJapanBound": true,
-      "lat": 33.9513,
-      "lon": 136.3675
-    },
-    {
-      "mmsi": 431001082,
-      "name": "WAKAYOSHI MARU NO.10",
-      "destination": "JP NNX OFF",
-      "isJapanBound": true,
-      "lat": 35.4007,
-      "lon": 139.7375
-    },
-    {
-      "mmsi": 431009498,
-      "name": "SHOZUI MARU",
-      "destination": ">JP MYJ OFF",
-      "isJapanBound": true,
-      "lat": 34.1402,
-      "lon": 132.889
-    },
-    {
       "mmsi": 431000778,
       "name": "EISUI",
       "destination": "JP SMZ OKITSU 14",
       "isJapanBound": true,
       "lat": 35.0416,
       "lon": 138.509
+    },
+    {
+      "mmsi": 432945000,
+      "name": "TOKUHO MARU",
+      "destination": ">JP YKK OFF",
+      "isJapanBound": true,
+      "lat": 33.5696,
+      "lon": 136.0642
+    },
+    {
+      "mmsi": 352906000,
+      "name": "K.JASMINE",
+      "destination": "RUPGN",
+      "isJapanBound": false,
+      "lat": 45.879,
+      "lon": 142.697
+    },
+    {
+      "mmsi": 431000951,
+      "name": "TOMOEMARU",
+      "destination": "JP TXD OFF",
+      "isJapanBound": true,
+      "lat": 33.8046,
+      "lon": 136.2581
+    },
+    {
+      "mmsi": 431020792,
+      "name": "SHOKYU MARU",
+      "destination": "JP YKK",
+      "isJapanBound": true,
+      "lat": 33.7465,
+      "lon": 136.2898
+    },
+    {
+      "mmsi": 431023346,
+      "name": "MATSUYAMA MARU NO.15",
+      "destination": ">JP KWS / NNX",
+      "isJapanBound": true,
+      "lat": 35.3886,
+      "lon": 139.7472
     }
   ],
   "boundingBox": "24-46N / 122-146E",
