@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-08-18T07:14:14+00:00",
+  "fetchedAt": "2026-08-18T08:03:51+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 10,
-  "japanBoundTankers": 9,
-  "japanBoundUnknownPort": 7,
+  "totalTankersInRegion": 13,
+  "japanBoundTankers": 11,
+  "japanBoundUnknownPort": 8,
   "topDestinationPorts": [
     {
       "port": "MIZUSHIMA",
@@ -12,88 +12,116 @@
     {
       "port": "CHIBA",
       "count": 1
+    },
+    {
+      "port": "KAWASAKI",
+      "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431000778,
-      "name": "EISUI",
-      "destination": "JP SMZ OKITSU 14",
+      "mmsi": 431015369,
+      "name": "HOUZAN MARU",
+      "destination": "JP SSB OFF",
       "isJapanBound": true,
-      "lat": 35.0416,
-      "lon": 138.5089
+      "lat": 34.162,
+      "lon": 133.1601
+    },
+    {
+      "mmsi": 431002508,
+      "name": "YUHO MARU",
+      "destination": ">JP OIP OFF",
+      "isJapanBound": true,
+      "lat": 34.0965,
+      "lon": 133.0373
+    },
+    {
+      "mmsi": 431009421,
+      "name": "TOKI MARU",
+      "destination": "JP MKX OFF",
+      "isJapanBound": true,
+      "lat": 34.0948,
+      "lon": 132.9994
     },
     {
       "mmsi": 431010314,
       "name": "HOUSEIMARU NO.8",
       "destination": ">JP MIZ OFF",
       "isJapanBound": true,
-      "lat": 34.089,
-      "lon": 133.0226
+      "lat": 34.1804,
+      "lon": 133.2062
+    },
+    {
+      "mmsi": 533130000,
+      "name": "PUTERI ZAMRUD",
+      "destination": "MY BTU",
+      "isJapanBound": false,
+      "lat": 34.2965,
+      "lon": 137.0716
+    },
+    {
+      "mmsi": 431013096,
+      "name": "MIKITOYO",
+      "destination": ">JP ANE OFF",
+      "isJapanBound": true,
+      "lat": 35.3924,
+      "lon": 139.7677
+    },
+    {
+      "mmsi": 431016141,
+      "name": "SHINSETO MARU",
+      "destination": ">JP AFG E/WM",
+      "isJapanBound": true,
+      "lat": 34.1042,
+      "lon": 133.0533
     },
     {
       "mmsi": 431661000,
       "name": "PHENIX LEGEND",
       "destination": ">JP ===URAYASU OFF",
       "isJapanBound": true,
-      "lat": 35.5924,
-      "lon": 139.8594
+      "lat": 35.5923,
+      "lon": 139.8597
+    },
+    {
+      "mmsi": 431014284,
+      "name": "TOUA MARU",
+      "destination": ">JP SBK",
+      "isJapanBound": true,
+      "lat": 34.2037,
+      "lon": 133.2264
     },
     {
       "mmsi": 431021934,
       "name": "ICHIE MARU",
       "destination": ">JP CHB",
       "isJapanBound": true,
-      "lat": 33.7883,
-      "lon": 136.3708
+      "lat": 33.8883,
+      "lon": 136.5089
     },
     {
-      "mmsi": 431001082,
-      "name": "WAKAYOSHI MARU NO.10",
-      "destination": "JP NNX OFF",
+      "mmsi": 563343900,
+      "name": "JN SIRIUS",
+      "destination": "SEA TRIAL(AKI NADA)",
+      "isJapanBound": false,
+      "lat": 34.1207,
+      "lon": 132.9629
+    },
+    {
+      "mmsi": 431018712,
+      "name": "ASAHI",
+      "destination": ">JP KWS SG",
       "isJapanBound": true,
       "lat": null,
       "lon": null
     },
     {
-      "mmsi": 431008976,
-      "name": "NIPPO MARU",
-      "destination": ">JP HIB OFF",
+      "mmsi": 431000449,
+      "name": "AKI MARU",
+      "destination": ">JP AFG OFF",
       "isJapanBound": true,
-      "lat": 34.1243,
-      "lon": 132.9866
-    },
-    {
-      "mmsi": 431001112,
-      "name": "NO.10 HASSHOMARU",
-      "destination": "JP AOM OFF",
-      "isJapanBound": true,
-      "lat": 35.4239,
-      "lon": 139.7364
-    },
-    {
-      "mmsi": 440058060,
-      "name": "KEOJE YUBIA",
-      "destination": "INCHEON",
-      "isJapanBound": false,
-      "lat": 37.4782,
-      "lon": 126.5943
-    },
-    {
-      "mmsi": 431000709,
-      "name": "IZUMI MARU NO.20",
-      "destination": ">JP HIM OFF",
-      "isJapanBound": true,
-      "lat": 33.6312,
-      "lon": 136.1118
-    },
-    {
-      "mmsi": 431016957,
-      "name": "GENKAI MARU NO.1",
-      "destination": ">JP KAINAN OFF",
-      "isJapanBound": true,
-      "lat": 34.1555,
-      "lon": 135.1595
+      "lat": null,
+      "lon": null
     }
   ],
   "boundingBox": "24-46N / 122-146E",
