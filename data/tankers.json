@@ -1,67 +1,59 @@
 {
-  "fetchedAt": "2026-08-18T15:02:50+00:00",
+  "fetchedAt": "2026-08-18T15:56:19+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 6,
-  "japanBoundTankers": 5,
-  "japanBoundUnknownPort": 2,
+  "totalTankersInRegion": 5,
+  "japanBoundTankers": 3,
+  "japanBoundUnknownPort": 1,
   "topDestinationPorts": [
     {
-      "port": "YOKKAICHI",
-      "count": 2
+      "port": "MIZUSHIMA",
+      "count": 1
     },
     {
-      "port": "KAWASAKI",
+      "port": "YOKKAICHI",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431000778,
-      "name": "EISUI",
-      "destination": "JP SMZ OKITSU 14",
+      "mmsi": 563079900,
+      "name": "GOLDEN CYGNUS",
+      "destination": "JP MIZ",
       "isJapanBound": true,
-      "lat": 35.0416,
-      "lon": 138.509
+      "lat": 34.1072,
+      "lon": 133.0646
+    },
+    {
+      "mmsi": 431010785,
+      "name": "RYUSEI MARU",
+      "destination": ">JP HIM",
+      "isJapanBound": true,
+      "lat": 33.6858,
+      "lon": 136.0763
     },
     {
       "mmsi": 432945000,
       "name": "TOKUHO MARU",
       "destination": ">JP YKK OFF",
       "isJapanBound": true,
-      "lat": 33.5696,
-      "lon": 136.0642
+      "lat": 33.6913,
+      "lon": 136.2311
     },
     {
-      "mmsi": 352906000,
-      "name": "K.JASMINE",
-      "destination": "RUPGN",
+      "mmsi": 563343900,
+      "name": "JN SIRIUS",
+      "destination": "SEA TRIAL(AKI NADA)",
       "isJapanBound": false,
-      "lat": 45.879,
-      "lon": 142.697
+      "lat": null,
+      "lon": null
     },
     {
-      "mmsi": 431000951,
-      "name": "TOMOEMARU",
-      "destination": "JP TXD OFF",
-      "isJapanBound": true,
-      "lat": 33.8046,
-      "lon": 136.2581
-    },
-    {
-      "mmsi": 431020792,
-      "name": "SHOKYU MARU",
-      "destination": "JP YKK",
-      "isJapanBound": true,
-      "lat": 33.7465,
-      "lon": 136.2898
-    },
-    {
-      "mmsi": 431023346,
-      "name": "MATSUYAMA MARU NO.15",
-      "destination": ">JP KWS / NNX",
-      "isJapanBound": true,
-      "lat": 35.3886,
-      "lon": 139.7472
+      "mmsi": 441512000,
+      "name": "C GAS",
+      "destination": "KR TSN",
+      "isJapanBound": false,
+      "lat": 34.1158,
+      "lon": 133.1038
     }
   ],
   "boundingBox": "24-46N / 122-146E",
