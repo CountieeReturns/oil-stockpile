@@ -1,75 +1,66 @@
 {
-  "fetchedAt": "2026-08-18T09:03:51+00:00",
+  "fetchedAt": "2026-08-18T09:58:50+00:00",
   "samplingDurationSec": 720,
   "totalTankersInRegion": 7,
   "japanBoundTankers": 6,
-  "japanBoundUnknownPort": 4,
-  "topDestinationPorts": [
-    {
-      "port": "KAWASAKI",
-      "count": 1
-    },
-    {
-      "port": "KASHIMA",
-      "count": 1
-    }
-  ],
+  "japanBoundUnknownPort": 6,
+  "topDestinationPorts": [],
   "vessels": [
     {
-      "mmsi": 351986000,
-      "name": "CRANE MIMOSA",
-      "destination": "JP NGO",
-      "isJapanBound": true,
-      "lat": 33.791,
-      "lon": 136.392
-    },
-    {
-      "mmsi": 431011136,
-      "name": "YAMABISHIMARU NO.18",
-      "destination": ">JP KWS HO 28",
-      "isJapanBound": true,
-      "lat": 35.506,
-      "lon": 139.7661
-    },
-    {
-      "mmsi": 440232000,
-      "name": "DOOLA STAR",
-      "destination": "DSN/KR",
+      "mmsi": 563343900,
+      "name": "JN SIRIUS",
+      "destination": "SEA TRIAL(AKI NADA)",
       "isJapanBound": false,
-      "lat": 37.4954,
-      "lon": 126.6255
+      "lat": null,
+      "lon": null
     },
     {
-      "mmsi": 431501863,
-      "name": "NISSHUNMARU",
-      "destination": "JP KOJ OFF",
+      "mmsi": 431007791,
+      "name": "SUZUKA MARU NO.8",
+      "destination": ">JP IHA TOOYO",
       "isJapanBound": true,
-      "lat": 34.1084,
-      "lon": 133.0022
+      "lat": 34.0694,
+      "lon": 133.1088
     },
     {
-      "mmsi": 431000778,
-      "name": "EISUI",
-      "destination": "JP SMZ OKITSU 14",
+      "mmsi": 352005790,
+      "name": "LUNA PATHFINDER",
+      "destination": "JP SDU",
       "isJapanBound": true,
-      "lat": 35.0417,
-      "lon": 138.5089
+      "lat": 33.2047,
+      "lon": 135.8163
     },
     {
-      "mmsi": 431000449,
-      "name": "AKI MARU",
-      "destination": ">JP AFG OFF",
+      "mmsi": 431011445,
+      "name": "TOUEI MARU",
+      "destination": ">JP HIM OFF/I.SHIMA",
       "isJapanBound": true,
-      "lat": 39.7774,
-      "lon": 139.9787
+      "lat": 34.1457,
+      "lon": 132.9591
     },
     {
-      "mmsi": 431029456,
-      "name": "SEIFUKUMARU NO.8",
-      "destination": "JP KSM OFF",
+      "mmsi": 431501701,
+      "name": "ASAHI MARU",
+      "destination": ">JP=NAMIKATA OFF",
       "isJapanBound": true,
-      "lat": 33.5732,
-      "lon": 136.0517
+      "lat": 34.1123,
+      "lon": 132.9681
+    },
+    {
+      "mmsi": 431005826,
+      "name": "UMEOH MARU",
+      "destination": "JP WAK OFF",
+      "isJapanBound": true,
+      "lat": 33.7593,
+      "lon": 136.2723
+    },
+    {
+      "mmsi": 431301747,
+      "name": "HODAKA MARU",
+      "destination": ">JP OIP KITSUKI OFF",
+      "isJapanBound": true,
+      "lat": 33.7656,
+      "lon": 136.3638
     }
   ],
   "boundingBox": "24-46N / 122-146E",
