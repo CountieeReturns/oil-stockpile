@@ -1,119 +1,55 @@
 {
-  "fetchedAt": "2026-08-18T17:52:53+00:00",
+  "fetchedAt": "2026-08-18T19:06:15+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 12,
-  "japanBoundTankers": 10,
-  "japanBoundUnknownPort": 6,
+  "totalTankersInRegion": 5,
+  "japanBoundTankers": 4,
+  "japanBoundUnknownPort": 3,
   "topDestinationPorts": [
     {
-      "port": "KAWASAKI",
-      "count": 2
-    },
-    {
       "port": "YOKKAICHI",
-      "count": 1
-    },
-    {
-      "port": "CHIBA",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431017597,
-      "name": "SULPHUR TRINITY",
-      "destination": "JP IHA OFF",
+      "mmsi": 432536000,
+      "name": "KASHIMA MARU NO.10",
+      "destination": ">JP YKK/3W OFF",
       "isJapanBound": true,
-      "lat": 33.9919,
-      "lon": 133.2462
-    },
-    {
-      "mmsi": 440048680,
-      "name": "FC GRACE",
-      "destination": "KRTSN",
-      "isJapanBound": false,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 431011136,
-      "name": "YAMABISHIMARU NO.18",
-      "destination": ">JP KWS HO 28",
-      "isJapanBound": true,
-      "lat": 35.506,
-      "lon": 139.7662
-    },
-    {
-      "mmsi": 431005553,
-      "name": "WAKOU MARU NO 11",
-      "destination": ">JP YKK OFF",
-      "isJapanBound": true,
-      "lat": 33.6328,
-      "lon": 136.1957
-    },
-    {
-      "mmsi": 431021289,
-      "name": "NO.23 NIKKOHMARU",
-      "destination": ">JP SBK OFF",
-      "isJapanBound": true,
-      "lat": 33.5711,
-      "lon": 136.0491
-    },
-    {
-      "mmsi": 431002607,
-      "name": "ISOPRENE MARU N0.3",
-      "destination": ">JP CHB XX I-19",
-      "isJapanBound": true,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 431005439,
-      "name": "KAMITAKA MARU",
-      "destination": "JP NGO SHIONAGI 33",
-      "isJapanBound": true,
-      "lat": 33.7576,
-      "lon": 136.2537
+      "lat": 33.5679,
+      "lon": 136.0773
     },
     {
       "mmsi": 431000449,
       "name": "AKI MARU",
       "destination": ">JP AFG OFF",
       "isJapanBound": true,
-      "lat": 39.7789,
-      "lon": 139.9782
+      "lat": 39.7791,
+      "lon": 139.9788
     },
     {
-      "mmsi": 563016200,
-      "name": "HAFNIA SHANNON",
-      "destination": "JP KWS OFF KL",
+      "mmsi": 431501701,
+      "name": "ASAHI MARU",
+      "destination": ">JP=NAMIKATA OFF",
       "isJapanBound": true,
       "lat": null,
       "lon": null
     },
     {
-      "mmsi": 431021082,
-      "name": "WAKAYOSHI MARU NO.7",
-      "destination": ">JP ONA OFF",
+      "mmsi": 431007803,
+      "name": "TOHSHU MARU",
+      "destination": ">JP FNB OFF",
       "isJapanBound": true,
-      "lat": 33.6129,
-      "lon": 136.1006
+      "lat": null,
+      "lon": null
     },
     {
-      "mmsi": 613472250,
-      "name": "JEWEL S",
-      "destination": "HIGH SEA",
+      "mmsi": 441943000,
+      "name": "SJ HOPE",
+      "destination": "KR ICN",
       "isJapanBound": false,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 431005826,
-      "name": "UMEOH MARU",
-      "destination": "JP WAK OFF",
-      "isJapanBound": true,
-      "lat": 34.1427,
-      "lon": 135.1122
+      "lat": 37.4502,
+      "lon": 126.5908
     }
   ],
   "boundingBox": "24-46N / 122-146E",
