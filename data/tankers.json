@@ -1,82 +1,99 @@
 {
-  "fetchedAt": "2026-08-18T11:50:02+00:00",
+  "fetchedAt": "2026-08-18T13:17:34+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 9,
-  "japanBoundTankers": 8,
-  "japanBoundUnknownPort": 8,
-  "topDestinationPorts": [],
+  "totalTankersInRegion": 10,
+  "japanBoundTankers": 9,
+  "japanBoundUnknownPort": 7,
+  "topDestinationPorts": [
+    {
+      "port": "YOKKAICHI",
+      "count": 1
+    },
+    {
+      "port": "KAWASAKI",
+      "count": 1
+    }
+  ],
   "vessels": [
     {
-      "mmsi": 431015689,
-      "name": "YUHO MARU NO.33",
-      "destination": ">JP SBK OFF/XX",
+      "mmsi": 431020792,
+      "name": "SHOKYU MARU",
+      "destination": "JP YKK",
       "isJapanBound": true,
-      "lat": 33.7806,
-      "lon": 136.2005
+      "lat": 33.5317,
+      "lon": 135.9987
     },
     {
-      "mmsi": 431000449,
-      "name": "AKI MARU",
-      "destination": ">JP AFG OFF",
+      "mmsi": 431000664,
+      "name": "SYOGETU",
+      "destination": ">JP NGO OFF",
       "isJapanBound": true,
-      "lat": 39.7781,
-      "lon": 139.9781
-    },
-    {
-      "mmsi": 431013754,
-      "name": "TOSUI",
-      "destination": ">JP OSA 2T",
-      "isJapanBound": true,
-      "lat": 33.6599,
-      "lon": 136.1567
-    },
-    {
-      "mmsi": 431001082,
-      "name": "WAKAYOSHI MARU NO.10",
-      "destination": "JP NNX OFF",
-      "isJapanBound": true,
-      "lat": 35.4018,
-      "lon": 139.7373
+      "lat": 33.7143,
+      "lon": 136.2406
     },
     {
       "mmsi": 431017776,
       "name": "JINJYAMARU NO10",
       "destination": ">JP KCZ",
       "isJapanBound": true,
-      "lat": 33.7213,
-      "lon": 136.2275
+      "lat": 33.5296,
+      "lon": 135.9908
     },
     {
-      "mmsi": 431003489,
-      "name": "RIEI MARU",
-      "destination": ">JP NGO SEC6",
+      "mmsi": 431016957,
+      "name": "GENKAI MARU NO.1",
+      "destination": ">JP KAINAN OFF",
       "isJapanBound": true,
-      "lat": 33.6045,
-      "lon": 136.1107
+      "lat": 34.1557,
+      "lon": 135.1589
     },
     {
-      "mmsi": 440622000,
-      "name": "NEW SILVER",
-      "destination": "KR INC  .",
+      "mmsi": 431001082,
+      "name": "WAKAYOSHI MARU NO.10",
+      "destination": "JP NNX OFF",
+      "isJapanBound": true,
+      "lat": 35.4008,
+      "lon": 139.7374
+    },
+    {
+      "mmsi": 431011136,
+      "name": "YAMABISHIMARU NO.18",
+      "destination": ">JP KWS HO 28",
+      "isJapanBound": true,
+      "lat": 35.506,
+      "lon": 139.7662
+    },
+    {
+      "mmsi": 431009498,
+      "name": "SHOZUI MARU",
+      "destination": ">JP MYJ OFF",
+      "isJapanBound": true,
+      "lat": 34.087,
+      "lon": 133.0277
+    },
+    {
+      "mmsi": 563343900,
+      "name": "JN SIRIUS",
+      "destination": "SEA TRIAL(AKI NADA)",
       "isJapanBound": false,
-      "lat": 37.5121,
-      "lon": 126.601
-    },
-    {
-      "mmsi": 440892000,
-      "name": "GOLDEN SUNNY HANA",
-      "destination": "JP NGO",
-      "isJapanBound": true,
-      "lat": 33.586,
-      "lon": 136.121
+      "lat": null,
+      "lon": null
     },
     {
       "mmsi": 431501701,
       "name": "ASAHI MARU",
       "destination": ">JP=NAMIKATA OFF",
       "isJapanBound": true,
-      "lat": 34.1123,
-      "lon": 132.968
+      "lat": null,
+      "lon": null
+    },
+    {
+      "mmsi": 431000449,
+      "name": "AKI MARU",
+      "destination": ">JP AFG OFF",
+      "isJapanBound": true,
+      "lat": null,
+      "lon": null
     }
   ],
   "boundingBox": "24-46N / 122-146E",
