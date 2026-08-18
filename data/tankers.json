@@ -1,55 +1,143 @@
 {
-  "fetchedAt": "2026-08-18T19:06:15+00:00",
+  "fetchedAt": "2026-08-18T20:50:24+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 5,
-  "japanBoundTankers": 4,
-  "japanBoundUnknownPort": 3,
+  "totalTankersInRegion": 15,
+  "japanBoundTankers": 11,
+  "japanBoundUnknownPort": 6,
   "topDestinationPorts": [
     {
       "port": "YOKKAICHI",
+      "count": 2
+    },
+    {
+      "port": "YOKOHAMA",
+      "count": 2
+    },
+    {
+      "port": "KAWASAKI",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 432536000,
-      "name": "KASHIMA MARU NO.10",
-      "destination": ">JP YKK/3W OFF",
+      "mmsi": 354663000,
+      "name": "SUNNY ORION",
+      "destination": "JP_NAS",
       "isJapanBound": true,
-      "lat": 33.5679,
-      "lon": 136.0773
+      "lat": 33.4673,
+      "lon": 136.5207
     },
     {
-      "mmsi": 431000449,
-      "name": "AKI MARU",
-      "destination": ">JP AFG OFF",
-      "isJapanBound": true,
-      "lat": 39.7791,
-      "lon": 139.9788
-    },
-    {
-      "mmsi": 431501701,
-      "name": "ASAHI MARU",
-      "destination": ">JP=NAMIKATA OFF",
-      "isJapanBound": true,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 431007803,
-      "name": "TOHSHU MARU",
-      "destination": ">JP FNB OFF",
-      "isJapanBound": true,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 441943000,
-      "name": "SJ HOPE",
-      "destination": "KR ICN",
+      "mmsi": 636020249,
+      "name": "KOHZAN MARU 6",
+      "destination": "KR YOS",
       "isJapanBound": false,
-      "lat": 37.4502,
-      "lon": 126.5908
+      "lat": 33.2381,
+      "lon": 136.0878
+    },
+    {
+      "mmsi": 431018707,
+      "name": "MEIKOU MARU",
+      "destination": ">JP WAK KAINAN OFF",
+      "isJapanBound": true,
+      "lat": null,
+      "lon": null
+    },
+    {
+      "mmsi": 352001120,
+      "name": "GOLDEN GRACE HANA",
+      "destination": ">JP YKK",
+      "isJapanBound": true,
+      "lat": 33.7525,
+      "lon": 136.3584
+    },
+    {
+      "mmsi": 431024543,
+      "name": "KYOKUHOU MARU",
+      "destination": ">JP YKK OFF",
+      "isJapanBound": true,
+      "lat": 33.8194,
+      "lon": 136.4551
+    },
+    {
+      "mmsi": 431008726,
+      "name": "HOSYOMARU",
+      "destination": ">JP WAK OFF",
+      "isJapanBound": true,
+      "lat": 34.209,
+      "lon": 135.1231
+    },
+    {
+      "mmsi": 563343900,
+      "name": "JN SIRIUS",
+      "destination": "SEA TRIAL(AKI NADA)",
+      "isJapanBound": false,
+      "lat": null,
+      "lon": null
+    },
+    {
+      "mmsi": 431005321,
+      "name": "TOKUEIMARU NO27",
+      "destination": "JP YOK Y1 OFF",
+      "isJapanBound": true,
+      "lat": 35.443,
+      "lon": 139.7133
+    },
+    {
+      "mmsi": 440048680,
+      "name": "FC GRACE",
+      "destination": "KRTSN",
+      "isJapanBound": false,
+      "lat": 37.4991,
+      "lon": 126.6303
+    },
+    {
+      "mmsi": 563016200,
+      "name": "HAFNIA SHANNON",
+      "destination": "JP KWS OFF KL",
+      "isJapanBound": true,
+      "lat": 35.4618,
+      "lon": 139.785
+    },
+    {
+      "mmsi": 431004149,
+      "name": "NEW STREAM",
+      "destination": "JP MSA TT",
+      "isJapanBound": true,
+      "lat": 33.6342,
+      "lon": 136.1448
+    },
+    {
+      "mmsi": 440011120,
+      "name": "MINSUNG11",
+      "destination": "INCHEON",
+      "isJapanBound": false,
+      "lat": 37.4965,
+      "lon": 126.6234
+    },
+    {
+      "mmsi": 431003681,
+      "name": "NO.11 KIN YU MARU",
+      "destination": ">JP KNM HESAKI OFF",
+      "isJapanBound": true,
+      "lat": 33.8412,
+      "lon": 136.4423
+    },
+    {
+      "mmsi": 431005826,
+      "name": "UMEOH MARU",
+      "destination": "JP WAK OFF",
+      "isJapanBound": true,
+      "lat": 34.2076,
+      "lon": 135.1134
+    },
+    {
+      "mmsi": 636019761,
+      "name": "EASTERN POSEIDON",
+      "destination": "JPYOK / N-3",
+      "isJapanBound": true,
+      "lat": 35.3768,
+      "lon": 139.6764
     }
   ],
   "boundingBox": "24-46N / 122-146E",
