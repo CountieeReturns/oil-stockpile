@@ -1,69 +1,153 @@
 {
-  "fetchedAt": "2026-08-18T04:08:06+00:00",
+  "fetchedAt": "2026-08-18T05:01:38+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 7,
-  "japanBoundTankers": 6,
-  "japanBoundUnknownPort": 4,
+  "totalTankersInRegion": 16,
+  "japanBoundTankers": 14,
+  "japanBoundUnknownPort": 10,
   "topDestinationPorts": [
     {
+      "port": "KAWASAKI",
+      "count": 1
+    },
+    {
       "port": "YOKKAICHI",
-      "count": 2
+      "count": 1
+    },
+    {
+      "port": "SAKAI",
+      "count": 1
+    },
+    {
+      "port": "CHIBA",
+      "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431004494,
-      "name": "NIKKOU MARU NO.21",
-      "destination": "JP OTK OFF",
+      "mmsi": 431000826,
+      "name": "TENSHO MARU NO.2",
+      "destination": ">JP SBK OFF",
       "isJapanBound": true,
-      "lat": 34.0914,
-      "lon": 133.0222
+      "lat": 34.1072,
+      "lon": 133.0659
     },
     {
-      "mmsi": 352005321,
-      "name": "MH NORIKURA",
-      "destination": "JP ANE OFF",
+      "mmsi": 431005426,
+      "name": "KOUHOU MARU",
+      "destination": ">JP SHN OFF",
       "isJapanBound": true,
-      "lat": null,
-      "lon": null
+      "lat": 34.2203,
+      "lon": 135.1453
     },
     {
-      "mmsi": 431015785,
-      "name": "TOHO MARU",
-      "destination": "JP  YKK 3-W OFF",
+      "mmsi": 431018712,
+      "name": "ASAHI",
+      "destination": ">JP KWS SG",
       "isJapanBound": true,
-      "lat": 33.5821,
-      "lon": 135.9873
+      "lat": 35.5172,
+      "lon": 139.7434
+    },
+    {
+      "mmsi": 431018081,
+      "name": "TOUFUKU",
+      "destination": ">JP TXD OFF",
+      "isJapanBound": true,
+      "lat": 34.1157,
+      "lon": 132.9857
+    },
+    {
+      "mmsi": 440058060,
+      "name": "KEOJE YUBIA",
+      "destination": "INCHEON",
+      "isJapanBound": false,
+      "lat": 37.4434,
+      "lon": 126.5793
+    },
+    {
+      "mmsi": 431000449,
+      "name": "AKI MARU",
+      "destination": ">JP AFG OFF",
+      "isJapanBound": true,
+      "lat": 39.7785,
+      "lon": 139.9801
     },
     {
       "mmsi": 431014474,
       "name": "MEISHO MARU",
       "destination": "JP SBK OFF",
       "isJapanBound": true,
-      "lat": 33.6974,
-      "lon": 136.2773
+      "lat": 33.5959,
+      "lon": 136.12
     },
     {
-      "mmsi": 431018367,
-      "name": "KOYO MARU NO.21",
-      "destination": ">JP YKK OFF",
+      "mmsi": 431015785,
+      "name": "TOHO MARU",
+      "destination": "JP  YKK 3-W OFF",
       "isJapanBound": true,
-      "lat": 33.749,
-      "lon": 136.309
+      "lat": 33.7017,
+      "lon": 136.0918
     },
     {
-      "mmsi": 431001357,
-      "name": "TOUNAN MARU",
-      "destination": ">JP OSA H OFF",
+      "mmsi": 431005056,
+      "name": "KINYOU",
+      "destination": ">JP SKT OFF",
       "isJapanBound": true,
-      "lat": 33.7263,
-      "lon": 136.2583
+      "lat": 39.7564,
+      "lon": 139.9821
     },
     {
-      "mmsi": 440622000,
-      "name": "NEW SILVER",
-      "destination": "KR INC  .         33",
+      "mmsi": 431001082,
+      "name": "WAKAYOSHI MARU NO.10",
+      "destination": "JP NNX OFF",
+      "isJapanBound": true,
+      "lat": 35.4015,
+      "lon": 139.7374
+    },
+    {
+      "mmsi": 431854000,
+      "name": "YUSHOMARU",
+      "destination": "KR USN HS/MN",
       "isJapanBound": false,
+      "lat": 33.9061,
+      "lon": 136.4354
+    },
+    {
+      "mmsi": 431021934,
+      "name": "ICHIE MARU",
+      "destination": ">JP CHB",
+      "isJapanBound": true,
+      "lat": 33.5371,
+      "lon": 136.0217
+    },
+    {
+      "mmsi": 431003277,
+      "name": "KEISEN MARU",
+      "destination": ">JP TXD OFF",
+      "isJapanBound": true,
+      "lat": 33.8364,
+      "lon": 136.4545
+    },
+    {
+      "mmsi": 431013115,
+      "name": "KOSHIN MARU",
+      "destination": ">JP OKP OFF",
+      "isJapanBound": true,
+      "lat": 34.1498,
+      "lon": 132.9742
+    },
+    {
+      "mmsi": 431025063,
+      "name": "TOKUYO MARU",
+      "destination": ">JP OIP OFF",
+      "isJapanBound": true,
+      "lat": 34.0856,
+      "lon": 133.0454
+    },
+    {
+      "mmsi": 352005321,
+      "name": "MH NORIKURA",
+      "destination": "JP ANE OFF",
+      "isJapanBound": true,
       "lat": null,
       "lon": null
     }
