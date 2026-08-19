@@ -1,103 +1,83 @@
 {
-  "fetchedAt": "2026-08-19T04:08:59+00:00",
+  "fetchedAt": "2026-08-19T05:01:42+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 11,
-  "japanBoundTankers": 10,
-  "japanBoundUnknownPort": 9,
+  "totalTankersInRegion": 8,
+  "japanBoundTankers": 7,
+  "japanBoundUnknownPort": 4,
   "topDestinationPorts": [
     {
       "port": "YOKKAICHI",
+      "count": 2
+    },
+    {
+      "port": "MIZUSHIMA",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431100283,
-      "name": "SEIWAMARU",
-      "destination": ">JP MNX OFF",
+      "mmsi": 431001659,
+      "name": "KOSHO MARU",
+      "destination": ">JP MIZ  B OFF",
       "isJapanBound": true,
-      "lat": 33.7998,
-      "lon": 136.3441
+      "lat": 34.0948,
+      "lon": 133.0394
     },
     {
-      "mmsi": 431016107,
-      "name": "TORYO MARU",
-      "destination": "JP NGO OFF",
+      "mmsi": 431006332,
+      "name": "KYOKUEI MARU",
+      "destination": ">JP YKK OFF",
       "isJapanBound": true,
-      "lat": 35.424,
-      "lon": 139.7455
+      "lat": 34.0612,
+      "lon": 136.7256
     },
     {
-      "mmsi": 440351000,
-      "name": "109 HYODONGCHEMI",
-      "destination": "JP KNU/E",
+      "mmsi": 431003374,
+      "name": "NO5 MATSUMARU",
+      "destination": "JP SBK OFF",
       "isJapanBound": true,
-      "lat": 33.8035,
-      "lon": 136.3982
+      "lat": 33.6764,
+      "lon": 136.2424
     },
     {
-      "mmsi": 431003904,
-      "name": "KOKEN MARU",
-      "destination": "JP  ONA OFF",
+      "mmsi": 431000635,
+      "name": "SHOMEI",
+      "destination": ">JP YKK OFF",
       "isJapanBound": true,
-      "lat": 33.6495,
-      "lon": 136.0892
+      "lat": 33.6839,
+      "lon": 136.1973
     },
     {
-      "mmsi": 431101164,
-      "name": "KISEIMARU",
-      "destination": ">JP TYO OFF",
+      "mmsi": 431000196,
+      "name": "WAKATSURU MARU NO.8",
+      "destination": "JP AFG",
       "isJapanBound": true,
-      "lat": 35.4167,
-      "lon": 139.7883
+      "lat": 39.7404,
+      "lon": 140.0678
     },
     {
-      "mmsi": 431009421,
-      "name": "TOKI MARU",
-      "destination": "JP TXD OFF",
+      "mmsi": 431017196,
+      "name": "SYOUN MARU",
+      "destination": ">JP KNM HESAKI OFF",
       "isJapanBound": true,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 563019900,
-      "name": "PYXIS ALFA",
-      "destination": "JP SAK",
-      "isJapanBound": true,
-      "lat": 33.2193,
-      "lon": 136.0085
+      "lat": 34.0866,
+      "lon": 133.0242
     },
     {
       "mmsi": 563343900,
       "name": "JN SIRIUS",
       "destination": "SEA TRIAL(AKI NADA)",
       "isJapanBound": false,
-      "lat": 34.1207,
-      "lon": 132.9629
-    },
-    {
-      "mmsi": 431301768,
-      "name": "ORION",
-      "destination": ">JP YKK OFF",
-      "isJapanBound": true,
-      "lat": 33.5043,
-      "lon": 135.951
+      "lat": null,
+      "lon": null
     },
     {
       "mmsi": 431501701,
       "name": "ASAHI MARU",
       "destination": ">JP=NAMIKATA OFF",
       "isJapanBound": true,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 431001006,
-      "name": "NISSHO MARU",
-      "destination": ">JP TYO HANEDA B",
-      "isJapanBound": true,
-      "lat": 35.531,
-      "lon": 139.7994
+      "lat": 34.1123,
+      "lon": 132.9681
     }
   ],
   "boundingBox": "24-46N / 122-146E",
