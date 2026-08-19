@@ -24,6 +24,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fetch_pdf import (  # noqa: E402
     HEADER_RE,
     ZEN_TO_HAN,
+    main,
     merge,
     parse_snapshots,
     reiwa_to_gregorian,
@@ -333,6 +334,12 @@ class TestMerge(unittest.TestCase):
         new = [self._row("2026-04-27", total=205)]
         merged, _, _ = merge(existing, new)
         self.assertEqual(merged[0]["total"], 205)
+
+
+class TestRealPdfFixture(unittest.TestCase):
+    def test_offline_pdf_fixture_completes_dry_run(self):
+        fixture = os.path.join(os.path.dirname(__file__), "fixtures", "oil_daily.pdf")
+        self.assertEqual(main(["--dry-run", "--pdf-path", fixture]), 0)
 
 
 class TestExistingOverlap(unittest.TestCase):
