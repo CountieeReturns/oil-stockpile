@@ -196,9 +196,7 @@ def validate_existing_overlap(existing: list[dict], new: list[dict]) -> None:
     """PDFと既存履歴の重複期間を突合し、静かな履歴改変を止める。"""
     existing_by_as_of = {row["asOf"]: row for row in existing}
     overlap = [
-        (existing_by_as_of[row["asOf"]], row)
-        for row in new
-        if row["asOf"] in existing_by_as_of
+        (existing_by_as_of[row["asOf"]], row) for row in new if row["asOf"] in existing_by_as_of
     ]
     changed = []
     for old, fresh in overlap:
@@ -212,10 +210,7 @@ def validate_existing_overlap(existing: list[dict], new: list[dict]) -> None:
             changed.append(fresh["asOf"])
 
     if len(changed) > max(OVERLAP_MAX_CHANGED_ROWS, len(overlap) // 2):
-        raise RuntimeError(
-            "too many overlapping snapshots changed: "
-            f"{len(changed)}/{len(overlap)}"
-        )
+        raise RuntimeError(f"too many overlapping snapshots changed: {len(changed)}/{len(overlap)}")
 
 
 def merge(existing: list[dict], new: list[dict]) -> tuple[list[dict], int, int]:

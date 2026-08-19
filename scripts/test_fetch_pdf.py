@@ -360,8 +360,7 @@ class TestExistingOverlap(unittest.TestCase):
     def test_many_changed_overlap_rows_are_rejected(self):
         existing = [self._row(f"2026-04-{day:02d}") for day in range(1, 11)]
         new = [
-            self._row(f"2026-04-{day:02d}", total=201, private=81, joint=19)
-            for day in range(1, 11)
+            self._row(f"2026-04-{day:02d}", total=201, private=81, joint=19) for day in range(1, 11)
         ]
         with self.assertRaisesRegex(RuntimeError, "too many"):
             validate_existing_overlap(existing, new)
