@@ -5,10 +5,10 @@ import {
   asOfToMs,
   computeCurrentDays,
   consumptionDaysFromKl,
-  isValidSnapshot,
-  validateHistory,
   elapsedDaysSince,
+  isValidSnapshot,
   STALE_THRESHOLD_DAYS,
+  validateHistory,
 } from './data.js';
 
 const DAY_MS = 86_400_000;

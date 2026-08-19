@@ -3,10 +3,7 @@ import { test } from 'node:test';
 import { deltaBetweenSnapshots } from './kpi.js';
 
 test('deltaBetweenSnapshots: 正常な2行の差分を返す', () => {
-  assert.equal(
-    deltaBetweenSnapshots([{ total: 205 }, { total: 203 }]),
-    -2,
-  );
+  assert.equal(deltaBetweenSnapshots([{ total: 205 }, { total: 203 }]), -2);
 });
 
 test('deltaBetweenSnapshots: 欠損値はNaNにして表示側のダッシュへ倒す', () => {
