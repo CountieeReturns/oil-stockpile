@@ -29,6 +29,17 @@ class UpdateSitemapTest(unittest.TestCase):
         )
         self.assertIn("<lastmod>2026-08-18</lastmod>", result)
         self.assertIn("<lastmod>2026-08-19</lastmod>", result)
+        self.assertNotIn("\n\n      <lastmod>", result)
+        self.assertEqual(
+            result,
+            update_sitemap.update_lastmod(
+                result,
+                {
+                    "https://oilstock.nextlabs.jp/": "2026-08-18",
+                    "https://oilstock.nextlabs.jp/tankers/": "2026-08-19",
+                },
+            ),
+        )
 
     def test_replaces_existing_lastmod_without_duplicates(self):
         source = (

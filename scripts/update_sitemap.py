@@ -39,10 +39,13 @@ def update_lastmod(xml: str, url_to_date: dict[str, str]) -> str:
         url = match.group("url")
         if url not in url_to_date:
             return match.group(0)
-        indent = match.group("indent")
+        raw_indent = match.group("indent")
+        # LOC_BLOCK_RE の \s* は直前の改行も捕捉するため、改行と行頭空白を分離する。
+        line_break = "\n" if "\n" in raw_indent else ""
+        indent = raw_indent.rsplit("\n", 1)[-1]
         rest = LASTMOD_RE.sub("", match.group("rest"))
         lastmod = f"{indent}  <lastmod>{url_to_date[url]}</lastmod>"
-        return f"{indent}<loc>{url}</loc>{rest}\n{lastmod}{match.group('close')}"
+        return f"{line_break}{indent}<loc>{url}</loc>{rest}\n{lastmod}{match.group('close')}"
 
     return LOC_BLOCK_RE.sub(replace_block, xml)
 

@@ -59,6 +59,8 @@ jobs:
         run: python scripts/build_site.py
 
       - name: Update sitemap metadata
+        # sitemap は補助データ。失敗しても取得済みスナップショットのコミットを止めない。
+        continue-on-error: true
         run: python scripts/update_sitemap.py
 
       - name: Commit if changed
