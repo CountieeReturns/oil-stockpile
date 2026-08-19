@@ -19,6 +19,8 @@ function populateHeaderAndBanner(history) {
   if (!latest) return;
   setText('update-banner-date', formatDotDate(latest.published));
   setText('header-last-updated', formatDotDate(latest.published));
+  setText('counter-data-asof', formatDotDate(latest.asOf));
+  setText('counter-published', formatDotDate(latest.published));
 }
 
 function showLoadError(err) {
