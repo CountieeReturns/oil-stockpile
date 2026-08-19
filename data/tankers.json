@@ -1,83 +1,55 @@
 {
-  "fetchedAt": "2026-08-19T05:01:42+00:00",
+  "fetchedAt": "2026-08-19T05:56:45+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 8,
-  "japanBoundTankers": 7,
-  "japanBoundUnknownPort": 4,
+  "totalTankersInRegion": 5,
+  "japanBoundTankers": 3,
+  "japanBoundUnknownPort": 2,
   "topDestinationPorts": [
     {
       "port": "YOKKAICHI",
-      "count": 2
-    },
-    {
-      "port": "MIZUSHIMA",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431001659,
-      "name": "KOSHO MARU",
-      "destination": ">JP MIZ  B OFF",
-      "isJapanBound": true,
-      "lat": 34.0948,
-      "lon": 133.0394
-    },
-    {
-      "mmsi": 431006332,
-      "name": "KYOKUEI MARU",
+      "mmsi": 431301768,
+      "name": "ORION",
       "destination": ">JP YKK OFF",
       "isJapanBound": true,
-      "lat": 34.0612,
-      "lon": 136.7256
+      "lat": 33.7253,
+      "lon": 136.2444
     },
     {
-      "mmsi": 431003374,
-      "name": "NO5 MATSUMARU",
-      "destination": "JP SBK OFF",
+      "mmsi": 431009376,
+      "name": "EIHO MARU NO.1",
+      "destination": ">JP OIG OFF",
       "isJapanBound": true,
-      "lat": 33.6764,
-      "lon": 136.2424
+      "lat": 33.5593,
+      "lon": 136.0145
     },
     {
-      "mmsi": 431000635,
-      "name": "SHOMEI",
-      "destination": ">JP YKK OFF",
-      "isJapanBound": true,
-      "lat": 33.6839,
-      "lon": 136.1973
+      "mmsi": 440042130,
+      "name": "WOO SUNG HO",
+      "destination": "INCHEON",
+      "isJapanBound": false,
+      "lat": 37.4782,
+      "lon": 126.5944
     },
     {
-      "mmsi": 431000196,
-      "name": "WAKATSURU MARU NO.8",
-      "destination": "JP AFG",
+      "mmsi": 431005826,
+      "name": "UMEOH MARU",
+      "destination": "JP WAK OFF",
       "isJapanBound": true,
-      "lat": 39.7404,
-      "lon": 140.0678
-    },
-    {
-      "mmsi": 431017196,
-      "name": "SYOUN MARU",
-      "destination": ">JP KNM HESAKI OFF",
-      "isJapanBound": true,
-      "lat": 34.0866,
-      "lon": 133.0242
+      "lat": 34.212,
+      "lon": 135.1414
     },
     {
       "mmsi": 563343900,
       "name": "JN SIRIUS",
       "destination": "SEA TRIAL(AKI NADA)",
       "isJapanBound": false,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 431501701,
-      "name": "ASAHI MARU",
-      "destination": ">JP=NAMIKATA OFF",
-      "isJapanBound": true,
-      "lat": 34.1123,
-      "lon": 132.9681
+      "lat": 34.1207,
+      "lon": 132.9629
     }
   ],
   "boundingBox": "24-46N / 122-146E",
