@@ -1,55 +1,71 @@
 {
-  "fetchedAt": "2026-08-19T05:56:45+00:00",
+  "fetchedAt": "2026-08-22T14:48:13+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 5,
-  "japanBoundTankers": 3,
-  "japanBoundUnknownPort": 2,
+  "totalTankersInRegion": 7,
+  "japanBoundTankers": 6,
+  "japanBoundUnknownPort": 5,
   "topDestinationPorts": [
     {
-      "port": "YOKKAICHI",
+      "port": "KAWASAKI",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431301768,
-      "name": "ORION",
-      "destination": ">JP YKK OFF",
+      "mmsi": 431004474,
+      "name": "MEIWA MARU",
+      "destination": "JP OTK OFF",
       "isJapanBound": true,
-      "lat": 33.7253,
-      "lon": 136.2444
+      "lat": 33.7197,
+      "lon": 136.2284
     },
     {
-      "mmsi": 431009376,
-      "name": "EIHO MARU NO.1",
-      "destination": ">JP OIG OFF",
+      "mmsi": 431009801,
+      "name": "OMEGA3",
+      "destination": ">JP AMX OFF",
       "isJapanBound": true,
-      "lat": 33.5593,
-      "lon": 136.0145
+      "lat": 34.1228,
+      "lon": 133.1075
     },
     {
-      "mmsi": 440042130,
-      "name": "WOO SUNG HO",
-      "destination": "INCHEON",
+      "mmsi": 431019648,
+      "name": "KIYO MARU NO1",
+      "destination": "JP KWS/NNX",
+      "isJapanBound": true,
+      "lat": 35.385,
+      "lon": 139.745
+    },
+    {
+      "mmsi": 372786000,
+      "name": "SPRING EURO",
+      "destination": "KR USN WM",
       "isJapanBound": false,
-      "lat": 37.4782,
-      "lon": 126.5944
+      "lat": 33.5805,
+      "lon": 136.1393
     },
     {
-      "mmsi": 431005826,
-      "name": "UMEOH MARU",
-      "destination": "JP WAK OFF",
+      "mmsi": 431023554,
+      "name": "MEIYU MARU",
+      "destination": ">JP FNB OFF",
       "isJapanBound": true,
-      "lat": 34.212,
-      "lon": 135.1414
+      "lat": 33.5889,
+      "lon": 136.0929
     },
     {
-      "mmsi": 563343900,
-      "name": "JN SIRIUS",
-      "destination": "SEA TRIAL(AKI NADA)",
-      "isJapanBound": false,
-      "lat": 34.1207,
-      "lon": 132.9629
+      "mmsi": 431010381,
+      "name": "EIYU MARU",
+      "destination": ">JP AFG OFF",
+      "isJapanBound": true,
+      "lat": 39.7824,
+      "lon": 139.981
+    },
+    {
+      "mmsi": 431009445,
+      "name": "KYOWA MARU NO.1",
+      "destination": "JP MAR OFF",
+      "isJapanBound": true,
+      "lat": 33.6862,
+      "lon": 136.1844
     }
   ],
   "boundingBox": "24-46N / 122-146E",
