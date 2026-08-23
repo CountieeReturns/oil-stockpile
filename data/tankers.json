@@ -1,91 +1,131 @@
 {
-  "fetchedAt": "2026-08-23T09:52:44+00:00",
+  "fetchedAt": "2026-08-23T10:49:33+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 9,
-  "japanBoundTankers": 8,
-  "japanBoundUnknownPort": 5,
+  "totalTankersInRegion": 14,
+  "japanBoundTankers": 13,
+  "japanBoundUnknownPort": 10,
   "topDestinationPorts": [
     {
       "port": "KAWASAKI",
       "count": 2
     },
     {
-      "port": "MURORAN",
+      "port": "YOKOHAMA",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431004474,
-      "name": "MEIWA MARU",
-      "destination": "JP OTK OFF",
+      "mmsi": 431029543,
+      "name": "HOKEN MARU NO.5",
+      "destination": "JP  OIP  OFF",
       "isJapanBound": true,
-      "lat": 34.1546,
-      "lon": 132.9028
+      "lat": 34.1419,
+      "lon": 132.9699
     },
     {
-      "mmsi": 431014199,
-      "name": "MATSUBISHI MARU",
-      "destination": "JP OTK OFF",
+      "mmsi": 431013115,
+      "name": "KOSHIN MARU",
+      "destination": ">JP OKP OFF",
       "isJapanBound": true,
-      "lat": 34.1472,
-      "lon": 132.9578
+      "lat": 34.123,
+      "lon": 133.1015
     },
     {
-      "mmsi": 431003435,
-      "name": "JYOHOUMARU",
-      "destination": ">JP NGI NNX OFF",
+      "mmsi": 431000826,
+      "name": "TENSHO MARU NO.2",
+      "destination": ">JP SBK OFF/E",
       "isJapanBound": true,
-      "lat": 33.5295,
-      "lon": 136.0348
+      "lat": 34.1287,
+      "lon": 132.9996
     },
     {
-      "mmsi": 431000963,
-      "name": "NAGATO MARU",
-      "destination": ">JP KZU OFF",
-      "isJapanBound": true,
-      "lat": 33.6839,
-      "lon": 136.1222
+      "mmsi": 440021230,
+      "name": "GWANG SEONG",
+      "destination": "",
+      "isJapanBound": false,
+      "lat": null,
+      "lon": null
     },
     {
-      "mmsi": 431018479,
-      "name": "TAISEI MARU NO.8",
-      "destination": ">JP SBK OFF",
+      "mmsi": 431010577,
+      "name": "SHUNYO MARU NO.3",
+      "destination": ">JP UKB",
       "isJapanBound": true,
-      "lat": 33.7938,
-      "lon": 136.3539
+      "lat": 34.1049,
+      "lon": 133.0078
     },
     {
-      "mmsi": 636025239,
-      "name": "PIONEER VENTURE",
-      "destination": ">JP KWS",
+      "mmsi": 431028073,
+      "name": "MYOJIN MARU NO,63",
+      "destination": ">JP OSA 2A OFF",
       "isJapanBound": true,
-      "lat": 35.4498,
-      "lon": 139.7612
+      "lat": 33.7904,
+      "lon": 136.3298
+    },
+    {
+      "mmsi": 432702000,
+      "name": "RYOUSEIMARU",
+      "destination": ">JP UKB OFF",
+      "isJapanBound": true,
+      "lat": 34.0953,
+      "lon": 133.0229
+    },
+    {
+      "mmsi": 431028441,
+      "name": "KOSYU MARU NO.8",
+      "destination": "JP SMN OFF /WM",
+      "isJapanBound": true,
+      "lat": 34.1312,
+      "lon": 132.9889
+    },
+    {
+      "mmsi": 431020284,
+      "name": "KOTOKU MARU NO16",
+      "destination": "JP IYO OFF",
+      "isJapanBound": true,
+      "lat": 34.0857,
+      "lon": 133.0243
+    },
+    {
+      "mmsi": 431501701,
+      "name": "ASAHI MARU",
+      "destination": ">JP=NAMIKATA OFF",
+      "isJapanBound": true,
+      "lat": 34.1123,
+      "lon": 132.9681
+    },
+    {
+      "mmsi": 431000687,
+      "name": "YUHO MARU NO.32",
+      "destination": ">JP TXD OFF SASIMA-N",
+      "isJapanBound": true,
+      "lat": 34.114,
+      "lon": 132.9995
     },
     {
       "mmsi": 431000162,
       "name": "KAIYU MARU",
       "destination": ">JP KWS HO/NNX",
       "isJapanBound": true,
+      "lat": 35.3927,
+      "lon": 139.749
+    },
+    {
+      "mmsi": 431003276,
+      "name": "KIRISHIMA MARU NO.2",
+      "destination": ">JP YOK NGI N-3 OFF",
+      "isJapanBound": true,
       "lat": null,
       "lon": null
     },
     {
-      "mmsi": 353273000,
-      "name": "CHEM HANA",
-      "destination": "KR USN WA",
-      "isJapanBound": false,
-      "lat": 33.8859,
-      "lon": 136.4778
-    },
-    {
-      "mmsi": 431018886,
-      "name": "KUSHIDA MARU",
-      "destination": "> JP MUR OFF",
+      "mmsi": 636025239,
+      "name": "PIONEER VENTURE",
+      "destination": ">JP KWS",
       "isJapanBound": true,
-      "lat": 42.3331,
-      "lon": 140.9707
+      "lat": 35.4493,
+      "lon": 139.7616
     }
   ],
   "boundingBox": "24-46N / 122-146E",
