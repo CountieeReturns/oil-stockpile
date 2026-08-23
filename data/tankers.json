@@ -1,17 +1,13 @@
 {
-  "fetchedAt": "2026-08-23T08:58:24+00:00",
+  "fetchedAt": "2026-08-23T09:52:44+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 15,
-  "japanBoundTankers": 11,
-  "japanBoundUnknownPort": 6,
+  "totalTankersInRegion": 9,
+  "japanBoundTankers": 8,
+  "japanBoundUnknownPort": 5,
   "topDestinationPorts": [
     {
       "port": "KAWASAKI",
-      "count": 3
-    },
-    {
-      "port": "KASHIMA",
-      "count": 1
+      "count": 2
     },
     {
       "port": "MURORAN",
@@ -20,84 +16,52 @@
   ],
   "vessels": [
     {
-      "mmsi": 431019549,
-      "name": "SHINKO MARU NO31",
-      "destination": ">JP OIP OFF",
+      "mmsi": 431004474,
+      "name": "MEIWA MARU",
+      "destination": "JP OTK OFF",
       "isJapanBound": true,
-      "lat": 34.144,
-      "lon": 132.9652
+      "lat": 34.1546,
+      "lon": 132.9028
     },
     {
-      "mmsi": 431301796,
-      "name": "KYUHO MARU",
-      "destination": ">JP TXD OFF SASHIMA",
+      "mmsi": 431014199,
+      "name": "MATSUBISHI MARU",
+      "destination": "JP OTK OFF",
       "isJapanBound": true,
-      "lat": 34.0911,
-      "lon": 133.0105
+      "lat": 34.1472,
+      "lon": 132.9578
     },
     {
-      "mmsi": 431020932,
-      "name": "KINSHU",
-      "destination": "JP >KWS/NNX",
+      "mmsi": 431003435,
+      "name": "JYOHOUMARU",
+      "destination": ">JP NGI NNX OFF",
       "isJapanBound": true,
-      "lat": 35.4028,
-      "lon": 139.7462
-    },
-    {
-      "mmsi": 431026668,
-      "name": "KAKUSHIN MARU",
-      "destination": "JP KIK OFF",
-      "isJapanBound": true,
-      "lat": 34.0964,
-      "lon": 133.0069
-    },
-    {
-      "mmsi": 431401849,
-      "name": "TOKUYO MARU NO21",
-      "destination": ">JP KSM OFF",
-      "isJapanBound": true,
-      "lat": 34.1585,
-      "lon": 132.8996
+      "lat": 33.5295,
+      "lon": 136.0348
     },
     {
       "mmsi": 431000963,
       "name": "NAGATO MARU",
       "destination": ">JP KZU OFF",
       "isJapanBound": true,
-      "lat": 33.5559,
-      "lon": 136.0021
+      "lat": 33.6839,
+      "lon": 136.1222
     },
     {
-      "mmsi": 431004474,
-      "name": "MEIWA MARU",
-      "destination": "JP OTK OFF",
+      "mmsi": 431018479,
+      "name": "TAISEI MARU NO.8",
+      "destination": ">JP SBK OFF",
       "isJapanBound": true,
-      "lat": 34.0858,
-      "lon": 133.0258
+      "lat": 33.7938,
+      "lon": 136.3539
     },
     {
       "mmsi": 636025239,
       "name": "PIONEER VENTURE",
       "destination": ">JP KWS",
       "isJapanBound": true,
-      "lat": 35.45,
-      "lon": 139.7611
-    },
-    {
-      "mmsi": 351986000,
-      "name": "CRANE MIMOSA",
-      "destination": "KR USN",
-      "isJapanBound": false,
-      "lat": 33.7306,
-      "lon": 136.3729
-    },
-    {
-      "mmsi": 431501701,
-      "name": "ASAHI MARU",
-      "destination": ">JP=NAMIKATA OFF",
-      "isJapanBound": true,
-      "lat": 34.1123,
-      "lon": 132.9681
+      "lat": 35.4498,
+      "lon": 139.7612
     },
     {
       "mmsi": 431000162,
@@ -108,12 +72,12 @@
       "lon": null
     },
     {
-      "mmsi": 440009270,
-      "name": "DONG YANG 1HO",
-      "destination": "INCHEON KR",
+      "mmsi": 353273000,
+      "name": "CHEM HANA",
+      "destination": "KR USN WA",
       "isJapanBound": false,
-      "lat": 37.4553,
-      "lon": 126.5977
+      "lat": 33.8859,
+      "lon": 136.4778
     },
     {
       "mmsi": 431018886,
@@ -122,22 +86,6 @@
       "isJapanBound": true,
       "lat": 42.3331,
       "lon": 140.9707
-    },
-    {
-      "mmsi": 440016180,
-      "name": "ES ROSE",
-      "destination": "INCHEON",
-      "isJapanBound": false,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 440140000,
-      "name": "WOOLIM DRAGON",
-      "destination": ">KR INC",
-      "isJapanBound": false,
-      "lat": null,
-      "lon": null
     }
   ],
   "boundingBox": "24-46N / 122-146E",
