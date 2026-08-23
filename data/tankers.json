@@ -1,35 +1,91 @@
 {
-  "fetchedAt": "2026-08-23T13:56:26+00:00",
+  "fetchedAt": "2026-08-23T14:48:58+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 10,
+  "totalTankersInRegion": 11,
   "japanBoundTankers": 9,
-  "japanBoundUnknownPort": 3,
+  "japanBoundUnknownPort": 6,
   "topDestinationPorts": [
     {
-      "port": "KAWASAKI",
-      "count": 2
-    },
-    {
-      "port": "CHIBA",
-      "count": 2
-    },
-    {
       "port": "YOKKAICHI",
-      "count": 1
+      "count": 2
     },
     {
-      "port": "YOKOHAMA",
+      "port": "KAWASAKI",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431003865,
-      "name": "EISHIN MARU NO.25",
-      "destination": ">JP KWS",
+      "mmsi": 431024868,
+      "name": "KOUAN MARU",
+      "destination": ">JP TKM OFF",
       "isJapanBound": true,
-      "lat": 33.7273,
-      "lon": 136.2764
+      "lat": 34.1205,
+      "lon": 133.1113
+    },
+    {
+      "mmsi": 431001111,
+      "name": "ROKKOU",
+      "destination": ">JP OSA H",
+      "isJapanBound": true,
+      "lat": 33.5662,
+      "lon": 136.0552
+    },
+    {
+      "mmsi": 431000214,
+      "name": "NIKKOUMARU NO.5",
+      "destination": ">JP TNO EAST",
+      "isJapanBound": true,
+      "lat": 33.7015,
+      "lon": 136.2026
+    },
+    {
+      "mmsi": 431000926,
+      "name": "WATATSUMI",
+      "destination": ">JP UBJ OFF",
+      "isJapanBound": true,
+      "lat": 33.4727,
+      "lon": 135.9821
+    },
+    {
+      "mmsi": 440400200,
+      "name": "HAE CHANG SUN",
+      "destination": "INCHEON",
+      "isJapanBound": false,
+      "lat": 37.4485,
+      "lon": 126.5723
+    },
+    {
+      "mmsi": 636019351,
+      "name": "TENRYU",
+      "destination": "SG SIN",
+      "isJapanBound": false,
+      "lat": 35.423,
+      "lon": 139.7374
+    },
+    {
+      "mmsi": 431015127,
+      "name": "KINYO MARU NO,1",
+      "destination": ">JP YKK OFF",
+      "isJapanBound": true,
+      "lat": 33.45,
+      "lon": 135.9648
+    },
+    {
+      "mmsi": 440736000,
+      "name": "KEOYOUNG SUN5",
+      "destination": "JP-FNB-I.W/OFF",
+      "isJapanBound": true,
+      "lat": 33.5291,
+      "lon": 136.0036
+    },
+    {
+      "mmsi": 431015351,
+      "name": "NO.8 KAKUWAMARU",
+      "destination": ">JP KWS OFF",
+      "isJapanBound": true,
+      "lat": 33.5455,
+      "lon": 136.0719
     },
     {
       "mmsi": 431501701,
@@ -40,68 +96,12 @@
       "lon": 132.9681
     },
     {
-      "mmsi": 431000384,
-      "name": "KIYOMARU NO.8",
-      "destination": "JP CHB OFF",
-      "isJapanBound": true,
-      "lat": 33.5692,
-      "lon": 136.0791
-    },
-    {
-      "mmsi": 431000926,
-      "name": "WATATSUMI",
-      "destination": ">JP UBJ OFF",
-      "isJapanBound": true,
-      "lat": 33.6114,
-      "lon": 136.1656
-    },
-    {
-      "mmsi": 431009761,
-      "name": "KAKUWAMARU",
-      "destination": ">JP CHB OFF",
-      "isJapanBound": true,
-      "lat": 33.7069,
-      "lon": 136.2866
-    },
-    {
-      "mmsi": 636019351,
-      "name": "TENRYU",
-      "destination": "SG SIN",
-      "isJapanBound": false,
-      "lat": 35.4854,
-      "lon": 139.7875
-    },
-    {
-      "mmsi": 431021934,
-      "name": "ICHIE MARU",
-      "destination": ">JP WAK OFF@KAINAN",
-      "isJapanBound": true,
-      "lat": 34.1446,
-      "lon": 135.151
-    },
-    {
       "mmsi": 431001045,
       "name": "TAIRAMARU",
       "destination": ">JP YKK OFF",
       "isJapanBound": true,
-      "lat": 33.5239,
-      "lon": 136.0029
-    },
-    {
-      "mmsi": 431020877,
-      "name": "HIKARU",
-      "destination": ">JP YOK Y/NNX",
-      "isJapanBound": true,
-      "lat": 35.3883,
-      "lon": 139.7399
-    },
-    {
-      "mmsi": 636025239,
-      "name": "PIONEER VENTURE",
-      "destination": ">JP KWS",
-      "isJapanBound": true,
-      "lat": 35.449,
-      "lon": 139.7616
+      "lat": 33.6286,
+      "lon": 136.1463
     }
   ],
   "boundingBox": "24-46N / 122-146E",
