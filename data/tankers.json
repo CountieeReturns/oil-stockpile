@@ -1,24 +1,28 @@
 {
-  "fetchedAt": "2026-08-25T13:21:20+00:00",
+  "fetchedAt": "2026-08-25T14:13:29+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 5,
-  "japanBoundTankers": 4,
+  "totalTankersInRegion": 9,
+  "japanBoundTankers": 9,
   "japanBoundUnknownPort": 3,
   "topDestinationPorts": [
     {
+      "port": "YOKKAICHI",
+      "count": 2
+    },
+    {
       "port": "YOKOHAMA",
+      "count": 2
+    },
+    {
+      "port": "MIZUSHIMA",
+      "count": 1
+    },
+    {
+      "port": "KAWASAKI",
       "count": 1
     }
   ],
   "vessels": [
-    {
-      "mmsi": 441943000,
-      "name": "SJ HOPE",
-      "destination": "KR INC",
-      "isJapanBound": false,
-      "lat": 37.4503,
-      "lon": 126.5908
-    },
     {
       "mmsi": 431003904,
       "name": "KOKEN MARU",
@@ -28,12 +32,44 @@
       "lon": 133.0208
     },
     {
-      "mmsi": 431011761,
-      "name": "MIWAMARU",
-      "destination": ">JP OIP OFF",
+      "mmsi": 431010077,
+      "name": "YOUWAMARU",
+      "destination": ">JP YKK",
       "isJapanBound": true,
-      "lat": 34.0863,
-      "lon": 133.0294
+      "lat": 33.5143,
+      "lon": 136.0023
+    },
+    {
+      "mmsi": 440391000,
+      "name": "ROYAL SAMBU",
+      "destination": "JP_YKK",
+      "isJapanBound": true,
+      "lat": 33.5699,
+      "lon": 136.0448
+    },
+    {
+      "mmsi": 431500123,
+      "name": "KOYO MARU NO.8",
+      "destination": ">JP MIZ TS OFF/E",
+      "isJapanBound": true,
+      "lat": 34.106,
+      "lon": 133.079
+    },
+    {
+      "mmsi": 431010209,
+      "name": "TAISEI MARU",
+      "destination": "JP KWS OFF",
+      "isJapanBound": true,
+      "lat": null,
+      "lon": null
+    },
+    {
+      "mmsi": 431501741,
+      "name": "UWAKAI",
+      "destination": ">JP YOK NNX",
+      "isJapanBound": true,
+      "lat": null,
+      "lon": null
     },
     {
       "mmsi": 431402051,
@@ -41,15 +77,23 @@
       "destination": "JP WAK OFF",
       "isJapanBound": true,
       "lat": 34.2098,
-      "lon": 135.1185
+      "lon": 135.1186
     },
     {
-      "mmsi": 431501741,
-      "name": "UWAKAI",
-      "destination": ">JP YOK NNX",
+      "mmsi": 431024158,
+      "name": "MIYA MARU NO.18",
+      "destination": "JP WAK OFF",
       "isJapanBound": true,
-      "lat": 35.3959,
-      "lon": 139.7407
+      "lat": null,
+      "lon": null
+    },
+    {
+      "mmsi": 563019900,
+      "name": "PYXIS ALFA",
+      "destination": "JP YOK",
+      "isJapanBound": true,
+      "lat": null,
+      "lon": null
     }
   ],
   "boundingBox": "24-46N / 122-146E",
