@@ -1,47 +1,31 @@
 {
-  "fetchedAt": "2026-08-25T02:02:34+00:00",
+  "fetchedAt": "2026-08-25T03:23:17+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 7,
-  "japanBoundTankers": 6,
-  "japanBoundUnknownPort": 3,
+  "totalTankersInRegion": 9,
+  "japanBoundTankers": 9,
+  "japanBoundUnknownPort": 5,
   "topDestinationPorts": [
     {
       "port": "KAWASAKI",
-      "count": 1
+      "count": 2
     },
     {
       "port": "YOKOHAMA",
       "count": 1
     },
     {
-      "port": "MURORAN",
+      "port": "YOKKAICHI",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431001357,
-      "name": "TOUNAN MARU",
-      "destination": ">JP OSA H OFF",
+      "mmsi": 440027000,
+      "name": "KEOYOUNG BLUE 1",
+      "destination": "JP IHA OFF",
       "isJapanBound": true,
-      "lat": 33.7874,
-      "lon": 136.34
-    },
-    {
-      "mmsi": 353870000,
-      "name": "SILVER ARIES",
-      "destination": ">JP KOBE",
-      "isJapanBound": true,
-      "lat": 33.7155,
-      "lon": 136.3466
-    },
-    {
-      "mmsi": 636025239,
-      "name": "PIONEER VENTURE",
-      "destination": "JP KWS/KKS",
-      "isJapanBound": true,
-      "lat": 35.4569,
-      "lon": 139.7872
+      "lat": 33.5243,
+      "lon": 135.9941
     },
     {
       "mmsi": 563019900,
@@ -52,28 +36,60 @@
       "lon": 139.7184
     },
     {
-      "mmsi": 431003024,
-      "name": "SHINKOUMARU NO.28",
-      "destination": "> JP MUR 12",
+      "mmsi": 431014284,
+      "name": "TOUA MARU",
+      "destination": ">JP TXD",
       "isJapanBound": true,
-      "lat": 42.3466,
-      "lon": 141.0005
+      "lat": 34.1143,
+      "lon": 132.9995
     },
     {
-      "mmsi": 440194890,
-      "name": "KS HONOR",
-      "destination": "KR INC",
-      "isJapanBound": false,
+      "mmsi": 431000498,
+      "name": "MATSUYAMA MARU NO.8",
+      "destination": ">JP SBK OFF",
+      "isJapanBound": true,
+      "lat": 33.5099,
+      "lon": 135.9763
+    },
+    {
+      "mmsi": 477274200,
+      "name": "UNIQUE HARMONY",
+      "destination": "JP KWS > CN JNZ",
+      "isJapanBound": true,
+      "lat": 35.3458,
+      "lon": 139.7095
+    },
+    {
+      "mmsi": 636025239,
+      "name": "PIONEER VENTURE",
+      "destination": "JP KWS/KKS",
+      "isJapanBound": true,
+      "lat": 35.4689,
+      "lon": 139.7696
+    },
+    {
+      "mmsi": 431005056,
+      "name": "KINYOU",
+      "destination": ">JP AFG ENEOS",
+      "isJapanBound": true,
+      "lat": 39.7602,
+      "lon": 140.0523
+    },
+    {
+      "mmsi": 413835000,
+      "name": "CHANG HANG FEI CUI",
+      "destination": "JP YKK OFF",
+      "isJapanBound": true,
       "lat": null,
       "lon": null
     },
     {
-      "mmsi": 352001132,
-      "name": "SHOYU",
-      "destination": "JP WAK",
+      "mmsi": 431011761,
+      "name": "MIWAMARU",
+      "destination": ">JP OIP OFF",
       "isJapanBound": true,
-      "lat": null,
-      "lon": null
+      "lat": 34.1487,
+      "lon": 135.2004
     }
   ],
   "boundingBox": "24-46N / 122-146E",
