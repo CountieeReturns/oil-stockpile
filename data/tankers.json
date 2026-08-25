@@ -1,14 +1,10 @@
 {
-  "fetchedAt": "2026-08-25T11:53:23+00:00",
+  "fetchedAt": "2026-08-25T13:21:20+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 7,
+  "totalTankersInRegion": 5,
   "japanBoundTankers": 4,
-  "japanBoundUnknownPort": 2,
+  "japanBoundUnknownPort": 3,
   "topDestinationPorts": [
-    {
-      "port": "YOKKAICHI",
-      "count": 1
-    },
     {
       "port": "YOKOHAMA",
       "count": 1
@@ -16,60 +12,44 @@
   ],
   "vessels": [
     {
-      "mmsi": 440194890,
-      "name": "KS HONOR",
-      "destination": "KR INC",
-      "isJapanBound": false,
-      "lat": 37.4541,
-      "lon": 126.5758
-    },
-    {
-      "mmsi": 431012174,
-      "name": "WAKOU MARU NO.5",
-      "destination": ">JP TXD OFF",
-      "isJapanBound": true,
-      "lat": 33.5541,
-      "lon": 136.0571
-    },
-    {
-      "mmsi": 431020792,
-      "name": "SHOKYU MARU",
-      "destination": "JP YKK",
-      "isJapanBound": true,
-      "lat": 33.7039,
-      "lon": 136.241
-    },
-    {
       "mmsi": 441943000,
       "name": "SJ HOPE",
       "destination": "KR INC",
       "isJapanBound": false,
-      "lat": null,
-      "lon": null
+      "lat": 37.4503,
+      "lon": 126.5908
     },
     {
-      "mmsi": 431003489,
-      "name": "RIEI MARU",
-      "destination": ">JP HKS OFF",
+      "mmsi": 431003904,
+      "name": "KOKEN MARU",
+      "destination": "JP IMB",
       "isJapanBound": true,
-      "lat": 34.1999,
-      "lon": 133.1356
+      "lat": 34.0634,
+      "lon": 133.0208
     },
     {
-      "mmsi": 440413420,
-      "name": "BAEK KEAUNG",
-      "destination": "",
-      "isJapanBound": false,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 441428000,
-      "name": "GOLDEN HANA",
-      "destination": "JP YOK AZ",
+      "mmsi": 431011761,
+      "name": "MIWAMARU",
+      "destination": ">JP OIP OFF",
       "isJapanBound": true,
-      "lat": null,
-      "lon": null
+      "lat": 34.0863,
+      "lon": 133.0294
+    },
+    {
+      "mmsi": 431402051,
+      "name": "FUKUSHO MARU",
+      "destination": "JP WAK OFF",
+      "isJapanBound": true,
+      "lat": 34.2098,
+      "lon": 135.1185
+    },
+    {
+      "mmsi": 431501741,
+      "name": "UWAKAI",
+      "destination": ">JP YOK NNX",
+      "isJapanBound": true,
+      "lat": 35.3959,
+      "lon": 139.7407
     }
   ],
   "boundingBox": "24-46N / 122-146E",
