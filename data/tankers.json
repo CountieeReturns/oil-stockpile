@@ -1,13 +1,13 @@
 {
-  "fetchedAt": "2026-08-25T04:09:43+00:00",
+  "fetchedAt": "2026-08-25T05:03:52+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 12,
-  "japanBoundTankers": 12,
-  "japanBoundUnknownPort": 9,
+  "totalTankersInRegion": 11,
+  "japanBoundTankers": 9,
+  "japanBoundUnknownPort": 5,
   "topDestinationPorts": [
     {
       "port": "KAWASAKI",
-      "count": 2
+      "count": 3
     },
     {
       "port": "YOKOHAMA",
@@ -16,52 +16,76 @@
   ],
   "vessels": [
     {
-      "mmsi": 431005367,
-      "name": "EIHO MARU NO.53",
-      "destination": ">JP HHR OFF",
+      "mmsi": 431021393,
+      "name": "KAYOH",
+      "destination": "JP> KWS",
       "isJapanBound": true,
-      "lat": 34.1022,
-      "lon": 133.0687
+      "lat": 34.1031,
+      "lon": 133.0654
     },
     {
-      "mmsi": 431001357,
-      "name": "TOUNAN MARU",
-      "destination": ">JP OSA H OFF",
+      "mmsi": 431009667,
+      "name": "NO.18 SHINKOUMARU",
+      "destination": ">JP OIP OFF",
       "isJapanBound": true,
-      "lat": 33.5085,
-      "lon": 135.9654
+      "lat": 34.0584,
+      "lon": 133.0848
+    },
+    {
+      "mmsi": 440183000,
+      "name": "MISIKAN",
+      "destination": "JP NGO",
+      "isJapanBound": true,
+      "lat": 33.6685,
+      "lon": 136.2544
+    },
+    {
+      "mmsi": 431009782,
+      "name": "SANYUMARU",
+      "destination": ">JP  OKP OFF",
+      "isJapanBound": true,
+      "lat": 34.1462,
+      "lon": 132.9045
     },
     {
       "mmsi": 636025239,
       "name": "PIONEER VENTURE",
       "destination": "JP KWS/KKS",
       "isJapanBound": true,
-      "lat": 35.4691,
-      "lon": 139.7694
+      "lat": 35.4689,
+      "lon": 139.7697
     },
     {
-      "mmsi": 431003155,
-      "name": "HOUEI NO.1",
-      "destination": ">JP WAK OFF",
-      "isJapanBound": true,
-      "lat": 34.2121,
-      "lon": 135.1435
+      "mmsi": 440194890,
+      "name": "KS HONOR",
+      "destination": "KR INC",
+      "isJapanBound": false,
+      "lat": null,
+      "lon": null
     },
     {
-      "mmsi": 431006736,
-      "name": "KOUSUI MARU",
-      "destination": ">JP IHA",
+      "mmsi": 431015647,
+      "name": "SHOWAMARU",
+      "destination": "JP KWS/NNX OFF",
       "isJapanBound": true,
-      "lat": 33.9678,
-      "lon": 133.2684
+      "lat": null,
+      "lon": null
     },
     {
-      "mmsi": 431052000,
-      "name": "SUNNY MARS",
-      "destination": ">JP ANE OFF",
+      "mmsi": 412303740,
+      "name": "HONG JIN",
+      "destination": "JP IHA",
       "isJapanBound": true,
-      "lat": 35.5213,
-      "lon": 139.9808
+      "lat": 34.1336,
+      "lon": 132.8834
+    },
+    {
+      "mmsi": 431005666,
+      "name": "TOUYOUMARU 33",
+      "destination": "JP TXD OFF",
+      "isJapanBound": true,
+      "lat": 33.9589,
+      "lon": 136.5947
     },
     {
       "mmsi": 563019900,
@@ -72,44 +96,12 @@
       "lon": 139.7184
     },
     {
-      "mmsi": 431301658,
-      "name": "SHOSEIMARU",
-      "destination": "JP UBJ OFF",
-      "isJapanBound": true,
-      "lat": 34.1176,
-      "lon": 132.9989
-    },
-    {
-      "mmsi": 431015686,
-      "name": "MASAWA MARU",
-      "destination": ">JP UBJ OFF",
-      "isJapanBound": true,
-      "lat": 34.0992,
-      "lon": 133.0434
-    },
-    {
-      "mmsi": 431005056,
-      "name": "KINYOU",
-      "destination": ">JP AFG ENEOS",
-      "isJapanBound": true,
-      "lat": 39.7602,
-      "lon": 140.0523
-    },
-    {
-      "mmsi": 440183000,
-      "name": "MISIKAN",
-      "destination": "JP NGO",
-      "isJapanBound": true,
-      "lat": 33.5564,
-      "lon": 136.1163
-    },
-    {
-      "mmsi": 431015647,
-      "name": "SHOWAMARU",
-      "destination": "JP KWS/NNX OFF",
-      "isJapanBound": true,
-      "lat": 35.3857,
-      "lon": 139.7403
+      "mmsi": 370282000,
+      "name": "APOLLO DREAM",
+      "destination": "DRIFT OUTSIDE ISEBAY",
+      "isJapanBound": false,
+      "lat": 34.0666,
+      "lon": 137.1285
     }
   ],
   "boundingBox": "24-46N / 122-146E",
