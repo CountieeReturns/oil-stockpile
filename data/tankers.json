@@ -1,108 +1,76 @@
 {
-  "fetchedAt": "2026-08-25T09:10:19+00:00",
+  "fetchedAt": "2026-08-25T10:01:39+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 12,
+  "totalTankersInRegion": 8,
   "japanBoundTankers": 8,
   "japanBoundUnknownPort": 7,
   "topDestinationPorts": [
     {
-      "port": "YOKOHAMA",
+      "port": "YOKKAICHI",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431011093,
-      "name": "NICHIMI MARU",
-      "destination": ">JP HKT /WN",
+      "mmsi": 431011136,
+      "name": "YAMABISHIMARU NO.18",
+      "destination": ">JP YKK 3E OFF",
       "isJapanBound": true,
-      "lat": 34.0869,
-      "lon": 133.0368
-    },
-    {
-      "mmsi": 229581000,
-      "name": "KITA LNG",
-      "destination": "INDIAN OCEAN",
-      "isJapanBound": false,
-      "lat": 32.567,
-      "lon": 138.1128
-    },
-    {
-      "mmsi": 431011539,
-      "name": "NO.18 TAISEI MARU",
-      "destination": ">JP SKD OFF",
-      "isJapanBound": true,
-      "lat": 34.1485,
-      "lon": 132.9763
-    },
-    {
-      "mmsi": 431003171,
-      "name": "TAIOU MARU",
-      "destination": ">JP TXD OFF",
-      "isJapanBound": true,
-      "lat": 34.1247,
-      "lon": 132.9876
-    },
-    {
-      "mmsi": 367054000,
-      "name": "STENA IMPECCABLE",
-      "destination": "F0R ORDERS",
-      "isJapanBound": false,
-      "lat": 35.202,
-      "lon": 139.7528
+      "lat": 33.66,
+      "lon": 136.0891
     },
     {
       "mmsi": 431101044,
       "name": "SHINJU MARU NO.1",
       "destination": "JP KNM HESAKI OFF",
       "isJapanBound": true,
-      "lat": 34.102,
-      "lon": 133.0737
+      "lat": 34.1429,
+      "lon": 132.9672
     },
     {
-      "mmsi": 431004957,
-      "name": "TSUKASA",
-      "destination": ">JP YOK NGI N-3",
+      "mmsi": 431013291,
+      "name": "TOGENMARU",
+      "destination": ">JP TXD OFF",
+      "isJapanBound": true,
+      "lat": 34.1419,
+      "lon": 132.9693
+    },
+    {
+      "mmsi": 431008976,
+      "name": "NIPPO MARU",
+      "destination": ">JP IHA OFF",
+      "isJapanBound": true,
+      "lat": 34.1527,
+      "lon": 132.9703
+    },
+    {
+      "mmsi": 431011093,
+      "name": "NICHIMI MARU",
+      "destination": ">JP HKT /WN",
+      "isJapanBound": true,
+      "lat": 34.1573,
+      "lon": 132.9375
+    },
+    {
+      "mmsi": 440109000,
+      "name": "BEGONIA",
+      "destination": "JP SKD",
+      "isJapanBound": true,
+      "lat": 35.3178,
+      "lon": 139.7213
+    },
+    {
+      "mmsi": 431003489,
+      "name": "RIEI MARU",
+      "destination": ">JP HKS OFF",
       "isJapanBound": true,
       "lat": null,
       "lon": null
     },
     {
-      "mmsi": 431000498,
-      "name": "MATSUYAMA MARU NO.8",
-      "destination": "JP SBK/7-9 OFF",
-      "isJapanBound": true,
-      "lat": 34.0705,
-      "lon": 135.0037
-    },
-    {
-      "mmsi": 431005666,
-      "name": "TOUYOUMARU 33",
-      "destination": "JP TXD OFF",
-      "isJapanBound": true,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 440194890,
-      "name": "KS HONOR",
-      "destination": "KR INC",
-      "isJapanBound": false,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 636018345,
-      "name": "KOHSENRI",
-      "destination": "OPEN SEA/DRIFTING",
-      "isJapanBound": false,
-      "lat": 34.2882,
-      "lon": 138.1758
-    },
-    {
-      "mmsi": 431002508,
-      "name": "YUHO MARU",
-      "destination": ">JP ANE OFF",
+      "mmsi": 352001132,
+      "name": "SHOYU",
+      "destination": "JP WAK",
       "isJapanBound": true,
       "lat": null,
       "lon": null
