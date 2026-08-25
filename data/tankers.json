@@ -1,39 +1,43 @@
 {
-  "fetchedAt": "2026-08-25T11:00:01+00:00",
+  "fetchedAt": "2026-08-25T11:53:23+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 5,
-  "japanBoundTankers": 3,
-  "japanBoundUnknownPort": 0,
+  "totalTankersInRegion": 7,
+  "japanBoundTankers": 4,
+  "japanBoundUnknownPort": 2,
   "topDestinationPorts": [
     {
+      "port": "YOKKAICHI",
+      "count": 1
+    },
+    {
       "port": "YOKOHAMA",
-      "count": 1
-    },
-    {
-      "port": "CHIBA",
-      "count": 1
-    },
-    {
-      "port": "KAWASAKI",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 372966000,
-      "name": "FALCON CHEMIST",
-      "destination": "JP YOK",
-      "isJapanBound": true,
-      "lat": 34.1217,
-      "lon": 132.8573
+      "mmsi": 440194890,
+      "name": "KS HONOR",
+      "destination": "KR INC",
+      "isJapanBound": false,
+      "lat": 37.4541,
+      "lon": 126.5758
     },
     {
-      "mmsi": 354434000,
-      "name": "NURI CHEMIST",
-      "destination": "JP CHB",
+      "mmsi": 431012174,
+      "name": "WAKOU MARU NO.5",
+      "destination": ">JP TXD OFF",
       "isJapanBound": true,
-      "lat": 35.3726,
-      "lon": 139.7577
+      "lat": 33.5541,
+      "lon": 136.0571
+    },
+    {
+      "mmsi": 431020792,
+      "name": "SHOKYU MARU",
+      "destination": "JP YKK",
+      "isJapanBound": true,
+      "lat": 33.7039,
+      "lon": 136.241
     },
     {
       "mmsi": 441943000,
@@ -44,20 +48,28 @@
       "lon": null
     },
     {
-      "mmsi": 440215710,
-      "name": "SEUNG JIN",
-      "destination": "INCHEON KR",
-      "isJapanBound": false,
-      "lat": 37.5101,
-      "lon": 126.6009
+      "mmsi": 431003489,
+      "name": "RIEI MARU",
+      "destination": ">JP HKS OFF",
+      "isJapanBound": true,
+      "lat": 34.1999,
+      "lon": 133.1356
     },
     {
-      "mmsi": 431018712,
-      "name": "ASAHI",
-      "destination": ">JP KWS SG",
+      "mmsi": 440413420,
+      "name": "BAEK KEAUNG",
+      "destination": "",
+      "isJapanBound": false,
+      "lat": null,
+      "lon": null
+    },
+    {
+      "mmsi": 441428000,
+      "name": "GOLDEN HANA",
+      "destination": "JP YOK AZ",
       "isJapanBound": true,
-      "lat": 35.5172,
-      "lon": 139.7434
+      "lat": null,
+      "lon": null
     }
   ],
   "boundingBox": "24-46N / 122-146E",
