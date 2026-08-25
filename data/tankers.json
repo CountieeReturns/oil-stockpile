@@ -1,79 +1,63 @@
 {
-  "fetchedAt": "2026-08-25T10:01:39+00:00",
+  "fetchedAt": "2026-08-25T11:00:01+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 8,
-  "japanBoundTankers": 8,
-  "japanBoundUnknownPort": 7,
+  "totalTankersInRegion": 5,
+  "japanBoundTankers": 3,
+  "japanBoundUnknownPort": 0,
   "topDestinationPorts": [
     {
-      "port": "YOKKAICHI",
+      "port": "YOKOHAMA",
+      "count": 1
+    },
+    {
+      "port": "CHIBA",
+      "count": 1
+    },
+    {
+      "port": "KAWASAKI",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431011136,
-      "name": "YAMABISHIMARU NO.18",
-      "destination": ">JP YKK 3E OFF",
+      "mmsi": 372966000,
+      "name": "FALCON CHEMIST",
+      "destination": "JP YOK",
       "isJapanBound": true,
-      "lat": 33.66,
-      "lon": 136.0891
+      "lat": 34.1217,
+      "lon": 132.8573
     },
     {
-      "mmsi": 431101044,
-      "name": "SHINJU MARU NO.1",
-      "destination": "JP KNM HESAKI OFF",
+      "mmsi": 354434000,
+      "name": "NURI CHEMIST",
+      "destination": "JP CHB",
       "isJapanBound": true,
-      "lat": 34.1429,
-      "lon": 132.9672
+      "lat": 35.3726,
+      "lon": 139.7577
     },
     {
-      "mmsi": 431013291,
-      "name": "TOGENMARU",
-      "destination": ">JP TXD OFF",
-      "isJapanBound": true,
-      "lat": 34.1419,
-      "lon": 132.9693
-    },
-    {
-      "mmsi": 431008976,
-      "name": "NIPPO MARU",
-      "destination": ">JP IHA OFF",
-      "isJapanBound": true,
-      "lat": 34.1527,
-      "lon": 132.9703
-    },
-    {
-      "mmsi": 431011093,
-      "name": "NICHIMI MARU",
-      "destination": ">JP HKT /WN",
-      "isJapanBound": true,
-      "lat": 34.1573,
-      "lon": 132.9375
-    },
-    {
-      "mmsi": 440109000,
-      "name": "BEGONIA",
-      "destination": "JP SKD",
-      "isJapanBound": true,
-      "lat": 35.3178,
-      "lon": 139.7213
-    },
-    {
-      "mmsi": 431003489,
-      "name": "RIEI MARU",
-      "destination": ">JP HKS OFF",
-      "isJapanBound": true,
+      "mmsi": 441943000,
+      "name": "SJ HOPE",
+      "destination": "KR INC",
+      "isJapanBound": false,
       "lat": null,
       "lon": null
     },
     {
-      "mmsi": 352001132,
-      "name": "SHOYU",
-      "destination": "JP WAK",
+      "mmsi": 440215710,
+      "name": "SEUNG JIN",
+      "destination": "INCHEON KR",
+      "isJapanBound": false,
+      "lat": 37.5101,
+      "lon": 126.6009
+    },
+    {
+      "mmsi": 431018712,
+      "name": "ASAHI",
+      "destination": ">JP KWS SG",
       "isJapanBound": true,
-      "lat": null,
-      "lon": null
+      "lat": 35.5172,
+      "lon": 139.7434
     }
   ],
   "boundingBox": "24-46N / 122-146E",
