@@ -1,99 +1,107 @@
 {
-  "fetchedAt": "2026-08-25T05:57:54+00:00",
+  "fetchedAt": "2026-08-25T07:18:34+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 10,
-  "japanBoundTankers": 9,
-  "japanBoundUnknownPort": 7,
+  "totalTankersInRegion": 11,
+  "japanBoundTankers": 8,
+  "japanBoundUnknownPort": 5,
   "topDestinationPorts": [
     {
       "port": "YOKOHAMA",
-      "count": 1
+      "count": 2
     },
     {
-      "port": "KAWASAKI",
+      "port": "YOKKAICHI",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 370282000,
-      "name": "APOLLO DREAM",
-      "destination": "DRIFT OUTSIDE ISEBAY",
-      "isJapanBound": false,
-      "lat": 33.9178,
-      "lon": 137.1377
+      "mmsi": 431003374,
+      "name": "NO5 MATSUMARU",
+      "destination": "JP YKK U-8",
+      "isJapanBound": true,
+      "lat": 35.47,
+      "lon": 139.8153
+    },
+    {
+      "mmsi": 431015407,
+      "name": "KISSHO",
+      "destination": ">JP UBJ OFF",
+      "isJapanBound": true,
+      "lat": 34.1541,
+      "lon": 132.9133
     },
     {
       "mmsi": 412303740,
       "name": "HONG JIN",
       "destination": "JP IHA",
       "isJapanBound": true,
-      "lat": 34.1014,
-      "lon": 132.9987
+      "lat": 33.9879,
+      "lon": 133.2465
     },
     {
-      "mmsi": 431009782,
-      "name": "SANYUMARU",
-      "destination": ">JP  OKP OFF",
-      "isJapanBound": true,
-      "lat": 34.0855,
-      "lon": 133.0221
+      "mmsi": 538008168,
+      "name": "OLYMPIC LAUREL",
+      "destination": "SINGAPORE",
+      "isJapanBound": false,
+      "lat": 37.4574,
+      "lon": 126.5819
     },
     {
-      "mmsi": 431005056,
-      "name": "KINYOU",
-      "destination": ">JP AFG ENEOS",
+      "mmsi": 431800699,
+      "name": "SHOKENMARU",
+      "destination": "JP UKB OFF",
       "isJapanBound": true,
-      "lat": 39.7602,
-      "lon": 140.0523
+      "lat": 34.13,
+      "lon": 134.9839
     },
     {
-      "mmsi": 432584000,
-      "name": "SHUHO MARU",
-      "destination": ">JP YAN OFF",
-      "isJapanBound": true,
-      "lat": 34.2447,
-      "lon": 132.9379
+      "mmsi": 440194890,
+      "name": "KS HONOR",
+      "destination": "KR INC",
+      "isJapanBound": false,
+      "lat": 37.4562,
+      "lon": 126.5765
     },
     {
-      "mmsi": 431005666,
-      "name": "TOUYOUMARU 33",
-      "destination": "JP TXD OFF",
+      "mmsi": 563019900,
+      "name": "PYXIS ALFA",
+      "destination": "JP YOK",
       "isJapanBound": true,
-      "lat": 33.8478,
-      "lon": 136.4483
+      "lat": null,
+      "lon": null
     },
     {
-      "mmsi": 538009117,
-      "name": "NORD MIYAKO",
-      "destination": "JP YOK OFF YL3",
+      "mmsi": 431100206,
+      "name": "STAR PHENIX",
+      "destination": ">JP ANE OFF",
       "isJapanBound": true,
-      "lat": 35.4331,
-      "lon": 139.7356
+      "lat": 33.526,
+      "lon": 136.0161
     },
     {
-      "mmsi": 440183000,
-      "name": "MISIKAN",
-      "destination": "JP NGO",
+      "mmsi": 431003489,
+      "name": "RIEI MARU",
+      "destination": ">JP HKS OFF",
       "isJapanBound": true,
-      "lat": 33.7823,
-      "lon": 136.3914
+      "lat": null,
+      "lon": null
     },
     {
-      "mmsi": 431005826,
-      "name": "UMEOH MARU",
-      "destination": "JP IHA",
+      "mmsi": 431005321,
+      "name": "TOKUEIMARU NO27",
+      "destination": "JP YOK Y-1 OFF",
       "isJapanBound": true,
-      "lat": 34.0932,
-      "lon": 133.0119
+      "lat": 35.4855,
+      "lon": 139.7043
     },
     {
-      "mmsi": 431015647,
-      "name": "SHOWAMARU",
-      "destination": "JP KWS/NNX OFF",
-      "isJapanBound": true,
-      "lat": 35.3843,
-      "lon": 139.7393
+      "mmsi": 370282000,
+      "name": "APOLLO DREAM",
+      "destination": "DRIFT OUTSIDE ISEBAY",
+      "isJapanBound": false,
+      "lat": 33.6572,
+      "lon": 137.0905
     }
   ],
   "boundingBox": "24-46N / 122-146E",
