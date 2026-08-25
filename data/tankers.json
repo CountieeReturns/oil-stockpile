@@ -1,26 +1,23 @@
 {
-  "fetchedAt": "2026-08-25T17:55:52+00:00",
+  "fetchedAt": "2026-08-25T19:07:07+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 6,
-  "japanBoundTankers": 4,
-  "japanBoundUnknownPort": 4,
-  "topDestinationPorts": [],
+  "totalTankersInRegion": 7,
+  "japanBoundTankers": 6,
+  "japanBoundUnknownPort": 5,
+  "topDestinationPorts": [
+    {
+      "port": "CHIBA",
+      "count": 1
+    }
+  ],
   "vessels": [
     {
-      "mmsi": 431024158,
-      "name": "MIYA MARU NO.18",
-      "destination": "JP WAK OFF",
-      "isJapanBound": true,
-      "lat": 34.1524,
-      "lon": 135.1389
-    },
-    {
-      "mmsi": 431001125,
-      "name": "SANKOUMARU",
-      "destination": "JP YHI OFF",
-      "isJapanBound": true,
-      "lat": 34.1677,
-      "lon": 133.0074
+      "mmsi": 440016180,
+      "name": "ES ROSE",
+      "destination": "INCHEON",
+      "isJapanBound": false,
+      "lat": 37.4991,
+      "lon": 126.6302
     },
     {
       "mmsi": 431003904,
@@ -31,26 +28,42 @@
       "lon": 133.0208
     },
     {
-      "mmsi": 431003155,
-      "name": "HOUEI NO.1",
-      "destination": ">JP WAK OFF",
+      "mmsi": 440370000,
+      "name": "HANYU VICTORIA",
+      "destination": "JP SDU OFF",
       "isJapanBound": true,
-      "lat": 34.1435,
-      "lon": 135.1473
+      "lat": 33.6112,
+      "lon": 136.1846
     },
     {
-      "mmsi": 440194890,
-      "name": "KS HONOR",
-      "destination": "KR INC           #",
-      "isJapanBound": false,
-      "lat": null,
-      "lon": null
+      "mmsi": 431001125,
+      "name": "SANKOUMARU",
+      "destination": "JP YHI OFF",
+      "isJapanBound": true,
+      "lat": 34.1676,
+      "lon": 133.0075
     },
     {
-      "mmsi": 441943000,
-      "name": "SJ HOPE",
-      "destination": "KR INC",
-      "isJapanBound": false,
+      "mmsi": 431003489,
+      "name": "RIEI MARU",
+      "destination": ">JP HKS OFF",
+      "isJapanBound": true,
+      "lat": 34.1991,
+      "lon": 133.1345
+    },
+    {
+      "mmsi": 441905000,
+      "name": "NURI HANA",
+      "destination": "JP>CHB/OFF",
+      "isJapanBound": true,
+      "lat": 35.3679,
+      "lon": 139.7573
+    },
+    {
+      "mmsi": 431024158,
+      "name": "MIYA MARU NO.18",
+      "destination": "JP WAK OFF",
+      "isJapanBound": true,
       "lat": null,
       "lon": null
     }
