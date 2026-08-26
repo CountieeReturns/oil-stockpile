@@ -1,79 +1,107 @@
 {
-  "fetchedAt": "2026-08-26T02:08:40+00:00",
+  "fetchedAt": "2026-08-26T03:28:18+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 7,
-  "japanBoundTankers": 7,
-  "japanBoundUnknownPort": 4,
+  "totalTankersInRegion": 11,
+  "japanBoundTankers": 10,
+  "japanBoundUnknownPort": 8,
   "topDestinationPorts": [
     {
       "port": "YOKOHAMA",
       "count": 1
     },
     {
-      "port": "MIZUSHIMA",
-      "count": 1
-    },
-    {
-      "port": "YOKKAICHI",
+      "port": "MURORAN",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 440736000,
-      "name": "KEOYOUNG SUN5",
-      "destination": "JP-HIM/OFF",
+      "mmsi": 538009117,
+      "name": "NORD MIYAKO",
+      "destination": "JPWAK",
       "isJapanBound": true,
-      "lat": 33.9459,
-      "lon": 136.377
-    },
-    {
-      "mmsi": 431014021,
-      "name": "TAIWA MARU",
-      "destination": ">JP OTK",
-      "isJapanBound": true,
-      "lat": 33.8457,
-      "lon": 136.408
-    },
-    {
-      "mmsi": 431006736,
-      "name": "KOUSUI MARU",
-      "destination": ">JP IHA",
-      "isJapanBound": true,
-      "lat": 33.9677,
-      "lon": 133.2684
-    },
-    {
-      "mmsi": 352181000,
-      "name": "CRANE AVANCE",
-      "destination": "JP NGO",
-      "isJapanBound": true,
-      "lat": 33.8845,
-      "lon": 136.4804
-    },
-    {
-      "mmsi": 372966000,
-      "name": "FALCON CHEMIST",
-      "destination": "JP YOK",
-      "isJapanBound": true,
-      "lat": 33.5502,
-      "lon": 136.0375
+      "lat": 33.4884,
+      "lon": 136.5994
     },
     {
       "mmsi": 431004586,
       "name": "HASSYOMARU NO.5",
-      "destination": ">JP MIZ OFF",
+      "destination": ">JP SKD OFF",
       "isJapanBound": true,
-      "lat": 33.7266,
-      "lon": 136.4106
+      "lat": 33.5617,
+      "lon": 136.1122
     },
     {
-      "mmsi": 431006332,
-      "name": "KYOKUEI MARU",
-      "destination": ">JP YKK OFF",
+      "mmsi": 431029362,
+      "name": "SHINYU MARU NO.3",
+      "destination": ">JP IHA OFF",
       "isJapanBound": true,
-      "lat": 33.8735,
-      "lon": 136.4947
+      "lat": 34.0881,
+      "lon": 133.0353
+    },
+    {
+      "mmsi": 440021230,
+      "name": "GWANG SEONG",
+      "destination": "",
+      "isJapanBound": false,
+      "lat": 37.4391,
+      "lon": 126.5785
+    },
+    {
+      "mmsi": 215739000,
+      "name": "CASTILLO SANTISTEBAN",
+      "destination": "JP YOK XX",
+      "isJapanBound": true,
+      "lat": 35.4611,
+      "lon": 139.7184
+    },
+    {
+      "mmsi": 431001715,
+      "name": "CHOUKAI MARU",
+      "destination": ">JP IWH OFF",
+      "isJapanBound": true,
+      "lat": 39.7737,
+      "lon": 140.0487
+    },
+    {
+      "mmsi": 431004611,
+      "name": "NO88 TO YO MARU",
+      "destination": "JP SGM OFF",
+      "isJapanBound": true,
+      "lat": 35.3602,
+      "lon": 139.7091
+    },
+    {
+      "mmsi": 440736000,
+      "name": "KEOYOUNG SUN5",
+      "destination": "JP-HIM/OFF",
+      "isJapanBound": true,
+      "lat": 33.7697,
+      "lon": 136.2132
+    },
+    {
+      "mmsi": 431005507,
+      "name": "MATSUYAMA MARU NO.12",
+      "destination": ">JP SBK OFF",
+      "isJapanBound": true,
+      "lat": 33.9909,
+      "lon": 136.7736
+    },
+    {
+      "mmsi": 431005092,
+      "name": "HOUEIMARU NO.11",
+      "destination": ">JP YHI OFF",
+      "isJapanBound": true,
+      "lat": null,
+      "lon": null
+    },
+    {
+      "mmsi": 431001082,
+      "name": "WAKAYOSHI MARU NO.10",
+      "destination": "JP MUR",
+      "isJapanBound": true,
+      "lat": null,
+      "lon": null
     }
   ],
   "boundingBox": "24-46N / 122-146E",
