@@ -1,10 +1,14 @@
 {
-  "fetchedAt": "2026-08-26T10:07:08+00:00",
+  "fetchedAt": "2026-08-26T11:02:07+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 12,
+  "totalTankersInRegion": 11,
   "japanBoundTankers": 10,
-  "japanBoundUnknownPort": 9,
+  "japanBoundUnknownPort": 7,
   "topDestinationPorts": [
+    {
+      "port": "MIZUSHIMA",
+      "count": 2
+    },
     {
       "port": "YOKKAICHI",
       "count": 1
@@ -12,12 +16,28 @@
   ],
   "vessels": [
     {
-      "mmsi": 431014484,
-      "name": "PROPANE MARU NO.8",
-      "destination": ">JP===URAYASU OFF",
+      "mmsi": 431019648,
+      "name": "KIYO MARU NO1",
+      "destination": "JP AFG OFF",
       "isJapanBound": true,
-      "lat": 33.8341,
-      "lon": 136.4044
+      "lat": 39.7812,
+      "lon": 139.9653
+    },
+    {
+      "mmsi": 432536000,
+      "name": "KASHIMA MARU NO.10",
+      "destination": ">JP MIZ OFF",
+      "isJapanBound": true,
+      "lat": 34.1092,
+      "lon": 133.0685
+    },
+    {
+      "mmsi": 431012585,
+      "name": "KOUOHMARU",
+      "destination": "JP> IWK / OFF",
+      "isJapanBound": true,
+      "lat": 34.0959,
+      "lon": 133.0609
     },
     {
       "mmsi": 431003904,
@@ -28,12 +48,52 @@
       "lon": 133.0208
     },
     {
-      "mmsi": 431027779,
-      "name": "KAKUEIMARU",
-      "destination": ">JP KMN HESAKI OFF",
+      "mmsi": 431009366,
+      "name": "TAMARIKIMARU NO.2",
+      "destination": ">JP NMX OFF/WM",
       "isJapanBound": true,
-      "lat": 34.1364,
-      "lon": 132.9764
+      "lat": 34.1422,
+      "lon": 132.9699
+    },
+    {
+      "mmsi": 431999637,
+      "name": "YOT02",
+      "destination": ">JP NGO OFF",
+      "isJapanBound": true,
+      "lat": 33.4333,
+      "lon": 136.1961
+    },
+    {
+      "mmsi": 431003635,
+      "name": "SHUHO",
+      "destination": ">JP TXD SENSHIMA 1",
+      "isJapanBound": true,
+      "lat": 33.7476,
+      "lon": 136.2726
+    },
+    {
+      "mmsi": 431018226,
+      "name": "SHOSEN MARU",
+      "destination": "JP MIZ>JP YAT",
+      "isJapanBound": true,
+      "lat": 34.0918,
+      "lon": 133.0466
+    },
+    {
+      "mmsi": 431017597,
+      "name": "SULPHUR TRINITY",
+      "destination": "JP YKK IS I1",
+      "isJapanBound": true,
+      "lat": 33.6639,
+      "lon": 136.2092
+    },
+    {
+      "mmsi": 440232000,
+      "name": "DOOLA STAR",
+      "destination": "DSN/KR",
+      "isJapanBound": false,
+      "lat": 37.4991,
+      "lon": 126.6303
     },
     {
       "mmsi": 431006736,
@@ -42,70 +102,6 @@
       "isJapanBound": true,
       "lat": 33.9677,
       "lon": 133.2684
-    },
-    {
-      "mmsi": 431018625,
-      "name": "HAKUEIMARU",
-      "destination": "JP> OIP OFF",
-      "isJapanBound": true,
-      "lat": 33.8799,
-      "lon": 136.4341
-    },
-    {
-      "mmsi": 431003635,
-      "name": "SHUHO",
-      "destination": ">JP TXD SENSHIMA 1",
-      "isJapanBound": true,
-      "lat": 33.8555,
-      "lon": 136.4088
-    },
-    {
-      "mmsi": 352006884,
-      "name": "EMMANUEL",
-      "destination": ">JP HKS SEA TRIAL",
-      "isJapanBound": true,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 431999637,
-      "name": "YOT02",
-      "destination": ">JP NGO OFF",
-      "isJapanBound": true,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 431017597,
-      "name": "SULPHUR TRINITY",
-      "destination": "JP YKK IS I1",
-      "isJapanBound": true,
-      "lat": 33.5594,
-      "lon": 136.0549
-    },
-    {
-      "mmsi": 431003489,
-      "name": "RIEI MARU",
-      "destination": ">JP HKS OFF",
-      "isJapanBound": true,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 440232000,
-      "name": "DOOLA STAR",
-      "destination": "DSN/KR",
-      "isJapanBound": false,
-      "lat": 37.4992,
-      "lon": 126.6303
-    },
-    {
-      "mmsi": 440011120,
-      "name": "MINSUNG11",
-      "destination": "INCHEON",
-      "isJapanBound": false,
-      "lat": null,
-      "lon": null
     }
   ],
   "boundingBox": "24-46N / 122-146E",
