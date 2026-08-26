@@ -1,113 +1,109 @@
 {
-  "fetchedAt": "2026-08-26T09:12:27+00:00",
+  "fetchedAt": "2026-08-26T10:07:08+00:00",
   "samplingDurationSec": 720,
   "totalTankersInRegion": 12,
-  "japanBoundTankers": 12,
+  "japanBoundTankers": 10,
   "japanBoundUnknownPort": 9,
   "topDestinationPorts": [
     {
-      "port": "YOKOHAMA",
-      "count": 2
-    },
-    {
-      "port": "KAWASAKI",
+      "port": "YOKKAICHI",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431017044,
-      "name": "HAKUSEI MARU NO.10",
-      "destination": "JP WAK OFF",
-      "isJapanBound": true,
-      "lat": 34.202,
-      "lon": 135.0773
-    },
-    {
-      "mmsi": 431010346,
-      "name": "KEIYO MARU NO.15",
-      "destination": "JP MKW",
-      "isJapanBound": true,
-      "lat": 33.9194,
-      "lon": 136.4706
-    },
-    {
-      "mmsi": 431014199,
-      "name": "MATSUBISHI MARU",
-      "destination": "JP KWS OFF",
-      "isJapanBound": true,
-      "lat": 34.1079,
-      "lon": 133.0687
-    },
-    {
       "mmsi": 431014484,
       "name": "PROPANE MARU NO.8",
       "destination": ">JP===URAYASU OFF",
       "isJapanBound": true,
-      "lat": 33.7032,
-      "lon": 136.2363
+      "lat": 33.8341,
+      "lon": 136.4044
     },
     {
-      "mmsi": 431402007,
-      "name": "KYOWAMARU",
-      "destination": ">JP SBK OFF",
+      "mmsi": 431003904,
+      "name": "KOKEN MARU",
+      "destination": "JP IMB",
       "isJapanBound": true,
-      "lat": 35.403,
-      "lon": 139.7115
+      "lat": 34.0633,
+      "lon": 133.0208
     },
     {
-      "mmsi": 431029455,
-      "name": "EISHIN MARU NO.2",
-      "destination": ">JP HKT WM",
+      "mmsi": 431027779,
+      "name": "KAKUEIMARU",
+      "destination": ">JP KMN HESAKI OFF",
       "isJapanBound": true,
-      "lat": 34.0961,
-      "lon": 133.0021
+      "lat": 34.1364,
+      "lon": 132.9764
     },
     {
-      "mmsi": 431010577,
-      "name": "SHUNYO MARU NO.3",
-      "destination": ">JP NGO",
+      "mmsi": 431006736,
+      "name": "KOUSUI MARU",
+      "destination": ">JP IHA",
       "isJapanBound": true,
-      "lat": 33.6867,
-      "lon": 136.2105
+      "lat": 33.9677,
+      "lon": 133.2684
     },
     {
-      "mmsi": 431014188,
-      "name": "TOURAI MARU",
-      "destination": ">JP MKX OFF",
+      "mmsi": 431018625,
+      "name": "HAKUEIMARU",
+      "destination": "JP> OIP OFF",
       "isJapanBound": true,
-      "lat": 34.0781,
-      "lon": 133.1111
+      "lat": 33.8799,
+      "lon": 136.4341
     },
     {
-      "mmsi": 431019648,
-      "name": "KIYO MARU NO1",
-      "destination": "JP AFG OFF",
+      "mmsi": 431003635,
+      "name": "SHUHO",
+      "destination": ">JP TXD SENSHIMA 1",
       "isJapanBound": true,
-      "lat": 39.781,
-      "lon": 139.9653
+      "lat": 33.8555,
+      "lon": 136.4088
     },
     {
-      "mmsi": 215739000,
-      "name": "CASTILLO SANTISTEBAN",
-      "destination": "JP YOK XX",
+      "mmsi": 352006884,
+      "name": "EMMANUEL",
+      "destination": ">JP HKS SEA TRIAL",
       "isJapanBound": true,
-      "lat": 35.4612,
-      "lon": 139.7184
+      "lat": null,
+      "lon": null
     },
     {
-      "mmsi": 431019458,
-      "name": "IBUKI",
-      "destination": ">JP YOK NEGISHI OFF",
+      "mmsi": 431999637,
+      "name": "YOT02",
+      "destination": ">JP NGO OFF",
       "isJapanBound": true,
-      "lat": 35.3775,
-      "lon": 139.6936
+      "lat": null,
+      "lon": null
     },
     {
-      "mmsi": 431024158,
-      "name": "MIYA MARU NO.18",
-      "destination": "JP WAK OFF",
+      "mmsi": 431017597,
+      "name": "SULPHUR TRINITY",
+      "destination": "JP YKK IS I1",
       "isJapanBound": true,
+      "lat": 33.5594,
+      "lon": 136.0549
+    },
+    {
+      "mmsi": 431003489,
+      "name": "RIEI MARU",
+      "destination": ">JP HKS OFF",
+      "isJapanBound": true,
+      "lat": null,
+      "lon": null
+    },
+    {
+      "mmsi": 440232000,
+      "name": "DOOLA STAR",
+      "destination": "DSN/KR",
+      "isJapanBound": false,
+      "lat": 37.4992,
+      "lon": 126.6303
+    },
+    {
+      "mmsi": 440011120,
+      "name": "MINSUNG11",
+      "destination": "INCHEON",
+      "isJapanBound": false,
       "lat": null,
       "lon": null
     }
