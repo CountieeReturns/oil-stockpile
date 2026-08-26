@@ -1,39 +1,103 @@
 {
-  "fetchedAt": "2026-08-26T14:14:55+00:00",
+  "fetchedAt": "2026-08-26T16:03:01+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 7,
-  "japanBoundTankers": 6,
-  "japanBoundUnknownPort": 2,
+  "totalTankersInRegion": 11,
+  "japanBoundTankers": 9,
+  "japanBoundUnknownPort": 3,
   "topDestinationPorts": [
     {
-      "port": "YOKKAICHI",
+      "port": "KAWASAKI",
       "count": 2
     },
     {
-      "port": "YOKOHAMA",
+      "port": "MIZUSHIMA",
+      "count": 1
+    },
+    {
+      "port": "YOKKAICHI",
       "count": 1
     },
     {
       "port": "MURORAN",
       "count": 1
+    },
+    {
+      "port": "YOKOHAMA",
+      "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431014821,
-      "name": "HAKUSEIMARU NO.3",
-      "destination": "JP IWK OFF",
+      "mmsi": 440113870,
+      "name": "SEYANG GLORY",
+      "destination": "BUSAN",
+      "isJapanBound": false,
+      "lat": null,
+      "lon": null
+    },
+    {
+      "mmsi": 431012675,
+      "name": "SEIWA",
+      "destination": "> JP KWS OFF",
       "isJapanBound": true,
-      "lat": 34.0979,
-      "lon": 133.0002
+      "lat": 33.7401,
+      "lon": 136.3084
+    },
+    {
+      "mmsi": 431014474,
+      "name": "MEISHO MARU",
+      "destination": "JP KWS OFF",
+      "isJapanBound": true,
+      "lat": 33.8431,
+      "lon": 136.616
+    },
+    {
+      "mmsi": 431000985,
+      "name": "SHINATSU",
+      "destination": ">JP UBJ OFF",
+      "isJapanBound": true,
+      "lat": 33.6177,
+      "lon": 136.1319
+    },
+    {
+      "mmsi": 431004149,
+      "name": "NEW STREAM",
+      "destination": "JP MSA OFF",
+      "isJapanBound": true,
+      "lat": 33.5638,
+      "lon": 136.074
+    },
+    {
+      "mmsi": 371350000,
+      "name": "ACE HANA",
+      "destination": ">JP MIZ FT",
+      "isJapanBound": true,
+      "lat": 34.09,
+      "lon": 133.0451
     },
     {
       "mmsi": 431011753,
       "name": "HOUSEIMARU NO21",
       "destination": ">JP YKK A-2",
       "isJapanBound": true,
-      "lat": 33.5689,
-      "lon": 136.0598
+      "lat": 33.7679,
+      "lon": 136.3211
+    },
+    {
+      "mmsi": 352004675,
+      "name": "MIR HANA",
+      "destination": "KR YOS",
+      "isJapanBound": false,
+      "lat": 34.1631,
+      "lon": 132.9486
+    },
+    {
+      "mmsi": 431001082,
+      "name": "WAKAYOSHI MARU NO.10",
+      "destination": "JP MUR",
+      "isJapanBound": true,
+      "lat": 42.333,
+      "lon": 140.9706
     },
     {
       "mmsi": 215739000,
@@ -44,34 +108,10 @@
       "lon": 139.7184
     },
     {
-      "mmsi": 431000985,
-      "name": "SHINATSU",
-      "destination": ">JP UBJ OFF",
+      "mmsi": 431024158,
+      "name": "MIYA MARU NO.18",
+      "destination": "JP WAK OFF",
       "isJapanBound": true,
-      "lat": 33.8456,
-      "lon": 136.4175
-    },
-    {
-      "mmsi": 431015689,
-      "name": "YUHO MARU NO.33",
-      "destination": ">JP YKK KE",
-      "isJapanBound": true,
-      "lat": 33.7972,
-      "lon": 136.2188
-    },
-    {
-      "mmsi": 431001082,
-      "name": "WAKAYOSHI MARU NO.10",
-      "destination": "JP MUR",
-      "isJapanBound": true,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 440232000,
-      "name": "DOOLA STAR",
-      "destination": "DSN/KR",
-      "isJapanBound": false,
       "lat": null,
       "lon": null
     }
