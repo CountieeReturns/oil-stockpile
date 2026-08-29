@@ -1,109 +1,129 @@
 {
-  "fetchedAt": "2026-08-29T11:15:29+00:00",
+  "fetchedAt": "2026-08-29T15:49:23+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 11,
-  "japanBoundTankers": 9,
-  "japanBoundUnknownPort": 6,
+  "totalTankersInRegion": 14,
+  "japanBoundTankers": 12,
+  "japanBoundUnknownPort": 8,
   "topDestinationPorts": [
     {
-      "port": "KASHIMA",
-      "count": 1
-    },
-    {
       "port": "KAWASAKI",
-      "count": 1
+      "count": 3
     },
     {
-      "port": "MIZUSHIMA",
+      "port": "YOKOHAMA",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 432528000,
-      "name": "OBELIX",
-      "destination": "JP HHR OFF",
+      "mmsi": 431014821,
+      "name": "HAKUSEIMARU NO.3",
+      "destination": "JP ANE OFF",
       "isJapanBound": true,
-      "lat": 35.4137,
-      "lon": 139.7289
+      "lat": 33.4988,
+      "lon": 136.0103
     },
     {
-      "mmsi": 431023346,
-      "name": "MATSUYAMA MARU NO.15",
-      "destination": ">JP KSM OFF",
+      "mmsi": 431000301,
+      "name": "NANIWA MARU NO.7",
+      "destination": ">JP MYJ OFF",
       "isJapanBound": true,
-      "lat": 35.3654,
-      "lon": 139.7049
+      "lat": 34.1177,
+      "lon": 133.0807
     },
     {
-      "mmsi": 431004588,
-      "name": "SHUOUMARU",
-      "destination": "JP HIM OFF",
+      "mmsi": 440403000,
+      "name": "KEOYOUNG SEVEN",
+      "destination": "JP NGO OFF",
       "isJapanBound": true,
-      "lat": 34.0965,
-      "lon": 133.0533
+      "lat": 33.8787,
+      "lon": 136.5105
     },
     {
-      "mmsi": 431001136,
-      "name": "SOUSEI MARU",
-      "destination": ">JP NGO OFF",
+      "mmsi": 431018707,
+      "name": "MEIKOU MARU",
+      "destination": ">JP YOK AZ/NNX OFF",
       "isJapanBound": true,
-      "lat": 33.6554,
-      "lon": 136.2326
+      "lat": 33.7925,
+      "lon": 136.3895
     },
     {
-      "mmsi": 431006736,
-      "name": "KOUSUI MARU",
-      "destination": ">JP IHA",
+      "mmsi": 431019444,
+      "name": "BELLFLOWER",
+      "destination": ">JP MNX OFF",
       "isJapanBound": true,
-      "lat": 34.0535,
-      "lon": 133.0958
+      "lat": 34.1561,
+      "lon": 132.9616
+    },
+    {
+      "mmsi": 431011761,
+      "name": "MIWAMARU",
+      "destination": ">JP OTK OFF",
+      "isJapanBound": true,
+      "lat": 33.5048,
+      "lon": 135.999
+    },
+    {
+      "mmsi": 431005138,
+      "name": "MIKASA",
+      "destination": ">JPIMB",
+      "isJapanBound": true,
+      "lat": 34.0633,
+      "lon": 133.0208
+    },
+    {
+      "mmsi": 431011136,
+      "name": "YAMABISHIMARU NO.18",
+      "destination": ">JP UKB K",
+      "isJapanBound": true,
+      "lat": 33.6037,
+      "lon": 136.0546
+    },
+    {
+      "mmsi": 431005551,
+      "name": "YUHO MARU NO.6",
+      "destination": ">JP TXD",
+      "isJapanBound": true,
+      "lat": 34.1005,
+      "lon": 133.052
     },
     {
       "mmsi": 431003364,
       "name": "EIHO MARU NO.65",
       "destination": "JP KWS SG",
       "isJapanBound": true,
-      "lat": 35.5182,
-      "lon": 139.7485
-    },
-    {
-      "mmsi": 431007082,
-      "name": "HISHI MARU",
-      "destination": ">JP MIZ OFF B",
-      "isJapanBound": true,
-      "lat": 33.831,
-      "lon": 136.3774
+      "lat": 35.5181,
+      "lon": 139.7486
     },
     {
       "mmsi": 209407000,
       "name": "GRAND ELENA",
       "destination": "RU_PGN",
       "isJapanBound": false,
-      "lat": 35.461,
-      "lon": 139.7185
+      "lat": null,
+      "lon": null
     },
     {
-      "mmsi": 431001374,
-      "name": "DAI18KASUGAMARU",
-      "destination": "JP HSM OFF",
+      "mmsi": 431001401,
+      "name": "SHOEI MARU",
+      "destination": "JP KWS DU NNX",
       "isJapanBound": true,
-      "lat": 34.1047,
-      "lon": 132.9902
+      "lat": null,
+      "lon": null
     },
     {
-      "mmsi": 431002151,
-      "name": "NO.3TOKUYOMARU",
-      "destination": ">JP SBK 3",
-      "isJapanBound": true,
-      "lat": 33.85,
-      "lon": 136.4065
-    },
-    {
-      "mmsi": 567657000,
-      "name": "TASCO PRASIT",
-      "destination": "SEA TRIAL",
+      "mmsi": 440016180,
+      "name": "ES ROSE",
+      "destination": "INCHEON",
       "isJapanBound": false,
+      "lat": null,
+      "lon": null
+    },
+    {
+      "mmsi": 431006887,
+      "name": "SHOZUIMARU",
+      "destination": "JP KWS/NNX",
+      "isJapanBound": true,
       "lat": null,
       "lon": null
     }
