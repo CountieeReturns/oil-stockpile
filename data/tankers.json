@@ -1,117 +1,61 @@
 {
-  "fetchedAt": "2026-09-01T05:16:09+00:00",
+  "fetchedAt": "2026-09-01T10:15:47+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 15,
-  "japanBoundTankers": 10,
+  "totalTankersInRegion": 11,
+  "japanBoundTankers": 9,
   "japanBoundUnknownPort": 6,
   "topDestinationPorts": [
     {
-      "port": "YOKOHAMA",
-      "count": 2
-    },
-    {
       "port": "KAWASAKI",
-      "count": 1
-    },
-    {
-      "port": "MURORAN",
-      "count": 1
+      "count": 3
     }
   ],
   "vessels": [
     {
-      "mmsi": 432809000,
-      "name": "AKATSUKI MARU",
-      "destination": "JP YOK NNX",
+      "mmsi": 431000661,
+      "name": "NANIWA MARU NO.65",
+      "destination": ">JP AFG OFF",
       "isJapanBound": true,
-      "lat": 35.3675,
-      "lon": 139.7259
+      "lat": 39.7871,
+      "lon": 139.964
     },
     {
-      "mmsi": 431011761,
-      "name": "MIWAMARU",
-      "destination": ">JP UKB OFF",
+      "mmsi": 431009162,
+      "name": "EIHO",
+      "destination": ">JP KWS HANEDA/OFF",
       "isJapanBound": true,
-      "lat": 34.1412,
-      "lon": 132.8304
+      "lat": 33.6958,
+      "lon": 136.228
     },
     {
-      "mmsi": 538011744,
-      "name": "YASA PANTHER",
-      "destination": "KRUSN",
-      "isJapanBound": false,
-      "lat": 34.1055,
-      "lon": 133.0062
-    },
-    {
-      "mmsi": 431003364,
-      "name": "EIHO MARU NO.65",
-      "destination": "JP HIM OFF",
+      "mmsi": 431004957,
+      "name": "TSUKASA",
+      "destination": ">JP KWS OFF",
       "isJapanBound": true,
-      "lat": 33.5057,
-      "lon": 135.9433
+      "lat": null,
+      "lon": null
     },
     {
-      "mmsi": 431001931,
-      "name": "SAYURI MARU",
-      "destination": ">JP KZU OFF",
+      "mmsi": 431000828,
+      "name": "NOJIGIKU",
+      "destination": ">JP HIM/OFF",
       "isJapanBound": true,
-      "lat": 33.7231,
-      "lon": 136.2668
+      "lat": 33.8548,
+      "lon": 136.375
     },
     {
-      "mmsi": 431776000,
-      "name": "ENERGY GLORY",
-      "destination": "SG SIN",
-      "isJapanBound": false,
-      "lat": 35.461,
-      "lon": 139.7185
-    },
-    {
-      "mmsi": 319468000,
-      "name": "STOLT CONFIDENCE",
-      "destination": "JP UKB",
+      "mmsi": 636021385,
+      "name": "LARGO EMERALD",
+      "destination": "JP KWS DU",
       "isJapanBound": true,
-      "lat": 33.4331,
-      "lon": 136.5798
-    },
-    {
-      "mmsi": 431000214,
-      "name": "NIKKOUMARU NO.5",
-      "destination": ">JP NGO E1 OFF",
-      "isJapanBound": true,
-      "lat": 35.4173,
-      "lon": 139.7306
+      "lat": 35.4641,
+      "lon": 139.7885
     },
     {
       "mmsi": 431030737,
       "name": "MATSUSHIMAMARU NO.18",
-      "destination": ">SEA TRIAL(OMISHIMA)",
-      "isJapanBound": false,
-      "lat": 34.1797,
-      "lon": 132.9694
-    },
-    {
-      "mmsi": 431000968,
-      "name": "RIKISHIMARU NO.8",
-      "destination": ">JP KWS OFF",
+      "destination": ">JP NAMIKATA OFF",
       "isJapanBound": true,
-      "lat": 35.4921,
-      "lon": 139.824
-    },
-    {
-      "mmsi": 431004506,
-      "name": "YOSHITAKA MARU NO.93",
-      "destination": "JP MUR OFF",
-      "isJapanBound": true,
-      "lat": 42.3589,
-      "lon": 140.9614
-    },
-    {
-      "mmsi": 567657000,
-      "name": "TASCO PRASIT",
-      "destination": "SEA TRIAL",
-      "isJapanBound": false,
       "lat": null,
       "lon": null
     },
@@ -120,24 +64,40 @@
       "name": "KAIREI",
       "destination": ">JP AFG OFF",
       "isJapanBound": true,
-      "lat": null,
-      "lon": null
+      "lat": 39.8105,
+      "lon": 139.9289
     },
     {
-      "mmsi": 431800699,
-      "name": "SHOKENMARU",
-      "destination": "JP YOK D",
+      "mmsi": 431000823,
+      "name": "SENRIN MARU",
+      "destination": ">JP UBJ OFF",
       "isJapanBound": true,
+      "lat": 33.774,
+      "lon": 136.2901
+    },
+    {
+      "mmsi": 431776000,
+      "name": "ENERGY GLORY",
+      "destination": "SG SIN",
+      "isJapanBound": false,
       "lat": null,
       "lon": null
     },
     {
-      "mmsi": 440021230,
-      "name": "GWANG SEONG",
-      "destination": "",
+      "mmsi": 440042130,
+      "name": "WOO SUNG HO",
+      "destination": "INCHEON",
       "isJapanBound": false,
-      "lat": 37.4967,
-      "lon": 126.6232
+      "lat": 37.4782,
+      "lon": 126.5944
+    },
+    {
+      "mmsi": 431004474,
+      "name": "MEIWA MARU",
+      "destination": "JP SBK OFF",
+      "isJapanBound": true,
+      "lat": 33.7417,
+      "lon": 136.2563
     }
   ],
   "boundingBox": "24-46N / 122-146E",
