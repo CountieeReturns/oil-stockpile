@@ -1,123 +1,75 @@
 {
-  "fetchedAt": "2026-09-01T15:03:38+00:00",
+  "fetchedAt": "2026-09-01T18:40:17+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 14,
-  "japanBoundTankers": 13,
-  "japanBoundUnknownPort": 7,
+  "totalTankersInRegion": 8,
+  "japanBoundTankers": 8,
+  "japanBoundUnknownPort": 4,
   "topDestinationPorts": [
     {
-      "port": "YOKOHAMA",
+      "port": "YOKKAICHI",
       "count": 3
     },
     {
-      "port": "YOKKAICHI",
-      "count": 1
-    },
-    {
-      "port": "KAWASAKI",
-      "count": 1
-    },
-    {
-      "port": "MIZUSHIMA",
+      "port": "YOKOHAMA",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 538012963,
-      "name": "ZELA START",
-      "destination": "JP YKK",
+      "mmsi": 431006736,
+      "name": "KOUSUI MARU",
+      "destination": ">JP IHA",
       "isJapanBound": true,
-      "lat": 33.3871,
-      "lon": 136.1748
+      "lat": 33.9677,
+      "lon": 133.2693
     },
     {
-      "mmsi": 431602345,
-      "name": "SANWA MARU",
-      "destination": "JP KIK OFF",
+      "mmsi": 431018777,
+      "name": "HOUSEIMARU NO.7",
+      "destination": ">JP YKK OFF",
       "isJapanBound": true,
-      "lat": 34.1548,
-      "lon": 132.9483
+      "lat": 33.5964,
+      "lon": 136.0844
     },
     {
-      "mmsi": 431402034,
-      "name": "TOKUYO MARU NO.15",
-      "destination": ">JP HIN OFF",
+      "mmsi": 431016755,
+      "name": "ASUZAN MARU",
+      "destination": "> JP YKK  CE-2",
       "isJapanBound": true,
-      "lat": 33.6953,
-      "lon": 136.2243
+      "lat": 33.693,
+      "lon": 136.249
     },
     {
-      "mmsi": 431001216,
-      "name": "MEISHOMARU",
-      "destination": ">JP KWS OFF",
+      "mmsi": 431004325,
+      "name": "ATAGO",
+      "destination": ">JP YOK YK-1 OFF",
       "isJapanBound": true,
-      "lat": 33.7398,
-      "lon": 136.3119
+      "lat": 33.814,
+      "lon": 136.3982
     },
     {
-      "mmsi": 431014199,
-      "name": "MATSUBISHI MARU",
-      "destination": "JP OTK OFF",
+      "mmsi": 431401796,
+      "name": "RYOKA MARU NO.103",
+      "destination": ">JP YKK 3W OFF",
       "isJapanBound": true,
-      "lat": 34.1004,
-      "lon": 133.0017
+      "lat": 33.879,
+      "lon": 136.469
     },
     {
-      "mmsi": 431776000,
-      "name": "ENERGY GLORY",
-      "destination": "SG SIN",
-      "isJapanBound": false,
-      "lat": 35.461,
-      "lon": 139.7185
+      "mmsi": 431019136,
+      "name": "KINKAI MARU",
+      "destination": ">JP WAK OFF",
+      "isJapanBound": true,
+      "lat": 34.1543,
+      "lon": 135.1368
     },
     {
-      "mmsi": 431014474,
-      "name": "MEISHO MARU",
-      "destination": "JP ANE OFF",
+      "mmsi": 431028441,
+      "name": "KOSYU MARU NO.8",
+      "destination": "JP NGI 5NH ENEOS H4-",
       "isJapanBound": true,
-      "lat": 33.7524,
-      "lon": 136.4006
-    },
-    {
-      "mmsi": 431021934,
-      "name": "ICHIE MARU",
-      "destination": ">JP OTK OFF",
-      "isJapanBound": true,
-      "lat": 33.6085,
-      "lon": 136.2223
-    },
-    {
-      "mmsi": 352004675,
-      "name": "MIR HANA",
-      "destination": "JP YOK/OFF",
-      "isJapanBound": true,
-      "lat": 35.446,
-      "lon": 139.7149
-    },
-    {
-      "mmsi": 431025296,
-      "name": "KYOKUKAI MARU",
-      "destination": ">JP MIZ OFF",
-      "isJapanBound": true,
-      "lat": 34.1548,
-      "lon": 132.8929
-    },
-    {
-      "mmsi": 431000173,
-      "name": "KOKI MARU NO.30",
-      "destination": ">JP IHR OFF",
-      "isJapanBound": true,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 431501838,
-      "name": "GREEN MARU NO.8",
-      "destination": "JP YOK N3 OFF",
-      "isJapanBound": true,
-      "lat": 33.7269,
-      "lon": 136.3047
+      "lat": 35.364,
+      "lon": 139.7378
     },
     {
       "mmsi": 431009313,
@@ -126,14 +78,6 @@
       "isJapanBound": true,
       "lat": null,
       "lon": null
-    },
-    {
-      "mmsi": 432809000,
-      "name": "AKATSUKI MARU",
-      "destination": "JP YOK NNX",
-      "isJapanBound": true,
-      "lat": 35.3652,
-      "lon": 139.7239
     }
   ],
   "boundingBox": "24-46N / 122-146E",
