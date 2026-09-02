@@ -1,63 +1,63 @@
 {
-  "fetchedAt": "2026-09-02T04:41:29+00:00",
+  "fetchedAt": "2026-09-02T09:47:22+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 10,
-  "japanBoundTankers": 8,
-  "japanBoundUnknownPort": 4,
+  "totalTankersInRegion": 14,
+  "japanBoundTankers": 13,
+  "japanBoundUnknownPort": 9,
   "topDestinationPorts": [
     {
-      "port": "KAWASAKI",
+      "port": "MIZUSHIMA",
       "count": 2
     },
     {
-      "port": "YOKOHAMA",
+      "port": "KAWASAKI",
       "count": 1
     },
     {
-      "port": "YOKKAICHI",
+      "port": "YOKOHAMA",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431003635,
-      "name": "SHUHO",
-      "destination": ">JP OTK OFF",
+      "mmsi": 431017273,
+      "name": "RYUTO",
+      "destination": ">JP FKY OFF",
       "isJapanBound": true,
-      "lat": 34.1292,
-      "lon": 132.9895
+      "lat": 34.1964,
+      "lon": 133.0017
     },
     {
-      "mmsi": 431013726,
-      "name": "HYUGA",
-      "destination": ">JP OSA OFF",
+      "mmsi": 431013076,
+      "name": "PACIFIC ETHYLENE 2",
+      "destination": ">JP UKB OFF",
       "isJapanBound": true,
-      "lat": 34.1034,
-      "lon": 133.0065
+      "lat": 34.1029,
+      "lon": 132.9982
     },
     {
-      "mmsi": 431006294,
-      "name": "RYOEIMARU",
-      "destination": ">JP OSA",
+      "mmsi": 431000162,
+      "name": "KAIYU MARU",
+      "destination": ">JP AFG OFF",
       "isJapanBound": true,
-      "lat": 34.1094,
-      "lon": 132.9991
+      "lat": 39.8588,
+      "lon": 139.8795
     },
     {
-      "mmsi": 431666000,
-      "name": "AOIMARU",
-      "destination": ">JP KWS OFF",
+      "mmsi": 431000224,
+      "name": "RYOEI MARU NO.2",
+      "destination": "JP TXD OFF",
       "isJapanBound": true,
-      "lat": 35.4563,
-      "lon": 139.7747
+      "lat": 34.1246,
+      "lon": 133.0891
     },
     {
-      "mmsi": 636017741,
-      "name": "SOUTHERN PUMA",
-      "destination": "KR INC",
-      "isJapanBound": false,
-      "lat": null,
-      "lon": null
+      "mmsi": 431003364,
+      "name": "EIHO MARU NO.65",
+      "destination": "JP TXD OFF",
+      "isJapanBound": true,
+      "lat": 34.1533,
+      "lon": 132.9686
     },
     {
       "mmsi": 431003904,
@@ -68,36 +68,68 @@
       "lon": 133.0208
     },
     {
+      "mmsi": 431000173,
+      "name": "KOKI MARU NO.30",
+      "destination": ">JP IHA",
+      "isJapanBound": true,
+      "lat": null,
+      "lon": null
+    },
+    {
+      "mmsi": 431300401,
+      "name": "TOYOMASA MARU",
+      "destination": ">JP TAP OFF",
+      "isJapanBound": true,
+      "lat": 33.7207,
+      "lon": 136.2744
+    },
+    {
+      "mmsi": 431000156,
+      "name": "KOSEI MARU",
+      "destination": ">JP MIZ",
+      "isJapanBound": true,
+      "lat": 33.7425,
+      "lon": 136.1787
+    },
+    {
+      "mmsi": 431005092,
+      "name": "HOUEIMARU NO.11",
+      "destination": ">JP YHI OFF",
+      "isJapanBound": true,
+      "lat": null,
+      "lon": null
+    },
+    {
+      "mmsi": 431666000,
+      "name": "AOIMARU",
+      "destination": ">JP KWS OFF",
+      "isJapanBound": true,
+      "lat": 35.4572,
+      "lon": 139.7776
+    },
+    {
       "mmsi": 432809000,
       "name": "AKATSUKI MARU",
       "destination": "JP YOK NNX",
       "isJapanBound": true,
-      "lat": 35.3668,
-      "lon": 139.724
+      "lat": 35.3662,
+      "lon": 139.7275
     },
     {
-      "mmsi": 431004858,
-      "name": "DAIEI MARU NO.1",
-      "destination": ">JP NAMIKATA OFF",
+      "mmsi": 431018226,
+      "name": "SHOSEN MARU",
+      "destination": "JP MIZ>JP KNM R",
       "isJapanBound": true,
-      "lat": 34.1122,
-      "lon": 132.9681
+      "lat": 34.1642,
+      "lon": 132.9163
     },
     {
-      "mmsi": 431136000,
-      "name": "SULPHUR FRONTIER 3",
-      "destination": ">JP YKK IS",
+      "mmsi": 431014199,
+      "name": "MATSUBISHI MARU",
+      "destination": "JP FKY OFF",
       "isJapanBound": true,
-      "lat": 35.3158,
-      "lon": 139.7195
-    },
-    {
-      "mmsi": 432528000,
-      "name": "OBELIX",
-      "destination": "JP KWS KK-1",
-      "isJapanBound": true,
-      "lat": null,
-      "lon": null
+      "lat": 34.12,
+      "lon": 133.0947
     }
   ],
   "boundingBox": "24-46N / 122-146E",
