@@ -1,60 +1,20 @@
 {
-  "fetchedAt": "2026-09-02T14:39:29+00:00",
+  "fetchedAt": "2026-09-02T18:52:06+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 14,
-  "japanBoundTankers": 10,
-  "japanBoundUnknownPort": 8,
+  "totalTankersInRegion": 9,
+  "japanBoundTankers": 7,
+  "japanBoundUnknownPort": 4,
   "topDestinationPorts": [
     {
       "port": "KAWASAKI",
-      "count": 1
+      "count": 2
     },
     {
-      "port": "YOKOHAMA",
+      "port": "YOKKAICHI",
       "count": 1
     }
   ],
   "vessels": [
-    {
-      "mmsi": 431021393,
-      "name": "KAYOH",
-      "destination": "JP> KWS US ENEOS NO6",
-      "isJapanBound": true,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 431301658,
-      "name": "SHOSEIMARU",
-      "destination": "JP KNM OFF",
-      "isJapanBound": true,
-      "lat": 33.5847,
-      "lon": 136.1522
-    },
-    {
-      "mmsi": 431001142,
-      "name": "WAKOU MARU",
-      "destination": ">JP MYJ OFF/",
-      "isJapanBound": true,
-      "lat": 34.1415,
-      "lon": 132.8959
-    },
-    {
-      "mmsi": 431004858,
-      "name": "DAIEI MARU NO.1",
-      "destination": ">JP NAMIKATA OFF",
-      "isJapanBound": true,
-      "lat": 34.1122,
-      "lon": 132.9681
-    },
-    {
-      "mmsi": 355493000,
-      "name": "CRANE URANUS",
-      "destination": ">CN JIA",
-      "isJapanBound": false,
-      "lat": 33.8654,
-      "lon": 136.6641
-    },
     {
       "mmsi": 431003904,
       "name": "KOKEN MARU",
@@ -64,66 +24,66 @@
       "lon": 133.0207
     },
     {
-      "mmsi": 431000162,
-      "name": "KAIYU MARU",
-      "destination": ">JP AFG OFF",
-      "isJapanBound": true,
-      "lat": 39.8589,
-      "lon": 139.8791
-    },
-    {
-      "mmsi": 432809000,
-      "name": "AKATSUKI MARU",
-      "destination": "JP YOK NNX",
-      "isJapanBound": true,
-      "lat": 35.3646,
-      "lon": 139.725
-    },
-    {
-      "mmsi": 431000963,
-      "name": "NAGATO MARU",
-      "destination": ">JP MKW TAHARA OFF",
-      "isJapanBound": true,
-      "lat": 34.0962,
-      "lon": 133.0287
-    },
-    {
-      "mmsi": 431001006,
-      "name": "NISSHO MARU",
-      "destination": ">JP TGO SEKIYU-1",
-      "isJapanBound": true,
-      "lat": 35.425,
-      "lon": 139.7421
-    },
-    {
-      "mmsi": 431000991,
-      "name": "HIYOSHI MARU NO.17",
-      "destination": ">JP NGO S1 5B",
-      "isJapanBound": true,
-      "lat": 33.6927,
-      "lon": 136.2154
-    },
-    {
-      "mmsi": 538012349,
-      "name": "MALBEC HORIZON",
-      "destination": "KR INC",
+      "mmsi": 440527000,
+      "name": "ROYAL CRYSTAL 7",
+      "destination": "TW MLI",
       "isJapanBound": false,
+      "lat": 33.7913,
+      "lon": 136.5098
+    },
+    {
+      "mmsi": 431015724,
+      "name": "RYOUBIMARU",
+      "destination": "JP YKK 3E OFF",
+      "isJapanBound": true,
+      "lat": 33.7384,
+      "lon": 136.2929
+    },
+    {
+      "mmsi": 431018707,
+      "name": "MEIKOU MARU",
+      "destination": ">JP ANE OFF",
+      "isJapanBound": true,
+      "lat": 33.7623,
+      "lon": 136.3635
+    },
+    {
+      "mmsi": 431666000,
+      "name": "AOIMARU",
+      "destination": ">JP KWS OFF",
+      "isJapanBound": true,
+      "lat": 35.457,
+      "lon": 139.7777
+    },
+    {
+      "mmsi": 431000173,
+      "name": "KOKI MARU NO.30",
+      "destination": ">JP IHA",
+      "isJapanBound": true,
+      "lat": 33.9756,
+      "lon": 133.2662
+    },
+    {
+      "mmsi": 431004149,
+      "name": "NEW STREAM",
+      "destination": "JP UKB E2 1-4",
+      "isJapanBound": true,
+      "lat": 33.6147,
+      "lon": 136.1025
+    },
+    {
+      "mmsi": 352596000,
+      "name": "SHOTAN",
+      "destination": "JP WAK Y OFF",
+      "isJapanBound": true,
       "lat": null,
       "lon": null
     },
     {
-      "mmsi": 431009313,
-      "name": "AWAJISHIMA",
-      "destination": "JP NNX OFF",
+      "mmsi": 431021393,
+      "name": "KAYOH",
+      "destination": "JP> KWS US ENEOS NO6",
       "isJapanBound": true,
-      "lat": null,
-      "lon": null
-    },
-    {
-      "mmsi": 441311000,
-      "name": "KS ADONIS",
-      "destination": "KR INC",
-      "isJapanBound": false,
       "lat": null,
       "lon": null
     }
