@@ -1,143 +1,31 @@
 {
-  "fetchedAt": "2026-09-03T21:53:38+00:00",
+  "fetchedAt": "2026-09-04T00:16:20+00:00",
   "samplingDurationSec": 720,
-  "totalTankersInRegion": 23,
-  "japanBoundTankers": 20,
-  "japanBoundUnknownPort": 14,
+  "totalTankersInRegion": 13,
+  "japanBoundTankers": 13,
+  "japanBoundUnknownPort": 8,
   "topDestinationPorts": [
-    {
-      "port": "KAWASAKI",
-      "count": 3
-    },
     {
       "port": "YOKKAICHI",
       "count": 2
     },
     {
-      "port": "CHIBA",
+      "port": "KAWASAKI",
+      "count": 2
+    },
+    {
+      "port": "MIZUSHIMA",
       "count": 1
     }
   ],
   "vessels": [
     {
-      "mmsi": 431021393,
-      "name": "KAYOH",
-      "destination": "JP> TXD SENSIMA",
+      "mmsi": 431024158,
+      "name": "MIYA MARU NO.18",
+      "destination": "JP WAK KAINAN 8",
       "isJapanBound": true,
-      "lat": 33.7213,
-      "lon": 136.2894
-    },
-    {
-      "mmsi": 431000498,
-      "name": "MATSUYAMA MARU NO.8",
-      "destination": ">JP SBK OFF",
-      "isJapanBound": true,
-      "lat": 33.6859,
-      "lon": 136.2194
-    },
-    {
-      "mmsi": 441181000,
-      "name": "GIANT SAMBU",
-      "destination": "KR INC",
-      "isJapanBound": false,
-      "lat": 37.3842,
-      "lon": 126.5523
-    },
-    {
-      "mmsi": 431661000,
-      "name": "PHENIX LEGEND",
-      "destination": ">JP ANE OFF",
-      "isJapanBound": true,
-      "lat": 33.8558,
-      "lon": 136.483
-    },
-    {
-      "mmsi": 431003681,
-      "name": "NO.11 KIN YU MARU",
-      "destination": ">JP KNM HESAKI OFF",
-      "isJapanBound": true,
-      "lat": 33.5506,
-      "lon": 136.0233
-    },
-    {
-      "mmsi": 431003155,
-      "name": "HOUEI NO.1",
-      "destination": ">JP WAK OFF",
-      "isJapanBound": true,
-      "lat": 34.1519,
-      "lon": 135.1447
-    },
-    {
-      "mmsi": 431001216,
-      "name": "MEISHOMARU",
-      "destination": "JP HIM ABOSHI OFF",
-      "isJapanBound": true,
-      "lat": 33.7657,
-      "lon": 136.2712
-    },
-    {
-      "mmsi": 431001045,
-      "name": "TAIRAMARU",
-      "destination": ">JP YKK OFF",
-      "isJapanBound": true,
-      "lat": 33.6738,
-      "lon": 136.2071
-    },
-    {
-      "mmsi": 431014789,
-      "name": "KIPPO MARU",
-      "destination": "JP ANE OFF",
-      "isJapanBound": true,
-      "lat": 33.7877,
-      "lon": 136.392
-    },
-    {
-      "mmsi": 441705000,
-      "name": "GLORY HANA",
-      "destination": "KR YOS",
-      "isJapanBound": false,
-      "lat": 33.6364,
-      "lon": 136.1401
-    },
-    {
-      "mmsi": 431501768,
-      "name": "HAKUSEI MARU NO.15",
-      "destination": "%JP SBK OFF",
-      "isJapanBound": true,
-      "lat": 33.7691,
-      "lon": 136.3822
-    },
-    {
-      "mmsi": 441509000,
-      "name": "NEW CHALLENGE",
-      "destination": "JP YKK OFF",
-      "isJapanBound": true,
-      "lat": 33.4883,
-      "lon": 136.1987
-    },
-    {
-      "mmsi": 431006736,
-      "name": "KOUSUI MARU",
-      "destination": ">JP IHA",
-      "isJapanBound": true,
-      "lat": 33.9677,
-      "lon": 133.2693
-    },
-    {
-      "mmsi": 431136000,
-      "name": "SULPHUR FRONTIER 3",
-      "destination": ">JP WAK",
-      "isJapanBound": true,
-      "lat": 34.204,
-      "lon": 135.1185
-    },
-    {
-      "mmsi": 440021230,
-      "name": "GWANG SEONG",
-      "destination": "",
-      "isJapanBound": false,
-      "lat": 37.4965,
-      "lon": 126.6241
+      "lat": 34.1472,
+      "lon": 135.1927
     },
     {
       "mmsi": 431015351,
@@ -145,31 +33,55 @@
       "destination": ">JP === NNX",
       "isJapanBound": true,
       "lat": 35.4029,
-      "lon": 139.7471
+      "lon": 139.7465
     },
     {
-      "mmsi": 215503000,
-      "name": "LA SEINE",
-      "destination": "JP KZU",
+      "mmsi": 431001931,
+      "name": "SAYURI MARU",
+      "destination": ">JP HIM OFF",
       "isJapanBound": true,
-      "lat": 35.1082,
-      "lon": 139.7615
+      "lat": 33.8848,
+      "lon": 136.4741
     },
     {
-      "mmsi": 636023086,
-      "name": "SEA LA LUNA",
-      "destination": "JPCHB",
+      "mmsi": 431001045,
+      "name": "TAIRAMARU",
+      "destination": ">JP YKK CW-16",
       "isJapanBound": true,
-      "lat": 33.8308,
-      "lon": 137.4579
+      "lat": 33.9679,
+      "lon": 136.5714
+    },
+    {
+      "mmsi": 432707000,
+      "name": "SAKURAGAWA",
+      "destination": "JP ANE KSB",
+      "isJapanBound": true,
+      "lat": 35.4444,
+      "lon": 139.8244
+    },
+    {
+      "mmsi": 431017044,
+      "name": "HAKUSEI MARU NO.10",
+      "destination": "JP MIZ FM",
+      "isJapanBound": true,
+      "lat": 34.0887,
+      "lon": 133.0214
     },
     {
       "mmsi": 257083330,
       "name": "MARI KOKAKO",
-      "destination": ">JP KWS OFF",
+      "destination": "JP KWS DU",
       "isJapanBound": true,
-      "lat": 35.4312,
-      "lon": 139.729
+      "lat": 35.4315,
+      "lon": 139.7355
+    },
+    {
+      "mmsi": 431001071,
+      "name": "FUKUJIN MARU NO.21",
+      "destination": ">JP KWS DU ENE 200",
+      "isJapanBound": true,
+      "lat": 35.521,
+      "lon": 139.7665
     },
     {
       "mmsi": 431004858,
@@ -180,28 +92,36 @@
       "lon": 132.9681
     },
     {
-      "mmsi": 431003614,
-      "name": "EIWA MARU",
-      "destination": "JP KWS DU",
+      "mmsi": 441509000,
+      "name": "NEW CHALLENGE",
+      "destination": "JP YKK OFF",
       "isJapanBound": true,
-      "lat": 35.446,
-      "lon": 139.6873
+      "lat": 33.7997,
+      "lon": 136.498
     },
     {
-      "mmsi": 538011738,
-      "name": "DHT ANTELOPE",
-      "destination": "JP KIK",
+      "mmsi": 441428000,
+      "name": "GOLDEN HANA",
+      "destination": "JP KAI",
       "isJapanBound": true,
-      "lat": 34.0844,
-      "lon": 132.8688
+      "lat": null,
+      "lon": null
     },
     {
-      "mmsi": 431101028,
-      "name": "NISSHO MARU NO.18",
-      "destination": ">JP KWS/KO24",
+      "mmsi": 431004673,
+      "name": "MEIYOU MARU",
+      "destination": ">JP WAK KAINAN",
       "isJapanBound": true,
-      "lat": 35.5054,
-      "lon": 139.7604
+      "lat": 34.1516,
+      "lon": 135.1616
+    },
+    {
+      "mmsi": 431007738,
+      "name": "NO.11 SHIGEFUKUMARU",
+      "destination": "JP WAK OFF",
+      "isJapanBound": true,
+      "lat": 34.212,
+      "lon": 135.1414
     }
   ],
   "boundingBox": "24-46N / 122-146E",
