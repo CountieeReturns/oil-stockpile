@@ -1358,5 +1358,13 @@
     "national": 103,
     "private": 93,
     "joint": 4
+  },
+  {
+    "published": "2026-09-04",
+    "asOf": "2026-09-01",
+    "total": 200,
+    "national": 103,
+    "private": 94,
+    "joint": 4
   }
 ]
